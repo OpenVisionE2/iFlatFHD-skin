@@ -10650,4 +10650,40 @@ MultiContentEntryText(pos = (0, 35), size = (1110, 97), font=2, flags = RT_HALIG
   <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="black" text="EXIT" font="Regular; 17" foregroundColor="foreground" halign="center" valign="center" zPosition="1" />
   <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="black" zPosition="0" />
 </screen>
+  <!-- PE Speed Up -->
+  <screen name="PESpeedUp" backgroundColor="transparent" position="0,0" size="1920,1080" title="PESpeedUp">
+  <eLabel text="PE Speed Up" backgroundColor="background2" font="Regular; 42" foregroundColor="blue" halign="left" position="15,6" size="900,50" transparent="1" />
+  <widget name="config" position="55,80" size="840,800" scrollbarMode="showOnDemand" transparent="1" itemHeight="40" font="Regular; 28" />
+  <widget name="lab1" position="55,900" size="840,100" font="Regular;28" valign="top" transparent="1"/>
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="15,1037" size="280,36" name="key_red" transparent="1" valign="bottom" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="310,1037" size="280,36" name="key_green" transparent="1" valign="bottom" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="605,1037" size="280,36" name="key_yellow" transparent="1" valign="bottom" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="900,1037" size="280,36" name="key_blue" transparent="1" valign="bottom" />
+  <!-- /*Lines-->
+  <ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/line_ud.png" position="0,58" size="1920,3" zPosition="5" />
+  <ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/line_ud.png" position="1,1019" size="1920,3" zPosition="5" />
+  <!--Lines */-->
+  <!-- /*Uhr-->
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 42" halign="right" position="1704,6" render="Label" size="200,50" source="global.CurrentTime" transparent="1" valign="center">
+    <convert type="ClockToText">
+    </convert>
+  </widget>
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" position="1327,18" render="Label" size="450,37" source="global.CurrentTime" transparent="1" valign="center" halign="right">
+    <convert type="ClockToText">FullDate</convert>
+  </widget>
+  <!--Uhr */-->
+  <eLabel name="button_red" position="15,1070" size="280,4" backgroundColor="button_red" zPosition="1" />
+  <eLabel name="button_green" position="310,1070" size="280,4" backgroundColor="button_green" zPosition="1" />
+  <eLabel name="button_yellow" position="605,1070" size="280,4" backgroundColor="button_yellow" zPosition="1" />
+  <eLabel name="button_blue" position="900,1070" size="280,4" backgroundColor="button_blue" zPosition="1" />
+  <eLabel name="DB" position="0,1023" size="1920,57" zPosition="-10" backgroundColor="background2" />
+  <eLabel name="DB" position="0,56" size="960,967" zPosition="-10" backgroundColor="background" />
+  <eLabel name="DB" position="0,0" size="1920,57" zPosition="-10" backgroundColor="background2" />
+  <eLabel name="DB" position="960,1018" size="960,5" zPosition="-10" backgroundColor="background" />
+  <eLabel name="DB" position="960,57" size="960,5" zPosition="-10" backgroundColor="background" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="black" text="OK" font="Regular; 17" foregroundColor="foreground" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="black" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="black" text="EXIT" font="Regular; 17" foregroundColor="foreground" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="black" zPosition="0" />
+</screen>
 </skin>
