@@ -1,20 +1,5 @@
 # -*- coding: utf-8 -*-
 
-#This plugin is free software, you are allowed to
-#modify it (if you keep the license),
-#but you are not allowed to distribute/publish
-#it without source code (this version and your modifications).
-#This means you also have to distribute
-#source code of your modifications.
-#
-#
-#######################################################################
-#    iFlatFHD Weather for VU+
-#    Support: www.vuplus-support.org
-#    THX to iMaxxx (c) 2013 for base idea
-#######################################################################
-
-
 from Components.Converter.Converter import Converter
 from Components.Element import cached
 from Components.config import config, ConfigSubsection, ConfigNumber, ConfigSelection

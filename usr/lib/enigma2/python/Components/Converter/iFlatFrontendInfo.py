@@ -1,6 +1,5 @@
 from Components.Converter.Converter import Converter
 from Components.Element import cached
-
 from Poll import Poll
 import NavigationInstance
 
@@ -117,5 +116,3 @@ class iFlatFrontendInfo(Poll, Converter, object):
 
 	range = 65536
 	value = property(getValue)
-	
-

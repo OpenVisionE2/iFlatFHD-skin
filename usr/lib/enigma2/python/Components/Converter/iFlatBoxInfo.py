@@ -3,7 +3,7 @@ from Components.Element import cached
 from Components.Sensors import sensors
 import os
 from Poll import Poll
-from Tools.HardwareInfo import HardwareInfo
+from enigma import getBoxType
 
 class iFlatBoxInfo(Poll, Converter, object):
     BOXTYPE = 0
@@ -36,16 +36,10 @@ class iFlatBoxInfo(Poll, Converter, object):
 
     def getModel(self):
         try:
-            box_info = HardwareInfo().get_device_name().upper()
+            box_info = getBoxType()
         except:
             return 'Model: N/A'
             box_info = None
-
-        if box_info is not None:
-            if os.path.isfile('/proc/stb/info/vumodel'):
-                 return 'VU+ %s' % box_info
-            else:
-                 return 'Dreambox %s' % box_info
 
     def getLoadAverage(self):
         try:
@@ -108,7 +102,7 @@ class iFlatBoxInfo(Poll, Converter, object):
             return 'Uptime: %s' % uptime
 
     def getTempSensor(self):
-        if 'dm7020hd' not in HardwareInfo().get_device_name():
+         if getBoxType() not in ("dm7020hd","dm7020hdv2"):
             try:
                 sensor_info = sensors.getSensorsList(sensors.TYPE_TEMPERATURE)
             except:

@@ -1,5 +1,7 @@
 from inits import myDEBUG, myDEBUGfile, PluginName
+
 append2file=False
+
 def printDEBUG( myText , myFUNC = ''):
     if myFUNC != '':
         myFUNC = ':' + myFUNC

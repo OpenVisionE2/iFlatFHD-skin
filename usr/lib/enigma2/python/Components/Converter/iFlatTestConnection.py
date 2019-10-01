@@ -1,10 +1,3 @@
-#
-# TestConnection Converter for Enigma2 (TestConnection.py)
-# Coded by vlamo (c) 2012. Thanks el1216 for get_iface_list()
-#
-# Version: 0.6 (05.02.2012 19:30)
-# Support: http://dream.altmaster.net/
-#
 from Components.Converter.Converter import Converter
 from Components.Element import cached
 from Components.config import config

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# UserSkin, based on AtileHD concept by schomi & plnick
-# maintainer: RAED to OpenVision
+# Based on AtileHD concept by schomi & plnick
+# Modified by RAED for Open Vision
 
 from inits import *
 from Components.ActionMap import ActionMap
@@ -10,7 +10,7 @@ from Components.Label import Label
 from Components.Pixmap import Pixmap
 from Components.Sources.List import List
 from Components.Sources.StaticText import StaticText
-from enigma import ePicLoad, eTimer
+from enigma import eTimer
 from Components.MenuList import MenuList
 from Screens.InputBox import InputBox
 from Plugins.Plugin import PluginDescriptor
@@ -20,12 +20,14 @@ from Screens.Screen import Screen
 from Screens.Standby import TryQuitMainloop
 from Tools.Directories import *
 from Tools.LoadPixmap import LoadPixmap
-from Tools.Directories import resolveFilename, pathExists
-from Tools import Notifications
+from Tools.Directories import resolveFilename
 from inits import PluginLanguagePath, iFlatFHDInfo, SkinPath
 from debug import printDEBUG
 from Components.Console import Console as iConsole
-from Screens.SkinSelector import SkinSelector
+try:
+    from Screens.SkinSelector import SkinSelector
+except:
+    from Plugins.SystemPlugins.SkinSelector.plugin import SkinSelector
 
 #system imports
 from os import listdir, remove, rename, system, path, symlink, chdir, rmdir, mkdir
@@ -1031,9 +1033,9 @@ class iFlatFHDScreens(Screen):
 class iFlatFHD_About(Screen):
     skin = """
   <screen name="iFlatFHD_About" position="center,center" size="700,250" title="iFlatFHD info">
-    <eLabel text="(c)2014/2015 by j00zek" position="0,15" size="698,50" font="Regular;28" halign="center"/>
-    <eLabel text="Mod And maintainer BY RAED to openvision images" position="5,69" size="686,57" font="Regular;18" halign="center"/>
-    <eLabel text="https://forum.openvision.tech/index.php" position="5,129" size="672,50" font="Regular;24" halign="center"/>
+    <eLabel text="by j00zek" position="0,15" size="698,50" font="Regular;28" halign="center"/>
+    <eLabel text="Modified by RAED for Open Vision" position="5,69" size="686,57" font="Regular;18" halign="center"/>
+    <eLabel text="https://openvision.tech" position="5,129" size="672,50" font="Regular;24" halign="center"/>
     <widget name="skininfo" position="5,182" size="667,50" font="Regular;20" halign="center"/>
   </screen>
 """

@@ -1,6 +1,4 @@
 <skin>
-  <!-- Skin iFlatFHD by Nathanael for VTi v11.x -->
-  <!-- Modified By RAED To OpenVision images -->
   <output id="0">
     <resolution bpp="32" xres="1920" yres="1080" />
   </output>
