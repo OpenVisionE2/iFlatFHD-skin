@@ -41,6 +41,9 @@ class iFlatBoxInfo(Poll, Converter, object):
             return 'Model: N/A'
             box_info = None
 
+        if box_info is not None:
+            return 'Model: %s' % box_info
+
     def getLoadAverage(self):
         try:
             with open('/proc/loadavg', 'r') as file:
