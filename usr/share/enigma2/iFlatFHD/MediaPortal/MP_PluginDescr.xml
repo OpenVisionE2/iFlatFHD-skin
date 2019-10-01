@@ -1,0 +1,28 @@
+<!-- defaultListWideScreen -->
+<screen name="defaultList" position="center,center" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="dateclock" />
+    <panel name="p_topbar" />
+    <panel name="p_bottombar" />
+    <panel name="p_centerbar1920" />
+    <panel name="p_color_labels" />
+    <panel name="0_914_1241_1" />
+    <panel name="1242_61_1_958" />
+    <panel name="1260_140_640_1" />
+    <panel name="1260_520_640_1" />
+  <widget name="ContentTitle" position="30,952" size="1180,66" backgroundColor="background" zPosition="5" font="Regular; 28" halign="center" transparent="1" />
+  <widget name="name" position="1280,530" size="610,80" backgroundColor="background" transparent="1" zPosition="1" font="Regular; 25" valign="center" halign="center" />
+  <widget name="liste" font="Regular; 28" position="30,75" size="1180,800" backgroundColor="background" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" transparent="1" foregroundColorSelected="selectionbarforeground" itemHeight="40" />
+  <widget name="title" position="15,6" size="1180,50" backgroundColor="background2" transparent="1" font="Regular; 42" valign="center" halign="left" foregroundColor="foreground3" />
+  <widget name="Page" position="1480,75" size="150,36" backgroundColor="background" transparent="1" font="Regular; 26" zPosition="1" foregroundColor="foreground" />
+  <widget name="page" position="1580,75" size="150,36" backgroundColor="background" transparent="1" font="Regular; 26" zPosition="1" foregroundColor="foreground" />
+  <widget name="F1" position="15,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F2" position="310,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F3" position="605,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F4" position="900,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="coverArt" position="1280,150" size="610,360" transparent="1" alphatest="blend" />  
+  <widget name="handlung" position="1280,630" size="610,380" backgroundColor="background" font="Regular;25" transparent="1" halign="left" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0"/>  
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>

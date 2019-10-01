@@ -1,0 +1,491 @@
+<skin>
+
+		<!-- /* Lines -->
+
+		<screen name="0_42_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,42" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_59_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,59" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_87_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,87" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_100_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,100" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_107_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,107" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_120_1241_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,120" size="1241,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_145_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,145" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_145_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,145" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_186_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,186" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_233_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,233" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_234_1200_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,234" size="1200,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_235_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,235" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_244_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,244" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_245_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,245" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_245_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,245" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_250_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,250" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_269_660_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,269" size="660,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_279_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,279" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_294_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,294" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_314_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,314" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_340_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,340" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_349_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,349" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_365_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,365" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_367_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,367" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_405_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,405" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_444_1200_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,444" size="1200,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_445_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,445" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_465_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,465" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_540_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,540" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_540_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,540" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_560_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,560" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_592_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,592" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_600_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,600" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_629_1200_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,629" size="1200,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_690_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,690" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_690_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,690" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_722_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,722" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_725_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,725" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_778_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,778" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_790_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,790" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_809_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,809" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_812_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,812" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_815_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,815" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_820_1200_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,820" size="1200,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_829_1200_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,829" size="1200,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_831_1241_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,831" size="1241,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_836_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,836" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_840_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,840" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_860_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,860" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_867_1241_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,867" size="1241,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_872_1241_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,872" size="1241,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_875_660_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,875" size="660,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_877_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,877" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_880_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,880" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_887_1300_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,887" size="1300,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_890_1200_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,890" size="1200,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_905_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,905" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_914_1241_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,914" size="1241,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_920_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,920" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_930_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,930" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_945_660_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,945" size="660,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_945_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,945" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_945_999_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,945" size="999,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_945_1200_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,945" size="1200,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_945_1300_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,945" size="1300,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_960_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,960" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_964_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,964" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_1020_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,1020" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="20_22_640_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="20,22" size="640,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="20_220_640_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="20,220" size="640,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="30_115_900_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="30,115" size="900,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="30_145_900_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="30,145" size="900,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="30_165_1860_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="30,165" size="1860,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="30_645_1860_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="30,645" size="1860,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="30_935_900_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="30,935" size="900,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="295_446_1_573">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="295,446" size="1,573" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="343_24_1_195">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="343,24" size="1,195" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="510_60_1_753">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="510,60" size="1,753" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="590_446_1_573">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="590,446" size="1,573" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="610_959_1310_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="610,959" size="1310,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="646_247_1_352">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="646,247" size="1,352" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="885_446_1_382">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="885,446" size="1,382" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="960_61_1_628">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="960,61" size="1,628" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="960_61_1_958">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="960,61" size="1,958" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="960_156_1_863">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="960,156" size="1,863" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="960_235_1_600">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="960,235" size="1,600" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="986_115_900_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="986,115" size="900,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="990_145_900_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="990,145" size="900,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="990_935_900_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="990,935" size="900,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1000_61_1_958">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="1000,61" size="1,958" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1237_60_1_753">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="1237,60" size="1,753" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1242_61_1_718">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="1242,61" size="1,718" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1242_61_1_958">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="1242,61" size="1,958" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1275_247_1_352">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="1275,247" size="1,352" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1490_61_1_252">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="1490,61" size="1,252" zPosition="5" scale="1"/>
+		</screen>
+
+		<!-- Lines */ -->
+
+		<!-- /* MediaPortal -->
+
+		<screen name="0_122_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,122" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_187_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,187" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_257_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,257" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_562_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,562" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_860_960_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,860" size="960,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="492_189_1_830">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="492,189" size="1,830" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="960_259_1_760">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="960,259" size="1,760" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="965_189_1_830">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="965,189" size="1,830" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1244_140_676_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1244,140" size="676,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1244_520_676_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1244,520" size="676,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1260_140_640_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1260,140" size="640,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1260_520_640_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1260,520" size="640,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1435_189_1_830">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="1435,189" size="1,830" zPosition="5" scale="1"/>
+		</screen>
+
+		<!-- MediaPortal */ -->
+
+		<!-- /* Alternative SkinParts -->
+
+		<screen name="0_200_1241_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,200" size="1241,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_446_1200_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,446" size="1200,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="0_730_1200_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,730" size="1200,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="237_446_1_573">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="237,446" size="1,573" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="472_446_1_573">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="472,446" size="1,573" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="707_446_1_573">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="707,446" size="1,573" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="710_61_1_958">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="710,61" size="1,958" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="937_446_1_573">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="937,446" size="1,573" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1243_120_677_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1243,120" size="677,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1243_750_677_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1243,750" size="677,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1243_865_677_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1243,865" size="677,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1330_61_1_958">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="1330,61" size="1,958" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1331_865_589_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1331,865" size="589,1" zPosition="5" scale="1"/>
+		</screen>
+
+		<!-- Alternative SkinParts */ -->
+
+		<!-- /* VerticalEPGView_FHD -->
+
+		<screen name="0_810_1920_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="0,810" size="1920,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="394_61_1_749">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="394,61" size="1,749" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="769_61_1_749">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="769,61" size="1,749" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1145_61_1_749">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="1145,61" size="1,749" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1520_61_1_749">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_v.png" position="1520,61" size="1,749" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="30_150_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="30,150" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="30_260_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="30,260" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="30_370_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="30,370" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="30_480_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="30,480" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="30_590_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="30,590" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="30_700_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="30,700" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="405_150_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="405,150" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="405_260_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="405,260" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="405_370_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="405,370" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="405_480_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="405,480" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="405_590_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="405,590" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="405_700_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="405,700" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="780_150_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="780,150" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="780_260_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="780,260" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="780_370_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="780,370" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="780_480_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="780,480" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="780_590_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="780,590" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="780_700_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="780,700" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1155_150_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1155,150" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1155_260_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1155,260" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1155_370_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1155,370" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1155_480_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1155,480" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1155_590_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1155,590" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1155_700_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1155,700" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1530_150_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1530,150" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1530_260_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1530,260" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1530_370_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1530,370" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1530_480_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1530,480" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1530_590_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1530,590" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+		<screen name="1530_700_342_1">
+			<ePixmap alphatest="blend" pixmap="iFlatFHD/line_s/blue/line_h.png" position="1530,700" size="342,1" zPosition="5" scale="1"/>
+		</screen>
+
+		<!-- VerticalEPGView_FHD */ -->
+
+</skin>

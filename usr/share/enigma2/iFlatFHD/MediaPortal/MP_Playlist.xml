@@ -1,0 +1,42 @@
+<!-- defaultPlaylistScreen -->
+<screen name="defaultPlaylist" position="center,center" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="dateclock" />
+    <panel name="p_topbar" />
+    <panel name="p_bottombar" />
+    <panel name="p_centerbar1920" />
+    <panel name="p_color_labels" />
+    <panel name="1242_61_1_958" />
+  <widget alphatest="on" name="coverArt" position="1380,140" size="410,410" transparent="1" />
+  <widget backgroundColor="background" font="Regular; 25" halign="center" name="songtitle" position="1280,725" size="610,75" transparent="1" valign="top" />
+  <eLabel name="new eLabel" position="1280,819" size="610,1" backgroundColor="white" />
+  <widget position="1280,817" render="Progress" foregroundColor="progress" size="610,5" source="session.CurrentService" transparent="1" zPosition="1">
+    <convert type="MPServicePosition">Position</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular; 27" halign="left" position="1280,825" render="Label" size="120,35" source="session.CurrentService" transparent="1">
+    <convert type="MPServicePosition">Length</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular; 27" halign="left" position="1280,825" render="Label" size="120,35" source="session.CurrentService" transparent="1">
+    <convert type="MPServicePosition">Length</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular; 27" position="1770,825" render="Label" size="120,35" source="session.CurrentService" transparent="1" halign="right">
+    <convert type="MPServicePosition">Remaining,Negate</convert>
+  </widget>
+  <eLabel backgroundColor="background" font="Regular; 28" position="1280,960" size="180,35" text="Playmode" transparent="1" valign="top" />
+  <widget backgroundColor="background" font="Regular; 28" name="playmode" position="1480,960" size="410,35" transparent="1" valign="top" />
+  <eLabel backgroundColor="background" font="Regular; 28" position="1280,915" size="180,35" text="Album" transparent="1" valign="top" />
+  <widget backgroundColor="background" font="Regular; 28" position="1480,915" size="410,35" transparent="1" valign="top" name="album" />
+  <widget backgroundColor="background" font="Regular; 28" name="artist" position="1280,680" size="610,35" transparent="1" valign="center" halign="center" />
+  <widget name="liste" position="30,75" size="1180,920" backgroundColor="background" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" transparent="1" foregroundColorSelected="foreground3" foregroundColor="foreground" zPosition="0" itemHeight="40" font="Regular; 28" />
+  <widget name="title" position="15,6" size="1180,50" backgroundColor="background2" transparent="1" font="Regular; 42" valign="center" halign="center" foregroundColor="foreground3" />
+  <widget name="F1" position="15,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F2" position="310,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F3" position="605,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F4" position="900,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget backgroundColor="background" font="Regular; 27" halign="center" position="1525,825" render="Label" size="120,35" source="session.CurrentService" transparent="1">
+    <convert type="MPServicePosition">Position</convert>
+  </widget>
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>

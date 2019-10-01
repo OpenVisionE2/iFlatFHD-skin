@@ -1,0 +1,71 @@
+﻿<skin>
+
+<!-- SecondInfoBar_v4 -->
+<screen backgroundColor="transparent" flags="wfNoBorder" name="SecondInfoBar" position="0,0" size="1920,1080" title="InfoBar">
+    <panel name="dateclock" />
+    <panel name="p_topbar" />
+    <panel name="p_bottombar" />
+    <panel name="p_centerbar1200" />
+  <widget font="Regular; 40" text="1234" foregroundColor="foreground3" halign="left" noWrap="1" position="30,9" render="Label" size="110,40" source="session.CurrentService" transparent="1" valign="top" zPosition="2" backgroundColor="background2">
+    <convert type="ExtendedServiceInfo">ServiceNumber</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular; 27" halign="left" position="30,975" render="Label" size="90,30" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
+    <convert type="EventTime">StartTime</convert>
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular; 27" halign="right" position="110,975" render="Label" size="90,30" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
+    <convert type="EventTime">EndTime</convert>
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular; 27" halign="right" position="1040,975" render="Label" size="130,30" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
+    <convert type="EventTime">Remaining</convert>
+    <convert type="RemainingToText">InMinutes</convert>
+  </widget>
+  <widget borderWidth="0" position="220,989" render="Progress" foregroundColor="progress" size="820,5" source="session.Event_Now" transparent="1" zPosition="7">
+    <convert type="EventTime">Progress</convert>
+  </widget>
+  <widget backgroundColor="background2" font="Regular; 27" halign="left" position="30,1038" render="Label" size="90,30" source="session.Event_Next" transparent="1" valign="center" zPosition="1" foregroundColor="foreground3">
+    <convert type="EventTime">StartTime</convert>
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget backgroundColor="background2" font="Regular; 27" halign="right" position="110,1038" render="Label" size="90,30" source="session.Event_Next" transparent="1" valign="center" zPosition="1" foregroundColor="foreground3">
+    <convert type="EventTime">EndTime</convert>
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget backgroundColor="background2" font="Regular; 27" halign="right" position="1040,1038" render="Label" size="130,30" source="session.Event_Next" transparent="1" valign="center" zPosition="1" foregroundColor="foreground3">
+    <convert type="EventTime">Duration</convert>
+    <convert type="ClockToText">InMinutes</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular;38" foregroundColor="foreground2" position="30,75" render="VRunningText" options="movetype=running,startpoint=0,startdelay=4000,oneshot=1,step=2,steptime=95,always=0,noWrap" size="1140,48" source="session.Event_Now" transparent="0">
+    <convert type="EventName">Name</convert>
+  </widget>
+  <widget source="session.Event_Next" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=1500,always=0" position="220,1031" size="820,40" font="Regular; 35" halign="left" valign="bottom" backgroundColor="background2" foregroundColor="foreground3" transparent="0" noWrap="1">
+    <convert type="EventName">Name</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular; 34" foregroundColor="foreground" position="30,135" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=95,startdelay=8000,wrap,always=0" size="1140,820" source="session.Event_Now" transparent="0">
+    <convert type="EventName">FullDescription</convert>
+  </widget>
+  <eLabel backgroundColor="background2" foregroundColor="foreground3" font="Regular; 27" halign="center" position="110,1038" size="10,30" text="-" transparent="1" zPosition="1" />
+  <eLabel backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="right" noWrap="1" position="161,19" size="80,30" text="SNR" transparent="1" zPosition="1" valign="center" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="left" noWrap="1" position="248,19" render="Label" size="100,30" source="session.FrontendStatus" transparent="1" zPosition="1" valign="center">
+    <convert type="FrontendInfo">SNR</convert>
+  </widget>
+<widget source="session.CurrentService" render="Label" position="1230,1038" size="500,30"  font="Regular; 24" noWrap="1" foregroundColor="foreground3" backgroundColor="background2" transparent="1" halign="right" valign="center" zPosition="10">
+      <convert type="VisionCamInfo">Camd</convert>
+    </widget>
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular;24" halign="right" noWrap="1" position="380,19" render="Label" size="790,30" source="session.CurrentService" transparent="0" valign="top" zPosition="50">
+    <convert type="ExtremeInfo">EcmInfo</convert>
+  </widget>
+  <!--/*Picon-->
+  <widget alphatest="blend" position="1255,0" render="Picon" size="95,57" source="session.CurrentService" transparent="1" zPosition="1">
+    <convert type="ServiceName">Reference</convert>
+  </widget>
+  <!--Picon*/-->
+  <eLabel backgroundColor="progress_bg" name="progress_bg" position="220,991" size="820,1" />
+  <eLabel backgroundColor="background" font="Regular; 27" halign="center" position="110,975" size="10,30" text="-" transparent="1" zPosition="1" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>
+</skin>

@@ -1,0 +1,16 @@
+<skin>
+
+	<screen name="IBBoxTypeWidget">
+
+  
+<!-- /* BoxType -->
+    <widget backgroundColor="background2" foregroundColor="foreground3"  font="Regular; 24" halign="center" position="15,1032" render="Label" size="260,40" source="session.CurrentService" valign="center" zPosition="4">
+		 <convert type="">BoxType</convert>
+    </widget> 
+<!-- BoxType */-->
+    
+    
+	</screen>
+
+
+</skin>

@@ -1,0 +1,214 @@
+<skin>
+  
+  <screen name="IBTuneriFlatStyleWidget" />
+  <screen name="IBEismanScreen3Widget">
+   <!-- /* 18 TUNER INFO -->
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/a_red.png" position="1617,899" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">1</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/a_green.png" position="1617,899" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/b_red.png" position="1636,899" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">2</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/b_green.png" position="1636,899" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">1,1</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/c_red.png" position="1655,899" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">4</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/c_green.png" position="1655,899" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">2,2</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/d_red.png" position="1674,899" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">8</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/d_green.png" position="1674,899" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">3,3</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/e_red.png" position="1693,899" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">16</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/e_green.png" position="1693,899" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">4,4</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/f_red.png" position="1712,899" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">32</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/f_green.png" position="1712,899" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">5,5</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/g_red.png" position="1617,923" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">64</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/g_green.png" position="1617,923" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">6,6</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/h_red.png" position="1636,923" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">128</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/h_green.png" position="1636,923" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">7,7</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/i_red.png" position="1655,923" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">256</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/i_green.png" position="1655,923" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">8,8</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/j_red.png" position="1674,923" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">512</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/j_green.png" position="1674,923" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">9,9</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/k_red.png" position="1693,923" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">1024</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/k_green.png" position="1693,923" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">10,10</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/l_red.png" position="1712,923" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">2048</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/l_green.png" position="1712,923" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">11,11</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/m_red.png" position="1617,947" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">4096</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/m_green.png" position="1617,947" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">12,12</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/n_red.png" position="1636,947" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">8192</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/n_green.png" position="1636,947" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">13,13</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/o_red.png" position="1655,947" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">16384</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/o_green.png" position="1655,947" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">14,14</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/p_red.png" position="1674,947" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">32768</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/p_green.png" position="1674,947" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">15,15</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/q_red.png" position="1693,947" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">65536</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/q_green.png" position="1693,947" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">16,16</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    
+    <widget source="session.TunerInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/r_red.png" position="1712,947" zPosition="3" size="17,22" alphatest="blend">
+      <convert type="TunerInfo">TunerUseMask</convert>
+      <convert type="ValueBitTest">131072</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/tunericons_klein/r_green.png" position="1712,947" zPosition="4" size="17,22" alphatest="blend">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">17,17</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    
+    <!-- /* 18 TUNER INFO  End */  -->  
+    
+    <!-- Record Status Icon  <convert type="ConditionalShowHide" /> <convert type="ConditionalShowHide">Blink</convert> -->
+    <ePixmap pixmap="iFlatFHD/icons/ks1v4/rec_grey_klein.png" position="1689,978" zPosition="1" size="35,20" alphatest="blend" />
+    <widget source="session.RecordState" render="Pixmap" pixmap="iFlatFHD/icons/ks1v4/rec_klein.png" position="1689,978" zPosition="2" size="35,20" transparent="1" alphatest="blend">
+      <convert type="ConditionalShowHide" />
+    </widget> 
+ 
+ </screen>
+</skin>
+ 

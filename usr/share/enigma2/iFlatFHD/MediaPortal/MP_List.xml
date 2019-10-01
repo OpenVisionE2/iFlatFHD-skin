@@ -1,0 +1,27 @@
+<!--haupt_screen-->
+<screen name="MediaPortal" position="0,0" size="1920,1080" title="MediaPortal" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="dateclock" />
+    <panel name="p_topbar" />
+    <panel name="p_bottombar" />
+    <panel name="p_centerbar960" />
+    <panel name="p_color_labels" />
+  <panel name="0_945_960_1" />
+<widget name="version" backgroundColor="background2" font="Regular;26" halign="left" valign="left" position="324,21" size="300,37" transparent="1" foregroundColor="foreground3" />
+  <eLabel backgroundColor="background2" text="MediaPortal" font="Regular; 42" halign="left" valign="center" position="15,6" size="1200,50" transparent="1" foregroundColor="foreground3" />
+  <widget backgroundColor="background" foregroundColor="foreground" font="Regular; 28" halign="center" name="name" position="30,952" size="900,66" transparent="1" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" name="F1" position="15,1037" size="280,36" valign="bottom" halign="center" transparent="1" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" name="F2" position="310,1037" size="280,36" valign="bottom" halign="center" transparent="1" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" name="F3" position="605,1037" size="280,36" valign="bottom" halign="center" transparent="1" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" name="F4" position="900,1037" size="280,36" valign="bottom" halign="center" transparent="1" />
+  <widget backgroundColor="background" foregroundColor="foreground" name="liste" position="30,75" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" size="900,864" transparent="1" itemHeight="96" />
+<eLabel name="button bouquet" position="1537,1036" size="60,30" backgroundColor="button_mbgc" text="BOUQ" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button bouquet bg" position="1536,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button info" position="1613,1036" size="60,30" backgroundColor="button_mbgc" text="INFO" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button info bg" position="1612,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button epg" position="1689,1036" size="60,30" backgroundColor="button_mbgc" text="EPG" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button epg bg" position="1688,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button help" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="HELP" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button help bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>

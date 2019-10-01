@@ -1,0 +1,544 @@
+﻿<skin>
+
+<constant-widgets>
+
+  <!-- /* InfoBar widgets v3.6 -->
+    <constant-widget name="IBTimeWidget">
+      <!-- /* DateTime -->
+      <widget source="global.CurrentTime" render="Label" position="1730,897" size="160,70" font="Regular; 52" halign="right" foregroundColor="foreground" backgroundColor="background" transparent="1">
+        <convert type="ClockToText"></convert>
+      </widget>
+      <!-- DateTime */-->
+    </constant-widget>
+    
+    <constant-widget name="IBRecWidget">
+      <widget source="session.RecordState" position="1848,982" render="FixedLabel" text=" " size="30,20" backgroundColor="icon_record" zPosition="4">
+        <convert type="ConditionalShowHide" />
+      </widget>
+    </constant-widget>
+    
+    <!--constant-widget name="IBUpdateWidget">
+    <!--widget alphatest="blend" pixmap="iFlatFHD/icons/audio/update.png" position="1793,982" render="Pixmap" size="20,20" source="session.CurrentService" transparent="1" zPosition="5">
+      <convert type="ConfigEntryTest">config.usage.update_available,True,CheckSourceBoolean</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    </constant-widget-->
+    
+    <constant-widget name="IBSeasonsWidget" >
+    </constant-widget>
+    <constant-widget name="IBTunerWidget" >
+    </constant-widget>
+    <constant-widget name="IBResolutionWidget" >
+    </constant-widget>
+    <constant-widget name="IBSNRAGCWidget" >
+    </constant-widget>
+    <constant-widget name="IBIconsWidget" >
+    </constant-widget>
+    <constant-widget name="IBNumberNameWidget" >
+    </constant-widget>
+    <constant-widget name="IBUpdateColorWidget" >
+    </constant-widget>
+    <constant-widget name="IBWeatherWidget" >
+    </constant-widget>
+    <constant-widget name="chs_horInfos" >
+    </constant-widget>
+    <constant-widget name="IBTopBarWidget" >
+    </constant-widget>     
+    
+  <!-- InfoBar widgets v3.6 */ -->
+  
+  <!-- /* ChannelSelection rechte Seite, Description -->
+    <constant-widget name="chs_description" >
+      <widget source="ServiceEvent" position="1255,75" size="650,48" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=4000,always=0" font="Regular; 38" halign="left" valign="top" foregroundColor="foreground2" backgroundColor="background" transparent="1">
+        <convert type="EventName">Description</convert>
+      </widget>
+      <widget source="ServiceEvent" position="1255,130" size="650,852" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=95,startdelay=8000,wrap,always=0" font="Regular; 32" valign="top" foregroundColor="foreground" backgroundColor="background" transparent="1">
+        <convert type="EventName">ExtendedDescription</convert>
+      </widget>
+    </constant-widget>
+  <!-- ChannelSelection rechte Seite, Description */ -->
+      
+  <!-- /* DatumUhrzeit rechts oben -->
+    <constant-widget name="dateclock">
+      <widget source="global.CurrentTime" render="Label" position="1400,19" size="320,37" font="Regular; 26" halign="right" valign="top" foregroundColor="foreground3" backgroundColor="background2" transparent="1">
+        <convert type="ClockToText">FullDate</convert>
+      </widget>
+    <widget source="global.CurrentTime" render="Label" position="1700,4" size="160,50" font="Regular; 42" halign="right" foregroundColor="foreground3" backgroundColor="background2" transparent="1" valign="top">
+        <convert type="ClockToText"></convert>
+      </widget>
+    <!--widget source="global.CurrentTime" render="Label" position="1867,9" size="50,40" font="Regular; 25" halign="left" valign="top" foregroundColor="foreground3" backgroundColor="background2" transparent="1">
+        <convert type="ClockToText">Format:%S</convert>
+      </widget-->			
+     </constant-widget>
+  <!-- DatumUhrzeit rechts oben */ -->
+
+      
+          
+  		<!-- /* Lines -->
+
+		<constant-widget name="0_42_1920_1">
+			<eLabel name="line_s" position="0,42" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="0_59_1920_1">
+			<eLabel name="line_s" position="0,59" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_87_1920_1">
+			<eLabel name="line_s" position="0,87" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_100_1920_1">
+			<eLabel name="line_s" position="0,100" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_107_1920_1">
+			<eLabel name="line_s" position="0,107" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_120_1241_1">
+			<eLabel name="line_s" position="0,120" size="1241,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_145_960_1">
+			<eLabel name="line_s" position="0,145" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_145_1920_1">
+			<eLabel name="line_s" position="0,145" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_186_1920_1">
+			<eLabel name="line_s" position="0,186" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_233_1920_1">
+			<eLabel name="line_s" position="0,233" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="0_234_1180_1">
+			<eLabel name="line_s" position="0,234" size="1180,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_235_1920_1">
+			<eLabel name="line_s" position="0,235" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_244_1920_1">
+			<eLabel name="line_s" position="0,244" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_245_960_1">
+			<eLabel name="line_s" position="0,245" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_245_1920_1">
+			<eLabel name="line_s" position="0,245" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_250_960_1">
+			<eLabel name="line_s" position="0,250" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_269_660_1">
+			<eLabel name="line_s" position="0,269" size="660,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_279_1920_1">
+			<eLabel name="line_s" position="0,279" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_294_1920_1">
+			<eLabel name="line_s" position="0,294" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_314_1920_1">
+			<eLabel name="line_s" position="0,314" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_340_960_1">
+			<eLabel name="line_s" position="0,340" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_349_1920_1">
+			<eLabel name="line_s" position="0,349" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_365_1920_1">
+			<eLabel name="line_s" position="0,365" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_367_960_1">
+			<eLabel name="line_s" position="0,367" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_405_1920_1">
+			<eLabel name="line_s" position="0,405" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="0_444_1180_1">
+			<eLabel name="line_s" position="0,444" size="1180,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_445_960_1">
+			<eLabel name="line_s" position="0,445" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_465_960_1">
+			<eLabel name="line_s" position="0,465" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_540_960_1">
+			<eLabel name="line_s" position="0,540" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_540_1920_1">
+			<eLabel name="line_s" position="0,540" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_560_960_1">
+			<eLabel name="line_s" position="0,560" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_592_960_1">
+			<eLabel name="line_s" position="0,592" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_600_1920_1">
+			<eLabel name="line_s" position="0,600" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="0_629_1180_1">
+			<eLabel name="line_s" position="0,629" size="1180,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_690_960_1">
+			<eLabel name="line_s" position="0,690" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_690_1920_1">
+			<eLabel name="line_s" position="0,690" size="1920,1" zPosition="1" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_722_1920_1">
+			<eLabel name="line_s" position="0,722" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_725_960_1">
+			<eLabel name="line_s" position="0,725" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_778_1920_1">
+			<eLabel name="line_s" position="0,778" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_790_960_1">
+			<eLabel name="line_s" position="0,790" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_809_1920_1">
+			<eLabel name="line_s" position="0,809" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="0_812_1920_1">
+                <eLabel name="line_s" position="0,812" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_815_1920_1">
+			<eLabel name="line_s" position="0,815" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="0_829_1180_1">
+			<eLabel name="line_s" position="0,829" size="1180,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_831_1241_1">
+			<eLabel name="line_s" position="0,831" size="1241,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_836_1920_1">
+			<eLabel name="line_s" position="0,836" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_840_960_1">
+			<eLabel name="line_s" position="0,840" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_860_960_1">
+			<eLabel name="line_s" position="0,860" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_867_1241_1">
+			<eLabel name="line_s" position="0,867" size="1241,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_872_1241_1">
+			<eLabel name="line_s" position="0,872" size="1241,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_875_660_1">
+			<eLabel name="line_s" position="0,875" size="660,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_877_1920_1">
+			<eLabel name="line_s" position="0,877" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_880_960_1">
+			<eLabel name="line_s" position="0,880" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_890_1200_1">
+			<eLabel name="line_s" position="0,890" size="1200,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_905_960_1">
+			<eLabel name="line_s" position="0,905" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_914_1241_1">
+			<eLabel name="line_s" position="0,914" size="1241,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_920_960_1">
+			<eLabel name="line_s" position="0,920" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_930_960_1">
+			<eLabel name="line_s" position="0,930" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_945_660_1">
+			<eLabel name="line_s" position="0,945" size="660,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_945_960_1">
+			<eLabel name="line_s" position="0,945" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_945_999_1">
+			<eLabel name="line_s" position="0,945" size="999,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_945_1180_1">
+			<eLabel name="line_s" position="0,945" size="1180,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_945_1300_1">
+			<eLabel name="line_s" position="0,945" size="1300,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_960_1920_1">
+			<eLabel name="line_s" position="0,960" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_964_1920_1">
+			<eLabel name="line_s" position="0,964" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_1020_1920_1">
+			<eLabel name="line_s" position="0,1020" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="20_22_640_1">
+			<eLabel name="line_s" position="20,22" size="640,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="20_220_640_1">
+			<eLabel name="line_s" position="20,220" size="640,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="30_115_900_1">
+			<eLabel name="line_s" position="30,115" size="900,1" zPosition="1" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="30_145_900_1">
+			<eLabel name="line_s" position="30,145" size="900,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="30_165_1860_1">
+			<eLabel name="line_s" position="30,165" size="1860,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="30_645_1860_1">
+			<eLabel name="line_s" position="30,645" size="1860,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="295_446_1_573">
+			<eLabel name="line_s" position="295,446" size="1,573" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="343_24_1_195">
+			<eLabel name="line_s" position="343,24" size="1,195" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="510_60_1_753">
+                        <eLabel name="line_s" position="510,60" size="1,753" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="590_446_1_573">
+			<eLabel name="line_s" position="590,446" size="1,573" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="610_959_1310_1">
+			<eLabel name="line_s" position="610,959" size="1310,1" zPosition="7" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="646_247_1_352">
+			<eLabel name="line_s" position="646,247" size="1,352" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="885_446_1_382">
+			<eLabel name="line_s" position="885,446" size="1,382" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="960_61_1_628">
+			<eLabel name="line_s" position="960,61" size="1,628" zPosition="1" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="960_61_1_958">
+			<eLabel name="line_s" position="960,61" size="1,958" zPosition="5" backgroundColor="line_s"/>
+                </constant-widget>
+		<constant-widget name="960_156_1_863">
+			<eLabel name="line_s" position="960,156" size="1,863" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="960_235_1_600">
+			<eLabel name="line_s" position="960,235" size="1,600" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="986_115_900_1">
+			<eLabel name="line_s" position="986,115" size="900,1" zPosition="1" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="990_145_900_1">
+			<eLabel name="line_s" position="990,145" size="900,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="1000_61_1_958">
+			<eLabel name="line_s" position="1000,61" size="1,958" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="1237_60_1_753">
+			<eLabel name="line_s" position="1237,60" size="1,753" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="1242_61_1_718">
+			<eLabel name="line_s" position="1242,61" size="1,718" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="1242_61_1_958">
+			<eLabel name="line_s" position="1242,61" size="1,958" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="1275_247_1_352">
+			<eLabel name="line_s" position="1275,247" size="1,352" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="1490_61_1_252">
+			<eLabel name="line_s" position="1490,61" size="1,252" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+
+		<!-- Lines */ -->
+
+
+		<!-- /* MediaPortal -->
+
+		<constant-widget name="0_122_1920_1">
+			<eLabel name="line_s" position="0,122" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_187_1920_1">
+			<eLabel name="line_s" position="0,187" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_275_1920_1">
+			<eLabel name="line_s" position="0,275" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_562_1920_1">
+			<eLabel name="line_s" position="0,562" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="0_860_960_1">
+			<eLabel name="line_s" position="0,860" size="960,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="492_189_1_830">
+			<eLabel name="line_s" position="492,189" size="1,830" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="960_259_1_760">
+			<eLabel name="line_s" position="960,259" size="1,760" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="965_189_1_830">
+			<eLabel name="line_s" position="965,189" size="1,830" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="1244_140_676_1">
+			<eLabel name="line_s" position="1244,140" size="676,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="1244_520_676_1">
+			<eLabel name="line_s" position="1244,520" size="676,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="1260_140_640_1">
+			<eLabel name="line_s" position="1260,140" size="640,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="1260_520_640_1">
+			<eLabel name="line_s" position="1260,520" size="640,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="1435_189_1_830">
+			<eLabel name="line_s" position="1435,189" size="1,830" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+
+		<!-- MediaPortal */ -->
+      
+		<!-- /* Alternative SkinParts -->
+
+		<constant-widget name="0_446_1180_1">
+			<eLabel name="line_s" position="0,446" size="1180,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="0_730_1180_1">
+			<eLabel name="line_s" position="0,730" size="1180,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="237_446_1_573">
+			<eLabel name="line_s" position="237,446" size="1,573" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="472_446_1_573">
+			<eLabel name="line_s" position="472,446" size="1,573" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="707_446_1_573">
+			<eLabel name="line_s" position="707,446" size="1,573" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="937_446_1_573">
+			<eLabel name="line_s" position="937,446" size="1,573" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="1243_120_677_1">
+			<eLabel name="line_s" position="1243,120" size="677,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="1243_750_677_1">
+			<eLabel name="line_s" position="1243,750" size="677,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+		<constant-widget name="1243_865_677_1">
+			<eLabel name="line_s" position="1243,865" size="677,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+
+		<!-- Alternative SkinParts */ -->
+      
+      		<!-- /* VerticalEPGView_FHD -->
+            
+		<constant-widget name="0_835_1920_1">
+			<eLabel name="line_s" position="0,835" size="1920,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+    		<constant-widget name="394_61_1_744">
+			<eLabel name="line_s" position="394,61" size="1,744" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+     		<constant-widget name="769_61_1_744">
+			<eLabel name="line_s" position="769,61" size="1,744" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="1145_61_1_744">
+			<eLabel name="line_s" position="1145,61" size="1,744" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="1520_61_1_744">
+			<eLabel name="line_s" position="1520,61" size="1,744" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="40_260_322_1">
+			<eLabel name="line_s" position="40,260" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="40_370_322_1">
+			<eLabel name="line_s" position="40,370" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="40_480_322_1">
+			<eLabel name="line_s" position="40,480" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="40_590_322_1">
+			<eLabel name="line_s" position="40,590" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="40_700_322_1">
+			<eLabel name="line_s" position="40,700" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="40_810_322_1">
+			<eLabel name="line_s" position="40,810" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="415_260_322_1">
+			<eLabel name="line_s" position="415,260" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="415_370_322_1">
+			<eLabel name="line_s" position="415,370" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>       
+                <constant-widget name="415_480_322_1">
+			<eLabel name="line_s" position="415,480" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="415_590_322_1">
+			<eLabel name="line_s" position="415,590" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>         
+                <constant-widget name="415_700_322_1">
+			<eLabel name="line_s" position="415,700" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="415_810_322_1">
+			<eLabel name="line_s" position="415,810" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>        
+                <constant-widget name="790_260_322_1">
+			<eLabel name="line_s" position="790,260" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>         
+                <constant-widget name="790_370_322_1">
+			<eLabel name="line_s" position="790,370" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="790_480_322_1">
+			<eLabel name="line_s" position="790,480" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="790_590_322_1">
+			<eLabel name="line_s" position="790,590" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>         
+                <constant-widget name="790_700_322_1">
+			<eLabel name="line_s" position="790,700" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="790_810_322_1">
+			<eLabel name="line_s" position="790,810" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="1165_260_322_1">
+			<eLabel name="line_s" position="1165,260" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="1165_370_322_1">
+			<eLabel name="line_s" position="1165,370" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>   
+                <constant-widget name="1165_480_322_1">
+			<eLabel name="line_s" position="1165,480" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget> 
+                <constant-widget name="1165_590_322_1">
+			<eLabel name="line_s" position="1165,590" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="1165_700_322_1">
+			<eLabel name="line_s" position="1165,700" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="1165_810_322_1">
+			<eLabel name="line_s" position="1165,810" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="1540_260_322_1">
+			<eLabel name="line_s" position="1540,260" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+                <constant-widget name="1540_370_322_1">
+			<eLabel name="line_s" position="1540,370" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>       
+                <constant-widget name="1540_480_322_1">
+			<eLabel name="line_s" position="1540,480" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>   
+                <constant-widget name="1540_590_322_1">
+			<eLabel name="line_s" position="1540,590" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>     
+                <constant-widget name="1540_700_322_1">
+			<eLabel name="line_s" position="1540,700" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>      
+                <constant-widget name="1540_810_322_1">
+			<eLabel name="line_s" position="1540,810" size="322,1" zPosition="5" backgroundColor="line_s"/>
+		</constant-widget>
+    
+    		<!-- VerticalEPGView_FHD */ -->
+          
+</constant-widgets>
+
+</skin>

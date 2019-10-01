@@ -1,0 +1,40 @@
+<screen title="TMDb - The Movie Database" name="TMDB" position="center,center" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="dateclock" />
+    <panel name="p_topbar" />
+    <panel name="p_bottombar" />
+    <panel name="p_centerbar1920" />
+    <panel name="p_color_labels" />
+    <panel name="0_562_1920_1" />
+  <eLabel backgroundColor="background2" text="TMDb - The Movie Database" font="Regular; 42" halign="left" valign="center" position="15,6" size="1200,50" transparent="1" foregroundColor="foreground3" />    
+  <widget name="title" backgroundColor="background" font="Regular; 32" halign="left" position="30,75" size="1270,45" transparent="1" />
+  <widget name="searchinfo" position="30,635" size="1860,45" zPosition="2" transparent="1" font="Regular; 32" halign="left" backgroundColor="background" />
+  <widget name="subtitle" position="30,583" size="1860,45" zPosition="2" transparent="1" font="Regular; 3" halign="left" backgroundColor="background" />
+  <widget name="fulldescription" position="30,689" size="1860,320" font="Regular; 28" transparent="1" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" />
+  <widget name="coverArt" position="1561,85" size="325,455" alphatest="blend" transparent="1" />
+  <widget name="rating10" position="772,140" size="340,35" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/skins_1080/iFlatFHD/images/stars-full10.png" zPosition="4" transparent="1" backgroundColor="background" />
+  <widget name="rating0" position="772,140" size="340,35" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/skins_1080/iFlatFHD/images/stars-empty10.png" zPosition="3" transparent="1" alphatest="blend" backgroundColor="background" />
+  <widget name="fsk_txt" position="30,140" size="400,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="fsk" position="190,140" size="450,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="year_txt" position="30,185" size="400,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="year" position="190,185" size="450,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="country_txt" position="30,230" size="400,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="country" position="190,230" size="450,40" zPosition="2" transparent="1" font="Regular; 22" backgroundColor="background" />
+  <widget name="runtime_txt" position="30,275" size="400,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="#20000000" />
+  <widget name="runtime" position="190,275" size="450,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="votes_txt" position="30,320" size="400,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="votes" position="190,320" size="450,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="director_txt" position="30,365" size="400,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="director" position="190,365" size="1350,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="author_txt" position="30,410" size="400,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="author" position="190,410" size="1350,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="genre_txt" position="30,455" size="400,40" font="Regular; 25" backgroundColor="background" transparent="1" />
+  <widget name="genre" position="190,455" size="1350,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="studio_txt" position="30,500" size="400,40" font="Regular; 25" backgroundColor="background" transparent="1" />
+  <widget name="studio" position="190,500" size="1350,40" zPosition="2" transparent="1" font="Regular; 25" backgroundColor="background" />
+  <widget name="F1" position="15,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F2" position="310,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F3" position="605,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F4" position="900,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>

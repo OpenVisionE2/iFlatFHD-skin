@@ -1,0 +1,18 @@
+<skin>
+
+	<!-- widget to add channel name in vertical / column EPG -->
+	<screen name="vEPG_channel_name">
+		<widget name="currCh1" position="140,75" size="245,60" font="Regular;28" halign="center" valign="center" 
+			transparent="1" zPosition="2" foregroundColor="foreground" backgroundColor="background" />
+		<widget name="currCh2" position="515,75" size="245,60" font="Regular;28" halign="center" valign="center" 
+			transparent="1" zPosition="2" foregroundColor="foreground" backgroundColor="background" />
+		<widget name="currCh3" position="890,75" size="245,60" font="Regular;28" halign="center" valign="center" 
+			transparent="1" zPosition="2" foregroundColor="foreground" backgroundColor="background" />
+		<widget name="currCh4" position="1265,75" size="245,60" font="Regular;28" halign="center" valign="center" 
+			transparent="1" zPosition="2" foregroundColor="foreground" backgroundColor="background" />
+		<widget name="currCh5" position="1640,75" size="245,60" font="Regular;28" halign="center" valign="center" 
+			transparent="1" zPosition="2" foregroundColor="foreground" backgroundColor="background" />
+	</screen>
+
+
+</skin>

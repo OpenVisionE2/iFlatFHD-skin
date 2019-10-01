@@ -1,0 +1,8 @@
+<screen name="PinInputExt" position="613,310" size="690,280" title="" backgroundColor="line_s" flags="wfNoBorder">
+	<widget name="service" position="5,68" size="680,35" font="Regular; 28" backgroundColor="background" transparent="1" zPosition="1" />
+	<widget name="text" position="5,105" size="680,64" font="Regular; 28" halign="center" backgroundColor="background" transparent="1" zPosition="1" />
+	<widget name="tries" position="5,175" size="680,35" font="Regular; 28" halign="center" backgroundColor="background" transparent="1" zPosition="1" />
+	<widget name="input" position="5,215" size="680,40" font="Regular; 34" halign="center" backgroundColor="background" transparent="1" zPosition="1" />
+	<widget name="title" position="0,0" size="690,60" font="Regular; 34" halign="center" valign="center" backgroundColor="background" transparent="0" zPosition="1" />
+	<eLabel name="bg conf" position="0,61" size="690,219" backgroundColor="background" />
+ </screen>

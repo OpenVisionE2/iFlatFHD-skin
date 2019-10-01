@@ -1,0 +1,14 @@
+<screen name="VirtualKeyBoardExtInputHelpDialog" position="975,700" size="920,225" backgroundColor="black" flags="wfNoBorder" zPosition="8">
+  <widget font="Regular; 24" halign="center" name="help1" position="5,170" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+  <widget font="Regular; 24" halign="center" name="help2" position="615,170" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+  <widget font="Regular; 24" halign="center" name="key0" position="310,170" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+  <widget font="Regular; 24" halign="center" name="key1" position="5,5" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+  <widget font="Regular; 24" halign="center" name="key2" position="310,5" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+  <widget font="Regular; 24" halign="center" name="key3" position="615,5" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+  <widget font="Regular; 24" halign="center" name="key4" position="5,60" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+  <widget font="Regular; 24" halign="center" name="key5" position="310,60" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+  <widget font="Regular; 24" halign="center" name="key6" position="615,60" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+  <widget font="Regular; 24" halign="center" name="key7" position="5,115" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+  <widget font="Regular; 24" halign="center" name="key8" position="310,115" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+  <widget font="Regular; 24" halign="center" name="key9" position="615,115" size="300,50" valign="center" foregroundColor="foreground3" backgroundColor="background4" />
+</screen>

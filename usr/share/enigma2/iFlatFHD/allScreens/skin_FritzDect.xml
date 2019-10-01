@@ -1,0 +1,65 @@
+﻿<skin>
+
+<!-- FritzDect -->
+    
+<screen name="FritzDectMain" position="0,00" size="1920,1080" title="FritzDect" backgroundColor="transparent">
+  <panel name="dateclock" />
+  <panel name="p_topbar" />
+  <panel name="p_bottombar" />
+  <panel name="p_centerbar960" />
+  <panel name="p_color_labels" />
+  <panel name="0_560_960_1" />
+  <widget source="Title" render="Label" position="15,6" size="1000,50" halign="left" valign="center" font="Regular; 42" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+  <widget source="adapterlist" render="Listbox" position="30,75" size="900,425" transparent="1" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1">
+    <convert type="TemplatedMultiContent">
+			{"templates":
+					{"default": (60,[
+						MultiContentEntryPixmapAlphaBlend(pos = (5, 5), size = (50, 50), png = 13), # index 13 is the status PNG
+						MultiContentEntryPixmapAlphaBlend(pos = (35, 35), size = (20, 20), png = 14), # index 14 is the group PNG
+                                                MultiContentEntryPixmapAlphaBlend(pos = (35, 5), size = (20, 20), png = 17), # index 17 is the battery PNG
+						MultiContentEntryText(pos = (60, 0), size = (630, 60), font=0, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 5), # index 5 is the ainname
+						MultiContentEntryPixmapAlphaTest(pos = (0, 58), size = (0, 0), png = 16), # index 16 is the div pixmap
+						]),
+					"extend": (70,[
+						MultiContentEntryPixmapAlphaBlend(pos = (10, 10), size = (50, 50), png = 13), # index 13 is the status PNG
+						MultiContentEntryPixmapAlphaBlend(pos = (65, 20), size = (30, 30), png = 14), # index 14 is the group PNG
+                                                MultiContentEntryPixmapAlphaBlend(pos = (65, 49), size = (30, 20), png = 17), # index 17 is the battery PNG
+						MultiContentEntryText(pos = (105, 15), size = (350, 40), font=1, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 5), # index 5 is the ainname
+                                                MultiContentEntryText(pos = (385, 15), size = (500, 40), font=1, flags = RT_HALIGN_RIGHT | RT_VALIGN_CENTER, text = 15), # index 15 is the combined description
+				])
+					},
+					"fonts": [gFont("Regular", 28),gFont("Regular", 28)],
+					"itemHeight": 70
+				}
+			</convert>
+  </widget>
+  <widget name="info" position="30,575" zPosition="1" size="900,440" font="Regular; 26" backgroundColor="background" transparent="1" halign="center" />
+  <eLabel position="310,1037" size="280,36" font="Regular; 26" text="An / Aus" foregroundColor="foreground3" backgroundColor="background2" transparent="1" zPosition="1" halign="center" />
+  <eLabel position="15,1037" size="280,36" font="Regular; 26" text="Beenden" foregroundColor="foreground3" backgroundColor="background2" transparent="1" zPosition="1" halign="center" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button ext" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button menu" position="1613,1036" size="60,30" text="MENU" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+  <eLabel name="button menu bg" position="1612,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button epg" position="1689,1036" size="60,30" text="EPG" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+  <eLabel name="button epg bg" position="1688,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button help" position="1536,1036" size="60,30" text="HELP" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+  <eLabel name="button help bg" position="1535,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>
+
+<screen name="FritzDectSettings" position="0,0" size="1920,1080" title="FritzDect - Settings" backgroundColor="transparent">
+  <panel name="dateclock" />
+  <panel name="p_topbar" />
+  <panel name="p_bottombar" />
+  <panel name="p_centerbar960" />
+  <panel name="p_color_labels" />
+  <widget source="Title" render="Label" position="15,6" size="1000,50" halign="left" valign="center" font="Regular; 42" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />  
+  <widget name="config" position="30,75" font="Regular;28" secondfont="Regular;28" size="900,700" itemHeight="40" backgroundColor="background" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" transparent="1" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button ext" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>
+
+</skin>

@@ -1,0 +1,179 @@
+<skin>
+		
+	<!-- colors Light-Red @gordon55-->
+	
+	<colors>
+		<!-- generic colors -->
+		<color name="black" value="#00000000" />
+		<color name="dark" value="#00294a6b" />
+		<color name="green" value="#00208000" />
+                <color name="violet" value="#00ba55d3" />
+		<color name="darkgreen" value="#00006400" />
+		<color name="grey" value="#005A5A5A" />
+		<color name="red" value="#00DC143C" />
+		<color name="lightred" value="#00ff6666" />
+		<color name="darkred" value="#008B0000" />
+		<color name="blue" value="#000000ff" />
+		<color name="lightblue" value="#000064c7" />
+		<color name="darkblue" value="#000000cd" />
+		<color name="white" value="#00FFFFFF" />
+		<color name="yellow" value="#00ffb300" />
+		<color name="orange" value="#00FF6600" />
+		<color name="transparent" value="#ffffffff" />
+		<color name="transpBlack" value="#60000000" />
+		<color name="PreTrans" value="#ccffffff" />
+		<!-- fore- backgrounds -->                                          
+		<color name="background" value="#08d8d8d8" />                       <!-- default background, **** TRANSPARENCY #08 **** -->
+		<color name="background1" value="#00d8d8d8" />                      <!-- = background, but without transparency -->
+		<color name="background2" value="#08B22222" />                      <!-- background top / bottom, **** TRANSPARENCY #08 **** -->
+		<color name="background4" value="#00B22222" />                      <!-- = backgound2 for NumericalTextInput, but without transparency -->
+		<color name="foreground" value="#00220000" />                       <!-- default text color, white -->
+		<color name="foreground2" value="blue" />                           <!-- title color, blue -->
+		<color name="foreground3" value="white" />                          <!-- text color top / bottom -->
+		<color name="accent1" value="#00808080" />                          <!-- foreground dimmed text -->
+		<!-- buttons -->
+		<color name="button_red" value="#00FF4B4B" />                       <!-- #00 Stärke Transparenz Menubutton red -->
+		<color name="button_green" value="#0000FF00" />                     <!-- #00 Stärke Transparenz Menubutton green -->
+		<color name="button_yellow" value="#00ffff00" />                    <!-- #00 Stärke Transparenz Menubutton yellow -->
+		<color name="button_blue" value="blue" />                           <!-- #00 Stärke Transparenz Menubutton blue -->
+		<color name="button_mfgc" value="white" />                          <!-- Buttons Menu Schriftfarbe weiss-->
+		<color name="button_mbgc" value="black" />                          <!-- Buttons Menu Hintergrundfarbe schwarz -->
+		<color name="button_mbg" value="white" />                           <!-- Erzeug schmalen Rand um die Buttons weiss -->
+		<!-- Description -->                                                                        
+		<color name="descript" value="#000000ff" />                         <!-- Schriftfarbe Beschreibung -->          
+		<!-- icons InfoBar_EventView_Player -->
+		<color name="icon_bg" value="background" />                         <!-- Rahmen, für unsichtbar = kein Rahmen = background -->
+		<color name="icon_bgc" value="background" />                        <!-- Hintergrundfarbe , standard = background -->
+		<color name="icon_fgc" value="foreground" />                        <!-- Textfarbe Icon ON, standard = foreground -->
+		<color name="icon_fgcoff" value="accent1" />                        <!-- Textfarbe Icon OFF, standard = grey -->
+		<color name="icon_record" value="red" />                            <!-- Textfarbe Aufnahme-Icon, standard = red -->
+		<color name="avl_tuner" value="#A4A4A4" />                          <!-- Icon Schriftfarbe bei verfügbarem Tuner, Standard grau -->
+		<color name="act_tuner" value="red" />                              <!-- Icon Schriftfarbe bei aktivem Tuner, Standard red -->
+		<color name="cur_tuner" value="#2CB200" />                          <!-- Icon Schriftfarbe bei Tuner laufendes Programm, Standard green-->
+		<!-- icon mute -->
+		<color name="icon_mute" value="#00ff0000" />
+		<!-- progress bar -->                                               
+		<color name="progress" value="blue" />                              <!-- Progressbarfarbe red -->
+		<color name="progress_bg" value="black" />                          <!-- Progressbar backgound -->
+		<color name="progress_fgPlayer" value="blue" />                     <!-- Progressbar Vordergrundfarbe für Player -->                                                                             
+		<color name="progress_bgPlayer" value="foreground3" />              <!-- Progressbar Hintergrundfarbe für Player -->                                                           
+		<!-- scroll bar -->                                                 
+		<color name="scrollbarsfgc" value="darkred" />                      <!-- scrollbarSliderForegroundColor  -->
+		<color name="scrollbarsbgc" value="white" />                        <!-- scrollbarSliderBorderColor nicht genutzt -->
+		<!-- selection bar -->                                              
+		<color name="selectionbarbackground" value="#B22222" />             <!-- #00 Stärke Transparenz Hintergrundfarbe selection_bar global -->
+		<color name="selectionbarforeground" value="#ffff00" />             <!-- #00 Stärke Transparenz Vordergrundfarbe selection_bar global -->
+		<!-- line_s color -->
+		<color name="line_ud" value="black" />                              <!-- old - separator line color top/bottom, default for dark background = white, for light backgrounds = black--> 
+		<color name="line_u" value="black" />                               <!-- separator line color top, default for dark background = white, for light backgrounds = black--> 
+		<color name="line_d" value="black" />                               <!-- separator line color bottom, default for dark background = white, for light backgrounds = black--> 
+		<color name="line_s" value="darkred" />                             <!-- separator line color inside screens, default = style = background4, except black/darkgrey/std is white-->
+		<!-- channel List -->
+		<color name="chs_bg_sel" value="selectionbarbackground" />          <!-- Kanalname Hintergrund  -->
+		<color name="chs_fg_sel" value="selectionbarforeground" />          <!-- Channel name , numer selected-->
+		<color name="chs_desc" value="lightblue" />                         <!-- Description -->
+		<color name="chs_desc_sel" value="selectionbarforeground" />        <!-- Description selected -->
+		<color name="chs_progress" value="darkred" />                       <!-- Progress bar -->
+		<color name="chs_progress_sel" value="selectionbarforeground" />    <!-- Progress bar selected -->
+		<color name="chs_progressbd" value="darkred" />                     <!-- Progress bar border -->
+		<color name="chs_progressbd_sel" value="selectionbarforeground" />  <!-- Progress bar border selected -->           
+		<color name="chs_record" value="red" />                             <!-- Recording -->
+		<color name="chs_notavail" value="accent1" />                       <!-- Service not available -->
+		<color name="chs_prime" value="green" />                        <!-- Prime-Time im vert. EPG -->
+		<!-- movie list -->                                                 
+		<color name="movie_unwatched" value="foreground" />                 <!-- default = foreground = ffffff -->
+		<color name="movie_watching" value="lightblue" />                   <!-- default = yellow  = bab329 -->
+		<color name="movie_finished" value="green" />                       <!-- default = green = 389416 -->
+		<color name="movie_recording" value="red" />                        <!-- default = red = f23d21 -->
+		<color name="movie_selected" value="orange" />                      <!-- default = orange = ffa500 -->
+                <color name="movie_scrambled" value="violet" />                      <!-- Film verschlüsselt -->                                                           
+		<!-- used for CoolTV and gMEPG -->                                  
+		<color name="CoolSelBG" value="background4" />                      <!-- Selection background defined separately for darkgrey + black style -->
+		<color name="CoolSelFG" value="selectionbarforeground" />           <!-- Selection background defined separately for darkgrey + black style -->
+		<!-- CoolTV-Guide -->                                               
+		<color name="CoolBack" value="background1" />                       <!-- TV guides : general backgrond, also for events, default #2D455E(dark blue grey) **** TRANSPARENCY #08 **** -->
+		<color name="CoolFont" value="foreground" />                        <!-- TV guides : general text color, default white -->
+		<color name="CoolPiconFont" value="foreground" />                   <!-- TV guides : text color "service" if picons are disabled, default (white) -->
+		<color name="CoolPiconBack" value="background1" />                  <!-- TV guides : background color "service" if picons are enabled, default (black) **** TRANSPARENCY #08 **** -->
+		<color name="CoolNoPiconBack" value="background1" />                <!-- TV guides : background color "service" if picons are disabled, default (black) **** TRANSPARENCY #08 **** -->
+		<color name="CoolBorderServiceNo3D" value="darkred" />              <!-- TV guides : left border color, Service name (=picons off), default is white when Cool3D=no -->
+		<color name="CoolBorderService3D" value="darkred" />                <!-- TV guides : left border color, Service name (=picons off), default is black for Cool3D other than "no"-->
+		<color name="CoolBorderEventNo3D" value="darkred" />                <!-- TV guides : right border color for events, default is white when Cool3D=no -->
+		<color name="CoolBorderEvent3D" value="darkred" />                  <!-- TV guides : right border color for events, default is black for Cool3D other than "no"-->
+		<color name="CoolCurrentBG" value="#08ffdc80" />                    <!-- TV Guides : background color of current events line, default #516B96(blue grey), **** TRANSPARENCY #08 ****  -->
+		<color name="CoolNowBG" value="#0817e3b4" />                        <!-- TV guides : backgrond for NOW entries, default #00825F(green), **** TRANSPARENCY #08 ****  -->
+		<color name="CoolNowFG" value="foreground" />                       <!-- TV guides : text color for NOW entries, default (white) -->
+		<color name="CoolRecSel" value="lightred" />                        <!-- only TV-Guides: text color selected "recording", default #3B98C9(light blue) -->
+		<color name="CoolBar" value="lightblue" />                          <!-- Easy, Channel: foreground color "bar", default #3B98C9(light blue) -->
+		<color name="CoolCurrentText" value="orange" />                     <!-- Easy, Channel: text color "current", default #212CC4(dark blue) -->
+		<color name="CoolDate" value="foreground" />                        <!-- Search: text color "date", default (white) -->
+		<color name="CoolDay" value="foreground" />                         <!-- Info, Single, Search: text color "weekday", default #FF6600(orange) -->
+		<color name="CoolDuration" value="foreground" />                    <!-- Easy, Channel, Info : text color "duration", default #3B98C9(light blue) -->
+		<color name="CoolEvent" value="lightblue" />                        <!-- all except TV guides : text color "event", default #FFFFFF(white) -->
+		<color name="CoolMarker" value="lightblue" />                       <!-- Channel Guide : text color "marker" default #FF6600(orange) -->
+		<color name="CoolRecAlarm" value="orange" />                        <!-- all: text color "pre-recording", default #FFD800(yellow) in TV gides, #B59E01(green-yellow) in others -->
+		<color name="CoolRec" value="red" />                                <!-- all: text color "recording", default #9F1313(red). only in TV #CF5353 (light red) -->
+		<color name="CoolRecEventBack" value="background" />                <!-- Search: background color recording events, default (red) -->
+		<color name="CoolService" value="foreground" />                     <!-- Easy, Channel, Search: text color "Service name", default #FF6600(orange) -->
+		<color name="CoolTime" value="foreground" />                        <!-- Info, Single, Search: text color "time", default #3B98C9(light blue) -->
+		<color name="CoolTuner" value="accent1" />                          <!-- all except Search: text color "tune service", default #06060(grey), overrides Current ???-->
+		<!-- GraphMultiEPG  -->                                             
+		<color name="GMEPG_FG" value="foreground" />                        <!-- event text color  -->
+		<color name="GMEPG_BG" value="background1" />                       <!-- event background color, **** TRANSPARENCY #08 **** -->
+		<color name="GMEPG_BD" value="darkred" />                           <!-- event border color  -->
+		<color name="GMEPG_ServFG" value="foreground" />                    <!-- service name text color  -->
+		<color name="GMEPG_ServBG" value="background" />                    <!-- service name background color, **** TRANSPARENCY #08 ****   -->
+		<color name="GMEPG_NowFG" value="foreground" />                     <!-- event Now text color  -->
+		<color name="GMEPG_NowBG" value="#0817e3b4" />                      <!-- event Now background color, **** TRANSPARENCY #08 **** -->
+		<color name="GMEPG_Rec" value="red" />                              <!-- recording -->
+		<color name="GMEPG_PreRec" value="yellow" />                        <!-- pre recording -->
+		<color name="GMEPG_IncRec" value="orange" />                        <!-- incomplete recording -->
+		<color name="GMEPG_RecOff" value="grey" />                          <!-- recording off -->
+		<color name="GMEPG_SelFG" value="CoolSelFG" />                      <!-- selected event text color  -->
+		<color name="GMEPG_SelBG" value="CoolSelBG" />                      <!-- selected background color  -->
+		<color name="GMEPG_NowSelFG" value="CoolSelFG" />                   <!-- selected event Now text color  -->
+		<color name="GMEPG_NowSelBG" value="CoolSelBG" />                   <!-- selected event Now background color  -->                                                                       
+		<color name="GMEPG_nonFlat_FG" value="orange" />                    <!-- Schriftfarbe Events bei flat=nein -->
+		<color name="GMEPG_nonFlat_FGSel" value="orange" />                 <!-- Schriftfarbe Events bei flat=nein, selected -->
+		<color name="GMEPG_piconBG" value="GMEPG_BG" />                     <!-- Hintergrund transparente Picons -->
+		<color name="GMEPG_piconBGSel" value="GMEPG_SelBG" />               <!-- Hintergrund transparente Picons, selected -->
+		<color name="GMEPG_zoom_BG" value="accent1" />                      <!-- Hintergrund im Zoom-Fenster -->
+		<color name="GMEPG_zoom_FG" value="GMEPG_FG" />                     <!-- Schrift im Zoom-Fenster -->
+		<color name="GMEPG_zoomBack" value="line_s" />                      <!-- Zoom-Hintergrund, der 2px Rahmen um das Zoom-Fenster -->
+		<color name="GMEPG_zoomShadow" value="GMEPG_BG" />                  <!-- Zoom-Schatten -->                                                               
+		<!-- subtitles -->                                                  
+		<color name="subtitle" value="#00dcdcdc" />                         
+		<color name="shadow" value="#00101010" />                           
+		<!-- others -->                                                     
+		<color name="timeline" value="#00606060" />                         <!-- CutListEditor hellgrau --> 
+		<!-- Werbeerkennung -->
+		<color name="chs_advertise" value="#00FF6F00" /> 
+		<!-- Volumebar -->
+		<color name="progress_bg_volume" value="#00FFFFFF" />
+		<color name="progress_fg_volume" value="#00FFFFFF" />
+	</colors>
+	
+	<windowstyle id="0" type="skinned">
+		<title font="Regular;30" offset="15,2" />
+		<color name="Background" color="background" />
+		<color name="LabelForeground" color="foreground" />
+		<color name="ListboxBackground" color="background" />
+		<color name="ListboxForeground" color="foreground" />
+		<color name="ListboxMarkedBackground" color="background" />
+		<color name="ListboxMarkedForeground" color="foreground" />
+		<color name="ListboxMarkedAndSelectedBackground" color="red" />
+		<color name="ListboxMarkedAndSelectedForeground" color="foreground" />
+		<color name="ListboxSelectedBackground" color="selectionbarbackground" /> 
+		<color name="ListboxSelectedForeground" color="selectionbarforeground" />
+		<color name="WindowTitleForeground" color="foreground" />
+		<color name="WindowTitleBackground" color="background" />
+		<borderset name="bsWindow">
+			<pixmap filename="iFlatFHD/windows/Light_t08.png" pos="bpTop" />
+		</borderset>
+		<borderset name="bsListboxEntry">
+			<pixmap filename="iFlatFHD/line_s/line_select.png" pos="bpTop"/>
+			<pixmap filename="iFlatFHD/line_s/line_select.png" pos="bpBottom"/>
+		</borderset>
+	</windowstyle>
+ 
+</skin>

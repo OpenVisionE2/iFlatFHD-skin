@@ -1,0 +1,14 @@
+<skin>
+
+<screen name="p_topbar">
+  <eLabel name="DB" position="0,0" size="1920,57" backgroundColor="background2" zPosition="-10" />
+  <eLabel name="DB" position="0,57" size="1920,5" zPosition="-10" backgroundColor="background" />
+	<panel name="0_59_1920_1" />
+</screen>
+<screen name="p_bottombar">
+  <eLabel name="DB" position="0,1023" size="1920,57" backgroundColor="background2" zPosition="-10" />
+  <eLabel name="DB" position="0,1018" size="1920,5" zPosition="-10" backgroundColor="background" />
+	<panel name="0_1020_1920_1" />
+</screen>
+
+</skin>

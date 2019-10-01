@@ -1,0 +1,250 @@
+<skin>
+    
+<!-- WebradioFS -->
+<screen name="WebradioFSScreen_16" backgroundColor="transparent" position="0,0" size="1920,1080" title="webradioFS" flags="wfNoBorder" zPosition="1" >
+	<panel name="dateclock" />
+	<panel name="p_topbar" />
+	<panel name="p_bottombar" />
+	<panel name="p_centerbar1920" />
+	<panel name="p_color_labels" />
+	<panel name="0_914_1241_1" />
+	<panel name="1242_61_1_958" />
+	<panel name="0_872_1241_1" />
+
+	<widget source="Title" render="Label" position="15,6" size="1200,50" font="Regular; 42" backgroundColor="background2" foregroundColor="foreground3" transparent="1" zPosition="2" />
+
+	<!-- dummy for height of stream logo in list -->
+	<widget name="dummy" position="3,35" zPosition="0" size="144,45" backgroundColor="background" alphatest="blend" />
+
+  <widget source="streamlist" render="Listbox" position="30,75" size="1180,750" zPosition="2" backgroundColor="background" foregroundColor="foreground" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0">
+    <convert type="TemplatedMultiContent">
+        {"templates": 
+          {"default": (50,[
+            MultiContentEntryPixmapAlphaBlend(pos = (5, 10), size = (30, 30), png = 2), # index 2: status picture
+            MultiContentEntryText(pos = (40, 5), size = (980, 40), font=0, flags = RT_HALIGN_LEFT, text = 1), # index 1: text
+            MultiContentEntryPixmapAlphaBlend(pos = (1025, 2), size = (144, 45), png = 5), # index 5: logo
+            ],True),
+          "default_without_picon": (50,[
+            MultiContentEntryPixmapAlphaBlend(pos = (5, 10), size = (30, 30), png = 2), # index 2: status picture
+            MultiContentEntryText(pos = (40, 5), size = (1135, 40), font=0, flags = RT_HALIGN_LEFT, text = 1), # index 1: text
+            ],True),
+          "info": (44,[
+            MultiContentEntryText(pos = (5, 2), size = (300, 36), font=1, flags = RT_HALIGN_LEFT, text = 0), # index 1: text
+            MultiContentEntryText(pos = (350, 2), size = (825, 36), font=1, flags = RT_HALIGN_LEFT, text = 1)
+            ],False),
+          "menus": (40,[
+            MultiContentEntryText(pos = (5, 2), size = (1170, 36), font=1, flags = RT_HALIGN_CENTER, text = 1), # index 1: text
+            ],True),
+          "about": (40,[
+            MultiContentEntryText(pos = (5, 2), size = (1170, 36), font=1, flags = RT_HALIGN_CENTER, text = 0)
+            ],False),
+          "genre": (40,[
+            MultiContentEntryText(pos = (5, 2), size = (1170, 36), font=1, flags = RT_HALIGN_CENTER, text = 1)
+            ],True)
+        },    
+        "fonts": [gFont("Regular", 30),gFont("Regular", 28)],
+        "itemHeight": 40
+        }
+      </convert>
+  </widget>
+
+  <widget source="rec_text_new" render="Listbox" position="30,874" size="1180,80" selectionDisabled="1" zPosition="3" scrollbarMode="showNever" backgroundColor="background" foregroundColor="foreground" transparent="1">
+    <convert type="TemplatedMultiContent">
+      {"templates": 
+        {"default": (40,[
+          MultiContentEntryText(pos = (5, 0), size = (1170, 40), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 0), 
+          ],False),
+        "cache": (40,[
+          MultiContentEntryText(pos = (5, 0), size = (1170, 40), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 0), 
+          ],False),
+        "record": (40,[
+          MultiContentEntryText(pos = (5, 0), size = (1170, 40), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 0), 
+          ],False),
+        "timer": (40,[
+          MultiContentEntryText(pos = (5, 0), size = (1170, 40), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 0), 
+          ],False),
+        "titel": (40,[
+          MultiContentEntryText(pos = (5, 0), size = (1170, 40), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 0), 
+          ],False),
+        },
+        "fonts": [gFont("Regular", 28)],
+        "itemHeight": 40
+      }
+    </convert>
+  </widget>
+
+  <widget name="help" zPosition="0" position="30,75" size="1180,750" backgroundColor="background" foregroundColor="foreground" font="Regular;30" transparent="0" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" />
+  <widget source="playtext" render="Label" position="30,918" zPosition="2" size="1180,100" font="Regular; 28" valign="center" halign="center" foregroundColor="foreground" backgroundColor="background" transparent="0" />
+  <widget name="rec_pic" position="1150,884" size="60,20" alphatest="blend" backgroundColor="background" pixmap="/usr/share/enigma2/iFlatFHD/icons/audio/rec_on.png" zPosition="2" />
+  <widget name="key_red" position="15,1037" zPosition="1" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <widget name="key_green" position="310,1037" zPosition="3" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <widget name="key_yellow" position="605,1037" zPosition="1" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <widget name="key_blue" position="900,1037" zPosition="1" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <widget name="buttons_abdeck" position="590,1037" zPosition="2" size="610,40" font="Regular;30" valign="center" halign="center" backgroundColor="background2" transparent="0" />
+  <widget name="key_red2" position="15,1037" zPosition="3" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <widget name="key_green2" position="310,1037" zPosition="3" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <eLabel name="button help" position="1689,1036" size="60,30" backgroundColor="button_mbgc" text="HELP" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" font="Regular; 17" />
+  <eLabel name="button help bg" position="1688,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button epg" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="EPG" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" font="Regular; 17" />
+  <eLabel name="button epg bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button menu" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="MENU" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button menu bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>
+
+<screen name="wbrFS_r_site15" position="1258,109" zPosition="3" size="650,890" flags="wfNoBorder" backgroundColor="background" transparent="0">
+  <widget name="streamlogo" position="9,720" size="630,125" alphatest="blend" backgroundColor="background" transparent="1" />
+  <widget name="fav_name" position="20,765" size="610,75" font="Regular;28" halign="left" foregroundColor="foreground" backgroundColor="background" transparent="1" />
+  <widget name="zeile1" position="190,435" size="150,40" font="Regular;28" halign="left" foregroundColor="grey" backgroundColor="background" transparent="1" valign="top" />
+  <widget name="zeile1b" position="350,435" size="300,40" font="Regular;24" halign="left" foregroundColor="foreground" backgroundColor="background" transparent="1" noWrap="1" valign="top" />
+  <widget name="zeile2" position="190,490" size="150,40" font="Regular;28" halign="left" foregroundColor="grey" backgroundColor="background" transparent="1" valign="top" />
+  <widget name="zeile2b" position="350,490" size="300,40" font="Regular;24" halign="left" foregroundColor="foreground" backgroundColor="background" transparent="1" noWrap="1" valign="top" />
+  <widget name="zeile3" position="190,545" size="150,40" font="Regular;28" halign="left" foregroundColor="grey" backgroundColor="background" transparent="1" valign="top" />
+  <widget name="zeile3b" position="350,545" size="300,40" font="Regular;24" halign="left" foregroundColor="foreground" backgroundColor="background" transparent="1" noWrap="1" valign="top" />
+  <widget name="zeile4" position="190,600" size="150,40" font="Regular;28" halign="left" foregroundColor="grey" backgroundColor="background" transparent="1" valign="top" />
+  <widget name="zeile4b" position="350,600" size="300,80" font="Regular;24" halign="left" foregroundColor="foreground" backgroundColor="background" transparent="1" valign="top" />
+  <widget name="picture" zPosition="0" position="75,5" size="500,396" backgroundColor="background" alphatest="blend" />
+  <!--play files-->
+  <widget name="playline2" position="24,736" size="600,21" pointer="position_pointer.png:540,0" transparent="1" foregroundColor="foreground">
+    <convert type="ServicePosition">Gauge</convert>
+  </widget>
+  <widget name="random" position="41,800" size="50,30" alphatest="blend" />
+  <widget name="subdirs" position="313,800" size="50,30" alphatest="blend" />
+  <widget name="auto" position="564,800" size="50,30" alphatest="blend" />
+  <!--play files end-->
+</screen>
+
+<screen name="WebradioFSSetup_13" position="0,0" size="1920,1080" title="webradioFS" flags="wfNoBorder">
+  <panel name="dateclock" />
+  <panel name="p_topbar" />
+  <panel name="p_bottombar" />
+  <panel name="p_centerbar1920" />
+  <panel name="p_color_labels" />
+	<panel name="0_914_1241_1" />
+	<panel name="1242_61_1_958" />
+	<panel name="0_872_1241_1" />
+  <widget source="Title" render="Label" position="15,6" size="1100,50" font="Regular; 42" backgroundColor="background2" transparent="1" foregroundColor="foreground3" />
+  <widget name="config" itemHeight="40" font="Regular;28" secondfont="Regular;28" position="30,75" zPosition="3" size="1180,765" backgroundColor="background" foregroundColor="foreground" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" transparent="1" />
+  <widget source="playtext" render="Label" position="30,918" zPosition="2" size="1180,100" font="Regular; 30" valign="center" halign="center" foregroundColor="foreground" backgroundColor="background" transparent="0" />
+  <widget name="rec_txt" position="30,879" size="1180,30" font="Regular; 26" halign="center" valign="center" zPosition="2" backgroundColor="background" transparent="1" />
+  <widget name="key_red" position="15,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" backgroundColor="background2" transparent="1" valign="bottom" foregroundColor="foreground3" />
+  <widget name="key_green" position="310,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="bottom" />
+  <widget name="key_yellow" position="605,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="bottom" />
+  <widget name="key_blue" position="900,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="bottom" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>
+
+<screen name="wbrfs_set_we" position="0,0" size="1920,1080" title="chillen - webradioFS" flags="wfNoBorder" backgroundColor="transparent">
+  <panel name="dateclock" />
+  <panel name="p_topbar" />
+  <panel name="p_bottombar" />
+  <panel name="p_centerbar1920" />
+  <panel name="p_color_labels" />
+  <panel name="0_914_1241_1" />
+  <panel name="1242_61_1_958" />
+  <panel name="0_872_1241_1" />
+  <widget source="Title" render="Label" position="15,6" size="900,50" font="Regular; 42" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+  <widget name="warn" zPosition="2" position="30,395" size="1180,450" valign="center" halign="center" font="Regular;28" transparent="1" foregroundColor="foreground" backgroundColor="background" />
+  <widget name="config" position="30,75" zPosition="3" size="1180,300" itemHeight="40" font="Regular;28" secondfont="Regular;28" foregroundColor="foreground" backgroundColor="background" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="foreground" scrollbarSliderBorderWidth="0" enableWrapAround="1" transparent="1" />
+  <widget name="key_red" position="15,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+  <widget name="key_green" position="310,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+</screen>
+
+<screen name="wbrfs_cs" backgroundColor="transparent" position="0,0" size="1920,1080" title="Save from cache" flags="wfNoBorder">
+  <panel name="dateclock" />
+  <panel name="p_topbar" />
+  <panel name="p_bottombar" />
+  <panel name="p_centerbar1920" />
+  <panel name="p_color_labels" />
+  <panel name="0_914_1241_1" />
+  <panel name="1242_61_1_958" />
+  <panel name="0_872_1241_1" />
+  <widget source="Title" render="Label" position="15,6" size="900,50" font="Regular; 42" backgroundColor="background2" transparent="1" foregroundColor="foreground3" />
+  <widget source="song_liste" render="Listbox" position="30,75" size="1180,760" zPosition="2" backgroundColor="background" foregroundColor="foreground" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0">
+    <convert type="TemplatedMultiContent">
+        {"template": 
+            [MultiContentEntryText(pos = (40, 0), size = (1100, 40), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0)],
+        "fonts": [gFont("Regular", 28)],
+        "itemHeight": 40
+        }
+      </convert>
+  </widget>
+  <widget name="key_red" position="15,1037" zPosition="1" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <widget name="key_green" position="310,1037" zPosition="3" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <widget name="key_yellow" position="605,1037" zPosition="1" size="580,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="left" foregroundColor="foreground3" valign="bottom" />
+  <eLabel name="button help" position="1689,1036" size="60,30" backgroundColor="button_mbgc" text="HELP" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" font="Regular; 17" />
+  <eLabel name="button help bg" position="1688,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button epg" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="EPG" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" font="Regular; 17" />
+  <eLabel name="button epg bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button menu" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="MENU" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button menu bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>
+
+<screen name="wbrScreenSaver_13" zPosition="5" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="black" title="">
+	<widget name="background1" position="0,0" size="1920,1080" zPosition="11" transparent="0" backgroundColor="background1" />
+	<widget name="display_station" position="320,370" zPosition="12" size="500,40" font="Regular; 25" halign="left" transparent="1" foregroundColor="foreground" backgroundColor="background" />
+	<widget name="display_time" position="320,282" zPosition="12" size="500,80" font="Regular; 28" halign="left" transparent="1" foregroundColor="foreground" backgroundColor="background" />
+	<widget name="display_nplaying" position="320,418" zPosition="12" size="500,150" font="Regular; 25" halign="left" transparent="1" foregroundColor="foreground" backgroundColor="background" />
+	<widget name="cover" zPosition="12" size="250,250" position="50,282" backgroundColor="transparent" alphatest="blend" />
+	<widget name="cover2" zPosition="12" size="600,600" position="0,282" backgroundColor="transparent" alphatest="blend" />
+</screen>
+  
+<screen name="wbrfs_message" position="560,310" zPosition="10" size="800,650" title="webradioFS-Info" backgroundColor="background2" flags="wfNoBorder">
+  <widget name="bgr" position="0,80" size="800,570" transparent="0" backgroundColor="background" zPosition="1" />
+  <widget name="titel" font="Regular;28" valign="center" halign="left" position="0,10" size="800,70" transparent="1" foregroundColor="foreground3" backgroundColor="background2" zPosition="5" />
+  <widget name="time" font="Regular;28" valign="center" halign="center" position="680,0" size="120,50" transparent="1" foregroundColor="foreground3" backgroundColor="background2" zPosition="6" />
+  <widget name="text" font="Regular;28" halign="left" position="10,90" size="780,150" foregroundColor="white" transparent="1" zPosition="6" />
+  <widget name="list" position="10,90" size="780,400" font="Regular;28" itemHeight="40" transparent="0" zPosition="7" />
+</screen>
+
+<screen name="play_settings" position="0,0" size="1920,1080" title="Settings for playing" flags="wfNoBorder">
+  <panel name="dateclock" />
+  <panel name="p_topbar" />
+  <panel name="p_bottombar" />
+  <panel name="p_centerbar1920" />
+  <panel name="p_color_labels" />
+  <panel name="0_914_1241_1" />
+  <panel name="1242_61_1_958" />
+  <panel name="0_872_1241_1" />
+  <widget source="Title" render="Label" position="15,6" size="1100,50" font="Regular; 42" backgroundColor="background2" transparent="1" foregroundColor="foreground3" />
+  <widget name="config" itemHeight="40" font="Regular;28" secondfont="Regular;28" position="30,75" zPosition="3" size="1180,800" backgroundColor="background" foregroundColor="foreground" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" transparent="1" />
+  <widget name="key_red" position="15,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" backgroundColor="background2" transparent="1" valign="bottom" foregroundColor="foreground3" />
+  <widget name="key_green" position="310,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="bottom" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>
+
+<screen name="wbrFS_planer" backgroundColor="transparent" position="0,0" size="1920,1080" title="I make my radio day" flags="wfNoBorder">
+	<panel name="dateclock" />
+	<panel name="p_topbar" />
+	<panel name="p_bottombar" />
+	<panel name="p_centerbar1920" />
+	<panel name="p_color_labels" />
+	<panel name="1242_61_1_958" />
+  <widget source="Title" render="Label" position="15,6" size="1100,50" font="Regular; 42" backgroundColor="background2" transparent="1" foregroundColor="foreground3" />
+  <widget source="termine" render="Listbox" position="30,75" size="1180,750" zPosition="2" backgroundColor="background" foregroundColor="foreground" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0">
+    <convert type="TemplatedMultiContent" transparent="0">
+      {"template": [ 
+				MultiContentEntryText(pos = (10, 4), size = (150, 40), flags = RT_HALIGN_LEFT, text = 0),
+        MultiContentEntryText(pos = (180, 4), size = (760, 40), flags = RT_HALIGN_LEFT, text = 1),
+        MultiContentEntryText(pos = (950, 4), size = (150, 40), flags = RT_HALIGN_LEFT, text = 2),],
+      "fonts": [gFont("Regular", 28)],
+      "itemHeight": 45
+      }
+    </convert>
+  </widget>
+  <widget name="key_red" position="15,1037" zPosition="1" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <widget name="key_green" position="310,1037" zPosition="3" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <widget name="key_yellow" position="605,1037" zPosition="1" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <widget name="key_blue" position="900,1037" zPosition="1" size="280,36" font="Regular; 26" backgroundColor="background2" noWrap="1" transparent="1" halign="center" foregroundColor="foreground3" valign="bottom" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>
+
+</skin>

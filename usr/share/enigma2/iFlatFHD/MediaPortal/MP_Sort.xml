@@ -1,0 +1,22 @@
+<!-- pluginSort_Screen -->
+<screen name="pluginSort" position="center,center" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="dateclock" />
+    <panel name="p_topbar" />
+    <panel name="p_bottombar" />
+    <panel name="p_centerbar960" />
+    <panel name="p_color_labels" />
+    <panel name="0_945_960_1"/>
+  <eLabel backgroundColor="background2" text="MediaPortal" font="Regular; 42" halign="left" valign="center" position="15,6" size="900,50" transparent="1" foregroundColor="foreground3" />
+  <!-- select screen -->
+  <widget name="config2" itemHeight="40" position="30,75" size="900,840" backgroundColor="background2" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" transparent="1" foregroundColorSelected="foreground3" font="Regular; 28" secondfont="Regular; 28" />
+  <eLabel text="User Plugin Sortierung" position="30,952" size="900,66" transparent="1" font="Regular; 28" backgroundColor="background" valign="center" halign="center" zPosition="0" />
+  <!--    <widget name="F1" position="15,1030" size="365,40" transparent="1" font="Regular; 25" backgroundColor="#20000000" valign="center" halign="center" zPosition="1" />
+    <widget name="F2" position="385,1030" size="365,40" transparent="1" font="Regular; 25" backgroundColor="#20000000" valign="center" halign="center" zPosition="1" />
+    <widget name="F3" position="755,1030" size="365,40" transparent="1" font="Regular; 25" backgroundColor="#20000000" valign="center" halign="center" zPosition="1" />
+    <widget name="F4" position="1125,1030" size="365,40" transparent="1" font="Regular; 25" backgroundColor="#20000000" valign="center" halign="center" zPosition="1" />
+-->
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>

@@ -1,0 +1,17 @@
+<screen backgroundColor="transparent" flags="wfNoBorder" name="ChoiceBoxExt" position="0,0" size="1920,1080">
+    <panel name="dateclock" />
+    <panel name="p_topbar" />
+    <panel name="p_bottombar" />
+    <panel name="p_centerbar960" />
+    <panel name="p_color_labels" />
+    <panel name="0_860_960_1" />
+  <widget name="bgup" position="2,2" size="1,1" backgroundColor="background2" />
+  <widget name="bgdown" position="2,4" size="1,1" backgroundColor="background2" />
+  <widget name="text" position="15,6" size="1200,50" font="Regular; 42" halign="left" valign="center" foregroundColor="foreground3" backgroundColor="background2" zPosition="1" transparent="1" />
+  <widget name="title" position="30,867" size="900,150" backgroundColor="background" font="Regular; 25" halign="center" transparent="1" foregroundColor="foreground" valign="top" />
+  <widget name="list" font="Regular; 28" itemHeight="48" backgroundColor="background" foregroundColor="foreground" enableWrapAround="1" position="30,75" scrollbarMode="showOnDemand" size="900,760" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" transparent="1" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+</screen>

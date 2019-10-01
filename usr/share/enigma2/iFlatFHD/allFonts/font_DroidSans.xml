@@ -1,0 +1,9 @@
+<skin>
+	<fonts>
+    <font filename="lcd.ttf" name="LCD" replacement="0" scale="100" />
+		<font filename="ae_AlMateen.ttf" name="Replacement" replacement="1" scale="100" />
+		<font filename="tuxtxt.ttf" name="Console" replacement="0" scale="100" />
+		<font filename="/usr/share/enigma2/iFlatFHD/fonts/DroidSans.ttf" name="Regular" replacement="0" scale="100" />
+		<font filename="/usr/share/enigma2/iFlatFHD/fonts/meteocons.ttf" name="Meteo" scale="100" />
+  </fonts>	
+</skin>

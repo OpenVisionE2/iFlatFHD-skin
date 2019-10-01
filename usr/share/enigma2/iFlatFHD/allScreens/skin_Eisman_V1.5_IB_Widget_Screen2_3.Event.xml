@@ -1,0 +1,19 @@
+<skin>
+
+  <screen name="IBEismanScreen2_1Widget">
+   <eLabel name="IB" position="0,1023" size="1754,57" zPosition="20" backgroundColor="background2" />
+   <!-- /* Next Events -->
+  <eLabel text="3.Event:" font="Regular; 22" position="280,1039" size="90,26" halign="left" foregroundColor="foreground3" backgroundColor="background2" transparent="0" valign="center" zPosition="24" />
+  <widget source="session.CurrentService" render="NextEvents" number="3" position="410,1035" size="1075,34" noWrap="1" font="Regular; 28" foregroundColor="foreground3" backgroundColor="background2" transparent="1" zPosition="24">
+    <convert type="ServiceName">Reference</convert>
+  </widget>
+  <!-- Next Events */ -->
+  <!-- BoxInfo Start -->
+    <widget backgroundColor="background2" foregroundColor="foreground3"  font="Regular; 24" halign="center" position="39,1032" render="Label" size="200,40" source="session.CurrentService" valign="center" zPosition="24">
+		 <convert type="">BoxType</convert>
+    </widget> 
+ <!-- BoxInfo End -->
+ </screen>
+ 
+
+</skin>

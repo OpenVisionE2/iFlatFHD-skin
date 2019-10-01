@@ -1,0 +1,24 @@
+<skin>
+
+
+	<screen name="IBSNRAGCWidget">
+     
+     
+<eLabel name="icons" position="0,838" size="1920,37" zPosition="-10" backgroundColor="background" />
+  
+<!-- /* SNR_AGC -->
+  <eLabel foregroundColor="foreground" backgroundColor="background" font="Regular; 23" halign="right" noWrap="1" position="685,843" size="70,27" text="SNR:" transparent="1" valign="top" />
+  <widget foregroundColor="foreground" backgroundColor="background" font="Regular; 23" halign="left" noWrap="1" position="765,843" render="Label" size="70,27" source="session.FrontendStatus" transparent="1" valign="top">
+    <convert type="FrontendInfo">SNR</convert>
+  </widget>
+  <eLabel foregroundColor="foreground" backgroundColor="background" font="Regular; 23" halign="right" noWrap="1" position="835,843" size="80,27" text="AGC:" transparent="1" valign="top" />
+  <widget foregroundColor="foreground" backgroundColor="background" font="Regular; 23" halign="left" noWrap="1" position="925,843" render="Label" size="70,27" source="session.FrontendStatus" transparent="1" valign="top">
+    <convert type="FrontendInfo">AGC</convert>
+  </widget>
+<!-- SNR_AGC */-->
+    
+    
+	</screen>
+
+
+</skin>

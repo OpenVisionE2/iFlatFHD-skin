@@ -1,0 +1,136 @@
+﻿<skin>
+
+  <!-- GraphMultiEPG -->
+  <screen name="GraphMultiEPG" position="0,0" size="1920,1080" title="Electronic Program Guide" backgroundColor="transparent" flags="wfNoBorder">
+    <panel name="dateclock" />
+    <panel name="p_topbar" />
+    <panel name="p_bottombar" />
+    <panel name="p_centerbar1920" />
+    <panel name="p_color_labels" />
+    <panel name="0_314_1920_1" />
+    <panel name="0_349_1920_1" />
+    <panel name="1490_61_1_252" />
+    <widget source="Title" render="Label" position="15,6" size="900,50" font="Regular; 42" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+    <widget source="Event" position="30,75" size="1030,38" render="Label" font="Regular; 32" foregroundColor="foreground" backgroundColor="background1" transparent="1">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="Event" position="1050,75" size="130,38" render="Label" font="Regular;32" halign="right" foregroundColor="foreground" backgroundColor="background1" transparent="1">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">Format:%H:%M</convert>
+    </widget>
+    <widget source="Event" position="1190,75" size="130,38" render="Label" font="Regular;32" foregroundColor="foreground" backgroundColor="background1" transparent="1">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Format:- %H:%M</convert>
+    </widget>
+    <widget source="Event" position="1320,75" size="160,38" render="Label" font="Regular; 32" halign="right" foregroundColor="foreground" backgroundColor="background1" transparent="1">
+      <convert type="EventTime">Remaining</convert>
+      <convert type="RemainingToText">InMinutes</convert>
+    </widget>
+    <eLabel name="progress_bg" position="30,125" size="1450,1" backgroundColor="progress_bg" />
+    <widget source="Event" position="30,123" size="1450,5" render="Progress" foregroundColor="progress" transparent="1" zPosition="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="Event" position="30,138" size="1450,162" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=95,startdelay=8000,wrap,always=0" font="Regular; 28" foregroundColor="foreground" backgroundColor="background1" transparent="1">
+      <convert type="EventName">FullDescription</convert>
+    </widget>
+    <widget source="session.VideoPicture" position="1510,75" size="400,225" render="Pig" backgroundColor="transparent" zPosition="3" OverScan="0">
+      <convert type="ConfigEntryTest">config.usage.use_pig,True,CheckSourceBoolean</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="Event" position="1750,317" size="160,30" render="Label" font="Regular;26" halign="right" foregroundColor="foreground" backgroundColor="background1" transparent="1">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">Format:%a, %d.%m.</convert>
+    </widget>
+    <widget name="JumpInterval" position="1250,1037" size="240,35" font="Regular; 26" halign="center" foregroundColor="foreground3" backgroundColor="background4" transparent="0" zPosition="5" />
+    <widget name="timeline_text" position="0,314" size="1920,35" itemHeight="35" foregroundColor="foreground" backgroundColor="background1" transparent="1" selectionDisabled="1" />
+    <widget name="list" position="30,360" size="1880,644" itemHeight="92" scrollbarMode="showNever" transparent="1" 
+      foregroundColor="GMEPG_FG" backgroundColor="GMEPG_BG" 
+      FontSize1="26" FontSize2="24" piconWidth="153" nopiconWidth="250" 
+      ServiceNameForegroundColor="GMEPG_ServFG" ServiceNameBackgroundColor="GMEPG_ServBG" 
+      EntryForegroundColor="GMEPG_FG" EntryBackgroundColor="GMEPG_BG" EntryBorderColor="GMEPG_BD" 
+      EntryNowForegroundColor="GMEPG_NowFG" EntryNowBackgroundColor="GMEPG_NowBG" 
+      EntryForegroundColorSelected="GMEPG_SelFG" EntryBackgroundColorSelected="GMEPG_SelBG" 
+      EntryNowForegroundColorSelected="GMEPG_NowSelFG" EntryNowBackgroundColorSelected="GMEPG_NowSelBG" 
+      EntryForegroundColorSelectedFlat="GMEPG_nonFlat_FG" EntryNowForegroundColorSelectedFlat="GMEPG_nonFlat_FGSel" 
+      piconColor="GMEPG_piconBG" piconColorSelected="GMEPG_piconBGSel" 
+      EntryRecColor="GMEPG_Rec" EntryPreColor="GMEPG_PreRec" 
+      EntryRecIncompleteColor="GMEPG_IncRec" EntryRecOffColor="GMEPG_RecOff" />
+    <widget name="timeline_now" position="0,355" size="15,654" pixmap="iFlatFHD/icons/timeline_now.png" alphatest="blend" zPosition="2" />
+    <widget name="timeline0" position="0,350" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="timeline1" position="0,350" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="timeline2" position="0,350" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="timeline3" position="0,350" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="timeline4" position="0,350" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="timeline5" position="0,350" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="zoom" position="0,0" size="0,0" zPosition="5" foregroundColor="GMEPG_zoom_FG" backgroundColor="GMEPG_zoom_BG" />
+    <widget name="zoomBack" position="0,0" size="0,0" zPosition="4" backgroundColor="GMEPG_zoomBack" />
+    <widget name="zoomShadow" position="0,0" size="0,0" zPosition="3" backgroundColor="GMEPG_zoomShadow" transparent="1" />
+    <widget name="key_red" position="0,1023" size="310,45" font="Regular; 20" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background4" transparent="1" zPosition="1" />
+    <widget name="key_green" position="310,1023" size="280,45" font="Regular; 20" halign="center" valign="center" foregroundColor="foreground3" backgroundColor="background4" transparent="1" zPosition="1" />
+    <widget name="key_yellow" position="590,1023" size="310,45" font="Regular; 20" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background4" transparent="1" zPosition="1" />
+    <widget name="key_blue" position="900,1023" size="280,45" font="Regular; 20" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background4" transparent="1" zPosition="1" />
+    <eLabel name="button help" position="1536,1036" size="60,30" text="HELP" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button help bg" position="1535,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+    <eLabel name="button epg" position="1613,1036" size="60,30" text="EPG" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button epg bg" position="1612,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+    <eLabel name="button menu" position="1689,1036" size="60,30" text="MENU" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button menu bg" position="1688,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+    <eLabel name="button OK" position="1766,1036" size="60,30" text="OK" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+    <eLabel name="button exit" position="1843,1036" size="60,30" text="EXIT " font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  </screen>
+
+  <screen name="GraphMultiEPG2" position="0,0" size="1920,1080" title="Electronic Program Guide" backgroundColor="background1" flags="wfNoBorder">
+    <panel name="dateclock" />
+    <panel name="p_topbar" />
+    <panel name="p_bottombar" />
+    <panel name="p_centerbar1920" />
+    <panel name="p_color_labels" />
+    <panel name="0_107_1920_1" />
+    <widget source="Title" render="Label" position="15,6" size="900,50" font="Regular; 42" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+    <widget source="Event" position="1750,75" size="160,30" render="Label" font="Regular;26" halign="right" foregroundColor="foreground" backgroundColor="background1" transparent="1">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">Format:%a, %d.%m.</convert>
+    </widget>
+    <widget name="JumpInterval" position="1250,1037" size="240,35" font="Regular; 26" halign="center" foregroundColor="foreground3" backgroundColor="background4" transparent="1" zPosition="5" />
+    <widget name="timeline_text" position="0,72" size="1920,35" itemHeight="35" foregroundColor="foreground" backgroundColor="background1" transparent="1" selectionDisabled="1" />
+    <widget name="list" position="30,118" size="1880,890" itemHeight="89" transparent="1" scrollbarMode="showNever"
+      foregroundColor="GMEPG_FG" backgroundColor="GMEPG_BG" 
+      FontSize1="26" FontSize2="24" piconWidth="148" nopiconWidth="250" 
+      ServiceNameForegroundColor="GMEPG_ServFG" ServiceNameBackgroundColor="GMEPG_ServBG" 
+      EntryForegroundColor="GMEPG_FG" EntryBackgroundColor="GMEPG_BG" EntryBorderColor="GMEPG_BD" 
+      EntryNowForegroundColor="GMEPG_NowFG" EntryNowBackgroundColor="GMEPG_NowBG" 
+      EntryForegroundColorSelected="GMEPG_SelFG" EntryBackgroundColorSelected="GMEPG_SelBG" 
+      EntryNowForegroundColorSelected="GMEPG_NowSelFG" EntryNowBackgroundColorSelected="GMEPG_NowSelBG" 
+      EntryForegroundColorSelectedFlat="GMEPG_nonFlat_FG" EntryNowForegroundColorSelectedFlat="GMEPG_nonFlat_FGSel" 
+      piconColor="GMEPG_piconBG" piconColorSelected="GMEPG_piconBGSel" 
+      EntryRecColor="GMEPG_Rec" EntryPreColor="GMEPG_PreRec" 
+      EntryRecIncompleteColor="GMEPG_IncRec" EntryRecOffColor="GMEPG_RecOff" />
+    <widget name="timeline_now" position="0,113" size="15,900" pixmap="iFlatFHD/icons/timeline_now.png" alphatest="on" zPosition="2" />
+    <widget name="timeline0" position="0,108" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="timeline1" position="0,108" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="timeline2" position="0,108" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="timeline3" position="0,108" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="timeline4" position="0,108" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="timeline5" position="0,108" size="1,10" pixmap="iFlatFHD/icons/timeline.png" zPosition="1" />
+    <widget name="zoom" position="0,0" size="0,0" zPosition="5" foregroundColor="GMEPG_zoom_FG" backgroundColor="GMEPG_zoom_BG" />
+    <widget name="zoomBack" position="0,0" size="0,0" zPosition="4" backgroundColor="GMEPG_zoomBack" />
+    <widget name="zoomShadow" position="0,0" size="0,0" zPosition="3" backgroundColor="GMEPG_zoomShadow" transparent="1" />
+    <widget name="key_red" position="0,1023" size="310,45" font="Regular; 20" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background4" transparent="1" zPosition="1" />
+    <widget name="key_green" position="310,1023" size="280,45" font="Regular; 20" halign="center" valign="center" foregroundColor="foreground3" backgroundColor="background4" transparent="1" zPosition="1" />
+    <widget name="key_yellow" position="590,1023" size="310,45" font="Regular; 20" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background4" transparent="1" zPosition="1" />
+    <widget name="key_blue" position="900,1023" size="280,45" font="Regular; 20" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background4" transparent="1" zPosition="1" />
+    <eLabel name="button help" position="1536,1036" size="60,30" text="HELP" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button help bg" position="1535,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+    <eLabel name="button epg" position="1613,1036" size="60,30" text="EPG" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button epg bg" position="1612,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+    <eLabel name="button menu" position="1689,1036" size="60,30" text="MENU" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button menu bg" position="1688,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+    <eLabel name="button OK" position="1766,1036" size="60,30" text="OK" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+    <eLabel name="button exit" position="1843,1036" size="60,30" text="EXIT " font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  </screen>
+
+</skin>

@@ -1,0 +1,27 @@
+<!-- Hauptscreen_Wall_2 -->
+<screen name="MediaPortal" position="center,center" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="dateclock" />
+    <panel name="p_topbar" />
+    <panel name="p_bottombar" />
+    <panel name="p_centerbar1920" />
+    <panel name="p_color_labels" />
+<widget name="version" backgroundColor="background2" font="Regular;26" halign="left" valign="left" position="324,21" size="300,37" transparent="1" foregroundColor="foreground3" />
+  <eLabel backgroundColor="background2" text="MediaPortal" font="Regular; 42" halign="left" valign="center" position="15,6" size="1200,50" transparent="1" foregroundColor="foreground3" />
+  <widget backgroundColor="background" font="Regular; 34" halign="center" name="name" position="30,75" size="1860,50" transparent="1" />
+  <widget backgroundColor="background" font="Regular; 25" halign="center" name="page" position="30,970" size="1860,40" transparent="1" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" name="F1" position="15,1037" size="280,36" valign="bottom" halign="center" transparent="1" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" name="F2" position="310,1037" size="280,36" valign="bottom" halign="center" transparent="1" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" name="F3" position="605,1037" size="280,36" valign="bottom" halign="center" transparent="1" />
+  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" name="F4" position="900,1037" size="280,36" valign="bottom" halign="center" transparent="1" />
+<widget name="covercollection" position="0,175" size="1920,781" transparent="1" zPosition="1" backgroundColor="#20000000" coverSize="225,120" selectedCoverScale="1.25" unselectedCoverDimm="0.85" coverBeginPosition="156,78" coverDistance="5,5" style="0" noCoverAvailablePic="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/comingsoon.png" />  
+<eLabel name="button bouquet" position="1535,1036" size="60,30" backgroundColor="button_mbgc" text="BOUQ" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button bouquet bg" position="1534,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button info" position="1612,1036" size="60,30" backgroundColor="button_mbgc" text="INFO" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button info bg" position="1611,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button epg" position="1689,1036" size="60,30" backgroundColor="button_mbgc" text="EPG" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button epg bg" position="1688,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button help" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="HELP" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button help bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>

@@ -1,0 +1,11 @@
+﻿<skin>
+
+<!-- Movielist backdrop heller Hintergrund -->
+
+<screen name="show_backdrop" >
+    <ePixmap pixmap="iFlatFHD/icons/backdrop_light.png" position="0,0" size="1920,1080" zPosition="-23" alphatest="blend" />
+    <widget source="Service" render="iFlatBackdrop" scalecover="0" position="0,0" size="1920,1080" zPosition="-24" alphatest="off" />
+    <ePixmap pixmap="iFlatFHD/icons/backdrop_light1.png" position="0,0" size="1920,1080" zPosition="-25" alphatest="off" />
+</screen>
+
+</skin>

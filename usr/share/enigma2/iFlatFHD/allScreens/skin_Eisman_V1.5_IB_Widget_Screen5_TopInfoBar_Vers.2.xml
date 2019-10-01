@@ -1,0 +1,211 @@
+<skin>
+  <screen name="IBTopBariFlatStyleWidget" />
+	<screen name="IBEismanTopBarWidget">
+  
+  <!-- TopInfoBar_v1.2_Eisman Start -->
+    <eLabel name="IB" position="0,0" size="1920,107" zPosition="-10" backgroundColor="background" />
+ <!--/*Lines-->
+      <panel name="0_107_1920_1" />
+ <!--Lines */-->
+ <!-- /* Time Digital -->
+ <!-- Time */-->
+    <widget source="session.CurrentService" position="530,7" size="850,40" render="Label" font="Regular; 30" noWrap="1" foregroundColor="foreground" backgroundColor="background" valign="top" transparent="1" zPosition="10" halign="center">
+     <convert type="ServiceName">Name</convert>
+    </widget>
+ <!-- /* Wetter -->
+ <!-- Wetter */-->
+ <!-- /*Date -->
+ <!-- Date */ -->
+ <!-- Fan and Temperature Start -->
+    <widget source="session.CurrentService" render="Label" font="Regular; 20" position="1324,25" size="190,22" halign="right" backgroundColor="background" transparent="1" noWrap="1" foregroundColor="red" valign="center">
+			<convert type="VtiTempFan">TempInfo</convert>
+		</widget>
+    <widget source="session.CurrentService" render="Label" font="Regular; 20" position="420,25" size="190,22" halign="left" backgroundColor="background" transparent="1" noWrap="1" foregroundColor="red" valign="center">
+			<convert type="VtiTempFan">FanInfo</convert>
+		</widget>
+ <!-- Fan and Temperature End -->
+ <!-- SATInfo Start -->
+    <widget source="session.CurrentService" render="Label" position="420,77" size="750,22" font="Regular; 20" backgroundColor="background" transparent="1" halign="left" noWrap="1" valign="center" text="19.2E   DVB-S2  11288 27500 3/4 8PSK" zPosition="3" foregroundColor="foreground">
+     <convert type="ServiceName2">%S %s %F %p %Y %f %M %b %o %r</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="662,77" size="850,22" backgroundColor="background" font="Regular; 20" halign="right" noWrap="1" transparent="1" valign="center" zPosition="1">
+     <convert type="ServiceName2">%R</convert>
+    </widget>
+ <!-- SATInfo End --> 
+ <!-- BoxInfo Start -->
+    <widget backgroundColor="background" foregroundColor="foreground"  font="Regular; 18" halign="left" position="1615,28" render="Label" size="185,20" source="session.CurrentService" valign="center" zPosition="11">
+		 <convert type="">FreeFlash</convert>
+    </widget>        
+    <widget backgroundColor="background" foregroundColor="foreground"  font="Regular; 18" halign="left" position="1615,58" render="Label" size="185,20" source="session.CurrentService" valign="center" zPosition="11">
+		 <convert type="">MemInfo</convert>
+    </widget>
+ <!-- BoxInfo End -->	
+ <!-- /* EMUInfo Start -->
+<widget source="session.CurrentService" render="PicEmu2" path="iFlatFHD/piconCam" position="1800,25" size="100,60" transparent="1" alphatest="blend" zPosition="3" />
+ <!-- EMUInfo End */-->
+ <!--/* ECM-Info Start -->
+<widget source="session.CurrentService" render="Label" position="115,10" size="220,45" font="Regular; 20" noWrap="1" foregroundColor="foreground" backgroundColor="background" transparent="1" halign="left" valign="center" zPosition="10">
+      <convert type="VisionCamInfo">Camd</convert>
+    </widget>
+    <widget source="session.CurrentService" position="640,47" size="630,24" render="Label" font="Regular; 20" foregroundColor="#FBC066" backgroundColor="background" transparent="1" halign="center" valign="center" zPosition="10">
+     <convert type="ExtremeInfo">EcmInfo</convert>
+    </widget>
+ <!--ECM-Info End */-->
+ <!-- /* Network Info Start -->
+    <eLabel text="iNet" font="Regular; 20" position="1543,15" size="60,22" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" zPosition="0" />
+    <eLabel text="Lan" font="Regular; 20" position="1543,43" size="60,22" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" zPosition="0" />
+    <eLabel text="wLan" font="Regular; 20" position="1543,70" size="60,22" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" zPosition="0" />
+    <widget source="session.CurrentService" render="FixedLabel" position="1543,15" size="60,22" text="iNet" font="Regular; 20" halign="center" valign="center" foregroundColor="button_green" backgroundColor="background" transparent="1" zPosition="3">
+     <convert type="iFlatTestConnection">ipinfo.io</convert>
+     <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="FixedLabel" text="Lan" font="Regular; 20" position="1543,43" size="60,22" halign="center" foregroundColor="button_yellow" backgroundColor="background" zPosition="3" valign="center" transparent="1">
+      <convert type="RouteInfo">Lan</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="FixedLabel" text="wLan" font="Regular; 20" position="1543,70" size="60,22" halign="center" foregroundColor="button_blue" backgroundColor="background" zPosition="4" valign="center" transparent="1">
+      <convert type="RouteInfo">Wifi</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>      
+ <!-- Network Info End */-->
+<!-- /* CryptInfo Start -->
+    <ePixmap alphatest="blend" pixmap="iFlatFHD/icons/ks1v4/unknown.png" position="15,29" size="80,50" zPosition="2" />
+    <widget alphatest="blend" backgroundColor="background" pixmap="iFlatFHD/icons/ks1v4/fta.png" position="15,29" render="Pixmap" size="80,50" source="session.CurrentService" zPosition="5">
+     <convert type="ExtremeInfo">Fta</convert>
+     <convert type="ConditionalShowHide" />
+    </widget>
+    <widget alphatest="blend" backgroundColor="background" pixmap="iFlatFHD/icons/ks1v4/irdeto.png" position="15,29" render="Pixmap" size="80,50" source="session.CurrentService" zPosition="4">
+     <convert type="ExtremeInfo">IrdEcm</convert>
+     <convert type="ConditionalShowHide" />
+    </widget>
+    <widget alphatest="blend" backgroundColor="background" pixmap="iFlatFHD/icons/ks1v4/seca.png" position="15,29" render="Pixmap" size="80,50" source="session.CurrentService" zPosition="4">
+     <convert type="ExtremeInfo">SecaEcm</convert>
+     <convert type="ConditionalShowHide" />
+    </widget>
+    <widget alphatest="blend" backgroundColor="background" pixmap="iFlatFHD/icons/ks1v4/nagravision.png" position="15,29" render="Pixmap" size="80,50" source="session.CurrentService" zPosition="4">
+    <convert type="ExtremeInfo">NagraEcm</convert>
+     <convert type="ConditionalShowHide" />
+   </widget>
+   <widget alphatest="blend" backgroundColor="background" pixmap="iFlatFHD/icons/ks1v4/viaccess.png" position="15,29" render="Pixmap" size="80,50" source="session.CurrentService" zPosition="4">
+    <convert type="ExtremeInfo">ViaEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget alphatest="blend" backgroundColor="background" pixmap="iFlatFHD/icons/ks1v4/conax.png" position="15,29" render="Pixmap" size="80,50" source="session.CurrentService" zPosition="4">
+    <convert type="ExtremeInfo">ConaxEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget alphatest="blend" backgroundColor="background" pixmap="iFlatFHD/icons/ks1v4/beta.png" position="15,29" render="Pixmap" size="80,50" source="session.CurrentService" zPosition="4">
+    <convert type="ExtremeInfo">BetaEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget alphatest="blend" backgroundColor="background" pixmap="iFlatFHD/icons/ks1v4/cryptoworks.png" position="15,29" render="Pixmap" size="80,50" source="session.CurrentService" zPosition="4">
+    <convert type="ExtremeInfo">CrwEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget alphatest="blend" backgroundColor="background" pixmap="iFlatFHD/icons/ks1v4/dre.png" position="15,29" render="Pixmap" size="80,50" source="session.CurrentService" zPosition="4">
+    <convert type="ExtremeInfo">DreamEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget alphatest="blend" backgroundColor="background" pixmap="iFlatFHD/icons/ks1v4/videoguard.png" position="15,29" render="Pixmap" size="80,50" source="session.CurrentService" zPosition="4">
+    <convert type="ExtremeInfo">NdsEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <!-- Cryptinfos -->
+     <widget source="session.CurrentService" render="FixedLabel" text="Channel @ Free to Air" font="Regular; 20" position="640,47" size="630,24" halign="center" foregroundColor="#FBC066" backgroundColor="background2" zPosition="10" transparent="1" valign="center">
+      <convert type="ExtremeInfo">Fta</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+   <eLabel text="B" font="Regular; 18" position="115,60" size="20,18" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" zPosition="1" />
+   <widget source="session.CurrentService" render="FixedLabel" text="B" font="Regular; 18" position="115,60" size="20,18" halign="center" foregroundColor="button_yellow" backgroundColor="background" zPosition="1" transparent="0" valign="center">
+    <convert type="ExtremeInfo">BetaCrypt</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget source="session.CurrentService" render="FixedLabel" text="B" font="Regular; 18" position="115,60" size="20,18" halign="center" foregroundColor="button_green" backgroundColor="background" zPosition="2" transparent="1" valign="center">
+    <convert type="ExtremeInfo">BetaEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <eLabel text="I" font="Regular; 18" position="137,60" size="20,18" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" zPosition="0" valign="center" />
+   <widget source="session.CurrentService" render="FixedLabel" text="I" font="Regular; 18" position="137,60" size="20,18" halign="center" foregroundColor="button_yellow" backgroundColor="background" zPosition="1" transparent="1" valign="center">
+    <convert type="ExtremeInfo">IrdCrypt</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget source="session.CurrentService" render="FixedLabel" text="I" font="Regular; 18" position="137,60" size="20,18" halign="center" foregroundColor="button_green" backgroundColor="background" zPosition="2" transparent="1" valign="center">
+    <convert type="ExtremeInfo">IrdEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <eLabel text="S" font="Regular; 18" position="159,60" size="20,18" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" zPosition="0" />
+   <widget source="session.CurrentService" render="FixedLabel" text="S" font="Regular; 18" position="159,60" size="20,18" halign="center" foregroundColor="button_yellow" backgroundColor="background" zPosition="1" transparent="1" valign="center">
+    <convert type="ExtremeInfo">SecaCrypt</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget source="session.CurrentService" render="FixedLabel" text="S" font="Regular; 18" position="159,60" size="20,18" halign="center" foregroundColor="button_green" backgroundColor="background" zPosition="2" transparent="1" valign="center">
+    <convert type="ExtremeInfo">SecaEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <eLabel text="V" font="Regular; 18" position="181,60" size="20,18" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" zPosition="0" />
+   <widget source="session.CurrentService" render="FixedLabel" text="V" font="Regular; 18" position="181,60" size="20,18" halign="center" foregroundColor="button_yellow" backgroundColor="background" zPosition="1" transparent="1" valign="center">
+    <convert type="ExtremeInfo">ViaCrypt</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget source="session.CurrentService" render="FixedLabel" text="V" font="Regular; 18" position="181,60" size="20,18" halign="center" foregroundColor="button_green" backgroundColor="background" zPosition="2" transparent="1" valign="center">
+    <convert type="ExtremeInfo">ViaEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <eLabel text="N" font="Regular; 18" position="203,60" size="20,18" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" zPosition="0" />
+   <widget source="session.CurrentService" render="FixedLabel" text="N" font="Regular; 18" position="203,60" size="20,18" halign="center" foregroundColor="button_yellow" backgroundColor="background" zPosition="1" transparent="1" valign="center">
+    <convert type="ExtremeInfo">NagraCrypt</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget source="session.CurrentService" render="FixedLabel" text="N" font="Regular; 18" position="203,60" size="20,18" halign="center" foregroundColor="button_green" backgroundColor="background" zPosition="2" transparent="1" valign="center">
+    <convert type="ExtremeInfo">NagraEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <eLabel text="CW" font="Regular; 18" position="225,60" size="33,18" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" zPosition="0" />
+   <widget source="session.CurrentService" render="FixedLabel" text="CW" font="Regular; 18" position="225,60" size="33,18" halign="center" foregroundColor="button_yellow" backgroundColor="background" zPosition="1" transparent="1" valign="center">
+    <convert type="ExtremeInfo">CrwCrypt</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget source="session.CurrentService" render="FixedLabel" text="CW" font="Regular; 18" position="225,60" size="33,18" halign="center" foregroundColor="button_green" backgroundColor="background" zPosition="2" transparent="1" valign="center">
+    <convert type="ExtremeInfo">CrwEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <eLabel text="ND" font="Regular; 18" position="260,60" size="31,18" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" />
+   <widget source="session.CurrentService" render="FixedLabel" text="ND" font="Regular; 18" position="260,60" size="31,18" halign="center" foregroundColor="button_yellow" backgroundColor="background" zPosition="1" transparent="1" valign="center">
+    <convert type="ExtremeInfo">NdsCrypt</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget source="session.CurrentService" render="FixedLabel" text="ND" font="Regular; 18" position="260,60" size="31,18" halign="center" foregroundColor="button_green" backgroundColor="background" zPosition="2" transparent="1" valign="center">
+    <convert type="ExtremeInfo">NdsEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <eLabel text="CO" font="Regular; 18" position="293,60" size="30,18" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" />
+   <widget source="session.CurrentService" render="FixedLabel" text="CO" font="Regular; 18" position="293,60" size="30,18" halign="center" foregroundColor="button_yellow" backgroundColor="background" zPosition="1" transparent="1" valign="center">
+    <convert type="ExtremeInfo">ConaxCrypt</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <widget source="session.CurrentService" render="FixedLabel" text="CO" font="Regular; 18" position="293,60" size="30,18" halign="center" foregroundColor="button_green" backgroundColor="background" zPosition="2" transparent="1" valign="center">
+    <convert type="ExtremeInfo">ConaxEcm</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+ <!-- CryptInfo End */-->  
+ <!--  /* Crypt Source Start  -->
+   <eLabel text="Card" font="Regular; 20" position="336,15" size="60,22" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" zPosition="0" />
+   <widget source="session.CurrentService" render="FixedLabel" text="Card" font="Regular; 20" position="336,15" size="60,22" halign="center" backgroundColor="background" foregroundColor="lightblue" zPosition="2" valign="center" transparent="1">
+    <convert type="CaidInfo2">Crd</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <eLabel text="Line" font="Regular; 20" position="336,43" size="60,22" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" zPosition="0" />
+   <widget source="session.CurrentService" render="FixedLabel" text="Line" font="Regular; 20" position="336,43" size="60,22" halign="center" backgroundColor="background" foregroundColor="button_yellow" zPosition="3" valign="center" transparent="1">
+    <convert type="CaidInfo2">Net</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+   <eLabel text="Emu" font="Regular; 20" position="336,70" size="60,22" halign="center" foregroundColor="icon_fgcoff" backgroundColor="background" transparent="0" valign="center" zPosition="0" />
+   <widget source="session.CurrentService" render="FixedLabel" text="Emu" font="Regular; 20" position="336,70" size="60,22" halign="center" backgroundColor="background" foregroundColor="button_red" zPosition="4" valign="center" transparent="1">
+    <convert type="CaidInfo2">Emu</convert>
+    <convert type="ConditionalShowHide" />
+   </widget>
+ <!--  Crypt Source End */  -->
+ <!-- InfoBar_v1.2_Eisman Stop -->
+ </screen>
+  
+  </skin>

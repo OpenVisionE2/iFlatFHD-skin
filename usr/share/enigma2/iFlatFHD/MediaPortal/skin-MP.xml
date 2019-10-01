@@ -1,0 +1,37 @@
+  <!-- Skin iFlatFHD_v5.4 by Nathanael-supportet by @gordon55 for VTi v11.x -->
+
+<skin>
+  <windowstyle id="0" type="skinned">
+    <title font="Regular;32" offset="15,2" />
+    <color name="Background" color="background" />
+    <color name="LabelForeground" color="foreground" />
+    <color name="ListboxBackground" color="background" />
+    <color name="ListboxForeground" color="foreground" />
+    <color name="ListboxMarkedBackground" color="background" />
+    <color name="ListboxMarkedForeground" color="foreground" />
+    <color name="ListboxMarkedAndSelectedBackground" color="red" />
+    <color name="ListboxMarkedAndSelectedForeground" color="foreground" />
+    <color name="ListboxSelectedBackground" color="selectionbarbackground" /> 
+    <color name="ListboxSelectedForeground" color="selectionbarforeground" />
+    <color name="WindowTitleForeground" color="foreground" />
+    <color name="WindowTitleBackground" color="background" />
+    <borderset name="bsWindow">
+      <pixmap filename="skins_1080/iFlatFHD/images/windows/b_t.png" pos="bpTop" />
+    </borderset>
+    <borderset name="bsListboxEntry">
+      <pixmap filename="skins_1080/iFlatFHD/images/line_select.png" pos="bpTop"/>
+      <pixmap filename="skins_1080/iFlatFHD/images/line_select.png" pos="bpBottom"/>
+    </borderset>
+  </windowstyle>
+
+  <mediaportal>
+    <color name="ThumbViewTextForeground" color="foreground" />
+    <overridefont font="Regular" />
+		<overridefontsize value="28" />
+		<overridesizefactor value="5" />
+	</mediaportal>
+       
+</skin>
+
+
+

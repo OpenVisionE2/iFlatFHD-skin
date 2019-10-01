@@ -1,0 +1,57 @@
+<skin>
+
+<!-- GlobalSearch -->
+    
+<screen name="GlobalSearchResults" position="0,0" size="1920,1080" title="Global Search" flags="wfNoBorder" backgroundColor="transparent">
+  <panel name="dateclock" />
+  <panel name="p_topbar" />
+  <panel name="p_bottombar" />
+  <panel name="p_centerbar1920" />
+  <panel name="p_color_labels" />
+  <panel name="0_914_1241_1" />
+  <panel name="1242_61_1_958" />
+  <widget source="category_title" render="GlobalSearchLabel" position="15,6" size="1200,50" font="Regular; 42" halign="left" valign="center" noWrap="1" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+  <widget name="item_channel" position="1254,85" size="300,40" font="Regular; 30" backgroundColor="background" transparent="1" halign="left" zPosition="2" />
+  <widget name="item_date" position="1580,84" size="325,40" font="Regular; 30" backgroundColor="background" transparent="1" halign="right" zPosition="2" />
+  <widget source="item_title" render="GlobalSearchLabel" position="30,85" size="1180,40" halign="left" valign="top" font="Regular;30" foregroundColor="foreground" backgroundColor="background" transparent="1" noWrap="0" zPosition="2" />
+  <widget source="item_description" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=105,startdelay=25000,wrap,always=0" position="1255,145" size="650,850" font="Regular; 30" foregroundColor="foreground" backgroundColor="background" transparent="1" />
+  <eLabel text="" position="30,950" size="40,40" font="SearchIcons;29" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="2" />
+  <widget source="searchstring" render="GlobalSearchLabel" position="100,950" size="500,40" font="Regular;32" halign="left" valign="top" noWrap="1" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="2" />
+  <eLabel text="" position="610,950" size="40,40" font="SearchIcons;29" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="2" />
+  <widget name="sources" position="650,940" size="220,60" viewMode="list_horizontal" aspectRatio="cd" itemSpace="0" useShadow="0" useOverlay="0" transparent="1" foregroundColor="foreground" backgroundColor="background" foregroundColorSelected="selectionbarforeground" backgroundColorSelected="selectionbarbackground" />
+  <eLabel text="" position="870,950" size="40,40" font="SearchIcons;29" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="2" />
+  <widget name="pages" position="920,950" size="300,40" font="Regular; 32" halign="right" valign="top" noWrap="1" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="2" />
+  <widget name="items" position="0,140" size="1240,760" transparent="1" zPosition="2" foregroundColor="foreground" backgroundColor="background" foregroundColorSelected="selectionbarforeground" backgroundColorSelected="selectionbarbackground" backgroundColorGlobal="background" viewMode="wall" itemSize="384,216" itemScale="100" itemSpace="20" useShadow="0" useOverlay="0" />
+  <!--
+    viewMode="wall" aspectRatio="screen" dimensions="3,2" itemScale="100" itemSpace="20" useShadow="0" useOverlay="0" />
+    -->
+  <widget name="wait" position="0,140" size="1240,760" zPosition="5" font="Regular;32" foregroundColor="foreground" backgroundColor="background" valign="center" halign="center" transparent="1" />
+  <eLabel name="button ch+-" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="CH +/-" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button ch+- bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button lr" position="1611,1036" size="60,30" backgroundColor="button_mbgc" text=" / " font="SearchIcons; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button lr bg" position="1610,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button vz" position="1689,1036" size="60,30" backgroundColor="button_mbgc" text=" / " font="SearchIcons; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button vz bg" position="1688,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button help" position="1534,1036" size="60,30" backgroundColor="button_mbgc" text="HELP " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button help bg" position="1533,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>
+
+<screen name="GlobalSearchConfigScreen" position="0,0" size="1920,1080" title="Global Search Setup" flags="wfNoBorder" backgroundColor="transparent">
+  <panel name="dateclock" />
+  <panel name="p_topbar" />
+  <panel name="p_bottombar" />
+  <panel name="p_centerbar960" />
+  <panel name="p_color_labels" />
+  <widget source="Title" render="Label" position="15,6" size="900,50" font="Regular; 42" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+  <widget name="config" backgroundColor="background" foregroundColor="foreground" position="30,75" size="900,920" itemHeight="40" font="Regular;28" secondfont="Regular;28" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" transparent="1" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button ext" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>
+
+</skin>

@@ -1,0 +1,19 @@
+<skin>
+
+
+    <screen name="IBTimeWidget">
+
+      <!-- /* Uhrzeit -->
+      <widget source="global.CurrentTime" render="Label" position="1708,903" size="160,55" font="Regular; 48" halign="right" foregroundColor="foreground" backgroundColor="background" transparent="1" valign="top">
+        <convert type="ClockToText"></convert>
+      </widget>
+      <!--widget source="global.CurrentTime" render="Label" position="1875,907" size="50,40" font="Regular; 28" halign="left" valign="top" foregroundColor="foreground" backgroundColor="background" transparent="1">
+        <convert type="ClockToText">Format:%S</convert>
+      </widget-->
+      <!-- Uhrzeit */-->
+
+    </screen>
+
+
+
+</skin>

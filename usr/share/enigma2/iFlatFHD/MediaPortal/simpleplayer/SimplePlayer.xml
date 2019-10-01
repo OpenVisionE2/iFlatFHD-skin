@@ -1,0 +1,52 @@
+<screen backgroundColor="transparent" flags="wfNoBorder" name="SimplePlayer" position="0,0" size="1920,1080">
+  <panel name="dateclock" />
+  <panel name="0_964_1920_1" />
+  <panel name="p_topbar" /> 
+  <widget name="Icon" position="59,980" scale="0" size="150,80" zPosition="1" alphatest="on" />
+  <widget backgroundColor="background" font="Regular; 27" halign="right" position="1380,1034" render="Label" size="100,30" source="session.CurrentService" transparent="1" zPosition="1">
+    <convert type="MPServicePosition">Position</convert>
+  </widget>
+  <widget position="270,1048" render="Progress" size="1100,5" foregroundColor="progress" source="session.CurrentService" transparent="1" zPosition="1">
+    <convert type="MPServicePosition">Position</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular; 27" halign="left" position="1504,1034" render="Label" size="100,30" source="session.CurrentService" transparent="1" zPosition="1">
+    <convert type="MPServicePosition">Length</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular; 58" halign="left" position="270,976" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=1500,always=0" size="1100,70" source="session.CurrentService" transparent="1" zPosition="1" foregroundColor="foreground">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <widget name="Cover" position="1644,606" size="250,330" zPosition="2" alphatest="blend" transparent="1" />
+  <eLabel backgroundColor="background" font="Regular; 27" halign="center" position="1491,1029" size="2,30" text="|" transparent="1" zPosition="1" />
+  <eLabel backgroundColor="progress_bg" name="new eLabel" position="270,1050" size="1100,1" zPosition="-1" />
+  <eLabel name="IB" position="0,1075" size="1920,5" zPosition="-10" backgroundColor="background4" />
+  <widget source="session.CurrentService" render="Label" position="1744,1020" size="160,46" font="Regular; 42" halign="right" backgroundColor="background" transparent="1" foregroundColor="foreground" zPosition="1">
+    <convert type="MPServicePosition">EndTime,ShowNoSeconds</convert>
+  </widget>
+  <eLabel name="InfoBar" position="0,962" size="1920,113" zPosition="-10" backgroundColor="background" />
+  <widget source="session.RecordState" position="1626,973" render="FixedLabel" text=" " size="30,20" backgroundColor="icon_record" zPosition="4">
+    <convert type="ConditionalShowHide" />
+  </widget>
+       <eLabel name="icon wide" position="1741,971" size="60,27" text="16:9" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+    <widget source="session.CurrentService" position="1741,971" size="60,27" render="FixedLabel" text="16:9" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="1" zPosition="2">
+      <convert type="ServiceInfo">IsWidescreen</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <eLabel name="icon ut" position="1668,971" size="60,27" text="SUB" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="1" zPosition="1" />
+    <widget source="session.CurrentService" position="1668,971" size="60,27" render="FixedLabel" text="SUB" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+      <convert type="ServiceInfo">SubtitlesAvailable</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget alphatest="blend" position="1644,606" render="Cover" size="250,330" source="session.CurrentService" zPosition="5" />
+    <widget foregroundColor="foreground" backgroundColor="background" font="Regular; 23" halign="center" position="1391,971" render="Label" size="200,27" source="session.CurrentService" transparent="1" valign="center">
+    <convert type="ServiceInfoEX">vsize</convert>
+  </widget> 
+   <widget source="session.CurrentService" position="1814,971" size="90,27" render="Label" font="Regular; 23" halign="center" valign="top" noWrap="1" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+      <convert type="iFlatAudioInfo">AudioInfo</convert>
+    </widget> 
+   <eLabel name="icon audio bg" position="1813,970" size="92,29" backgroundColor="icon_bg" zPosition="0" /> 
+   <eLabel name="icon wide bg" position="1740,970" size="62,29" backgroundColor="icon_bg" zPosition="0" />
+   <eLabel name="icon sub bg" position="1667,970" size="62,29" backgroundColor="icon_bg" zPosition="0" />
+  <widget name="seekbarcursor" position="270,1045" size="20,11" zPosition="4" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/skins_1080/iFlatFHD/images/seekbarcurser_standard.png" alphatest="on" />
+  <widget backgroundColor="background2" font="Regular; 42" halign="left" name="seekbartime" position="15,6" size="200,50" transparent="1" zPosition="1" foregroundColor="foreground3" />
+  <eLabel backgroundColor="background" font="Regular; 27" halign="right" position="1642,1033" size="135,30" text="Endet um" transparent="1" />
+</screen>

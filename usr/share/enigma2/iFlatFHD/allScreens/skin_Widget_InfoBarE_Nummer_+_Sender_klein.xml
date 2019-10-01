@@ -1,0 +1,22 @@
+<skin>
+
+
+	<screen name="IBNumberNameWidget">
+
+
+<eLabel name="icons" position="0,838" size="1920,37" zPosition="-10" backgroundColor="background" />
+  
+<!-- /* NumberNameklein -->
+  <widget font="Regular; 23" text="2222" foregroundColor="foreground" halign="left" noWrap="1" position="285,843" render="Label" size="62,27" source="session.CurrentService" transparent="1" valign="top" zPosition="10" backgroundColor="background">
+    <convert type="ExtendedServiceInfo">ServiceNumber</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular; 23" foregroundColor="foreground" halign="left" noWrap="1" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=1500,always=0" size="330,27" source="session.CurrentService" transparent="1" zPosition="10" position="347,843" valign="top">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+<!-- NumberNameklein */-->
+
+
+	</screen>
+
+
+</skin>

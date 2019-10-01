@@ -1,0 +1,16 @@
+<skin>
+
+
+    <screen name="IBRecWidget">
+
+      <!-- /* Record -->
+      <widget source="session.RecordState" position="1827,985" render="FixedLabel" text=" " size="65,10" backgroundColor="icon_record" zPosition="4">
+        <convert type="ConditionalShowHide" />
+      </widget>
+      <!-- Record */-->
+
+    </screen>
+
+
+
+</skin>

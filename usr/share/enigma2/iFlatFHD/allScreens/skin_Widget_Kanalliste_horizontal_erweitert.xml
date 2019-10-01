@@ -1,0 +1,35 @@
+<skin>
+
+
+	<screen name="chs_horInfos">
+
+  <!-- /* Kanalliste_horizontal -->
+<widget source="ServiceEvent" position="30,155" size="1153,220" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=95,startdelay=8000,wrap,always=0" font="Regular; 32" valign="top" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="1">
+    <convert type="EventName">FullDescription</convert>
+  </widget>
+  <eLabel name="IB" position="1198,90" size="702,305" zPosition="0" backgroundColor="background" />
+  <eLabel name="IB" position="20,90" size="1173,305" zPosition="0" backgroundColor="background" />
+  <widget source="ServiceEvent" position="1207,155" size="680,220" render="NextEvents" font="Regular;26" valign="top" noWrap="1" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="1">
+    <convert type="ServiceName">Reference</convert>
+  </widget>
+  <widget backgroundColor="background" font="Regular;36" foregroundColor="foreground2" position="30,100" render="VRunningText" options="movetype=running,startpoint=0,startdelay=4000,oneshot=3000,step=2,steptime=95,always=0,noWrap" size="1153,48" source="ServiceEvent" transparent="0" zPosition="1">
+  <convert type="EventName">Name</convert>
+</widget>
+<widget source="ServiceEvent" position="1207,108" size="110,30" render="Label" font="Regular; 25" halign="left" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="1">
+  <convert type="EventTime">StartTime</convert>
+  <convert type="ClockToText" />
+</widget>
+<widget source="ServiceEvent" position="1772,108" size="110,30" render="Label" font="Regular; 25" backgroundColor="background" foregroundColor="foreground" transparent="1" halign="right" zPosition="1">
+  <convert type="EventTime">EndTime</convert>
+  <convert type="ClockToText">Format:%H:%M</convert>
+</widget>
+<widget source="ServiceEvent" position="1300,120" size="486,5" render="Progress" foregroundColor="progress" transparent="1" zPosition="1">
+  <convert type="EventTime">Progress</convert>
+</widget>
+<eLabel name="progress_bg" position="1300,122" size="486,1" backgroundColor="progress_bg" />		
+  <!-- Kanalliste_horizontal */ -->
+   
+	</screen>
+
+
+</skin>

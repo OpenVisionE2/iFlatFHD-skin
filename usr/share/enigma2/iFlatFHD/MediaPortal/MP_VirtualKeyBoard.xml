@@ -1,0 +1,26 @@
+<screen name="VirtualKeyBoardExt" backgroundColor="transparent" position="0,0" size="1920,1080" zPosition="998" title="" flags="wfNoBorder">
+  <panel name="dateclock" />
+  <panel name="p_topbar" />
+  <panel name="p_bottombar" />
+  <panel name="p_centerbar960" />
+  <panel name="p_color_labels" />
+  <panel name="0_690_960_1" />
+  <panel name="0_945_960_1" />
+  <widget name="title" position="15,6" size="1120,50" font="Regular; 42" backgroundColor="background" foregroundColor="foreground3" zPosition="1" halign="left" valign="top" transparent="1" />
+  <widget source="country" render="Label" position="605,1037" size="280,36" font="Regular; 26" halign="center" valign="top" foregroundColor="foreground3" backgroundColor="background2" transparent="1" zPosition="1" />
+  <widget source="country" render="Pixmap" position="828,1025" size="57,42" alphatest="blend" borderWidth="0" borderColor="white">
+    <convert type="ValueToPixmap">LanguageCode</convert>
+  </widget>
+  <widget name="header" position="30,952" size="900,66" font="Regular; 28" transparent="1" noWrap="1" zPosition="1" valign="center" halign="center" />
+  <eLabel position="39,129" size="882,102" backgroundColor="line_s" zPosition="2" />
+  <widget name="text" position="40,130" size="880,100" font="Regular; 40" halign="left" foregroundColor="foreground" backgroundColor="background" transparent="0" zPosition="3" />
+  <widget name="list" position="90,334" size="780,250" itemHeight="50" foregroundColor="white" backgroundColor="background" transparent="0" zPosition="3" selectionDisabled="1" />
+  <eLabel position="87,331" size="786,256" backgroundColor="background" zPosition="2" />
+  <eLabel position="86,330" size="788,258" backgroundColor="line_s" zPosition="1" />
+  <widget name="captcha" position="30,720" size="300,200" transparent="1" alphatest="on" zPosition="1" />
+  <widget name="suggestionlist" position="350,720" size="590,200" itemHeight="40" foregroundColor="foreground" backgroundColor="background" selectionDisabled="1" transparent="1" scrollbarMode="showOnDemand" zPosition="1" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>

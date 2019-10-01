@@ -1,0 +1,9 @@
+﻿<skin>
+
+<!-- Movielist ohne backdrop  -->
+
+<screen name="show_backdrop" >
+    <eLabel position="0,0" size="1920,1080" backgroundColor="background" zPosition="-11" />
+</screen>
+
+</skin>

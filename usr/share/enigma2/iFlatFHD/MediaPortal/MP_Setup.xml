@@ -1,0 +1,20 @@
+<!-- hauptScreenSetup -->
+<screen name="hauptScreenSetup" position="center,center" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="dateclock" />
+    <panel name="p_topbar" />
+    <panel name="p_bottombar" />
+    <panel name="p_centerbar1200" />
+    <panel name="p_color_labels" />
+    <panel name="0_945_1200_1" />
+  <eLabel backgroundColor="background" font="Regular; 25" halign="center" position="30,952" size="1120,66" text="Grauzone u. Porno: Bei aktiviertem Plugin müssen/sollten auch die einzelnen Hoster weiter unten auf 'JA' gestellt werden um sichtbar zu sein! " transparent="1" />
+  <widget backgroundColor="background" foregroundColor="foreground" name="config" position="30,73" size="1140,840" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" transparent="1" itemHeight="40" font="Regular; 28" secondfont="Regular; 28" />
+  <widget name="title" position="15,6" size="1200,50" backgroundColor="background2" transparent="1" font="Regular;42" valign="center" halign="left" foregroundColor="foreground3" />
+  <widget name="F1" position="15,1037" size="280,35" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F2" position="310,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F3" position="605,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <widget name="F4" position="900,1037" size="280,36" transparent="1" font="Regular; 26" backgroundColor="background2" valign="bottom" halign="center" zPosition="1" foregroundColor="foreground3" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
+</screen>

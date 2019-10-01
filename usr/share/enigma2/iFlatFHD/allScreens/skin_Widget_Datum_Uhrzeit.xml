@@ -1,0 +1,20 @@
+<skin>
+
+	<screen name="dateclock">
+  
+<!-- /* DatumUhrzeit -->
+<widget source="global.CurrentTime" render="Label" position="1554,6" size="190,50" font="Regular; 42" halign="left" valign="top" foregroundColor="foreground3" backgroundColor="background2" transparent="1">
+  <convert type="ClockToText">WithSeconds</convert>
+</widget>	
+<widget backgroundColor="background2" font="Regular; 22" position="1354,25" render="Label" size="180,24" source="global.CurrentTime" transparent="1" valign="bottom" halign="right" zPosition="3" foregroundColor="foreground3">
+  <convert type="ClockToText">Format:%A</convert>
+</widget>
+<widget backgroundColor="background2" font="Regular; 22" position="1730,24" render="Label" size="180,24" source="global.CurrentTime" transparent="1" valign="bottom" halign="left" zPosition="3" foregroundColor="foreground3">
+  <convert type="ClockToText">Format:%d. %B</convert>
+</widget>
+<!-- DatumUhrzeit */-->
+   
+    
+	</screen>
+
+</skin>

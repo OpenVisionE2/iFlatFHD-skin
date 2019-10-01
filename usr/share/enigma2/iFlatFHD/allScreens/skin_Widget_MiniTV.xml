@@ -1,0 +1,112 @@
+<skin>
+
+	<!-- /* Kanalliste rechte Seite, MiniTV -->
+	<screen name="chs_description">
+
+		<widget source="ServiceEvent" position="1255,0" size="95,57" render="Picon" transparent="1" alphatest="blend" zPosition="2">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+
+		<eLabel position="1267,81" size="626,353" zPosition="2" backgroundColor="line_s" />
+		<widget source="session.VideoPicture" render="Pig" position="1268,82" size="624,351" OverScan="0" zPosition="3" backgroundColor="transparent">
+			<convert type="ConfigEntryTest">config.usage.use_pig,True,CheckSourceBoolean</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+
+		<widget source="ServiceEvent" position="1265,450" size="640,48" backgroundColor="background" foregroundColor="foreground2" font="Regular; 38" halign="left" valign="top"
+			render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=1500,always=0" transparent="0">
+			<convert type="EventName">Description</convert>
+		</widget>
+		<widget source="ServiceEvent" position="1265,510" size="640,452" font="Regular; 32" backgroundColor="background" foregroundColor="foreground" 
+		render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=75,startdelay=8000,wrap,always=0" transparent="0" valign="top">
+			<convert type="EventName">ExtendedDescription</convert>
+		</widget>
+
+		<widget source="ServiceEvent" position="1211,985" size="110,30" render="Label" font="Regular; 25" halign="right" backgroundColor="background" transparent="1">
+			<convert type="EventTime">StartTime</convert>
+			<convert type="ClockToText" />
+		</widget>
+		<widget source="ServiceEvent" position="1836,985" size="110,30" render="Label" font="Regular; 25" backgroundColor="background" transparent="1">
+			<convert type="EventTime">EndTime</convert>
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+		<widget source="ServiceEvent" position="1335,998" size="486,5" render="Progress" foregroundColor="progress" transparent="1" zPosition="1">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+		<eLabel name="progress_bg" position="1335,1000" size="486,1" backgroundColor="progress_bg" />
+	</screen>
+	<!-- Kanalliste rechte Seite, MiniTV */ -->
+
+	<!-- /* EPGSelection rechte Seite, MiniTV -->
+	<screen name="EPGselection_rechts">
+		<widget source="Service" render="Picon" position="1255,0" size="95,57" transparent="1" alphatest="blend" zPosition="2">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+		<eLabel position="1267,81" size="626,353" zPosition="2" backgroundColor="line_s" />
+		<widget source="session.VideoPicture" render="Pig" position="1268,82" size="624,351" OverScan="0" zPosition="3" backgroundColor="transparent">
+			<convert type="ConfigEntryTest">config.usage.use_pig,True,CheckSourceBoolean</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+
+		<widget source="Event" position="1265,450" size="640,48" backgroundColor="background" foregroundColor="foreground2" font="Regular; 38" halign="left" valign="top" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=1500,always=0" transparent="0">
+			<convert type="EventName">Description</convert>
+		</widget>
+
+		<widget source="Event" position="1265,510" size="640,450" font="Regular; 32" backgroundColor="background" foregroundColor="foreground" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=75,startdelay=8000,wrap,always=0" transparent="0" valign="top">
+			<convert type="EventName">ExtendedDescription</convert>
+		</widget>
+
+		<widget source="Event" render="Label" position="1211,985" size="110,30" font="Regular; 25" halign="right" backgroundColor="background" transparent="1" zPosition="2">
+			<convert type="EventTime">StartTime</convert>
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget source="Event" render="Label" position="1836,985" size="110,30" font="Regular; 25" halign="left" backgroundColor="background" transparent="1" zPosition="2">
+			<convert type="EventTime">EndTime</convert>
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<eLabel name="progress_bg" position="1335,1000" size="486,1" backgroundColor="progress_bg" />
+		<widget source="Event" render="Progress" position="1335,998" size="486,5" foregroundColor="progress" transparent="1" zPosition="1">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+	</screen>
+	<!-- EPGSelection rechte Seite, MiniTV */ -->
+
+	<!-- /* Timer Editor rechte Seite, MiniTV -->
+	<screen name="TimerEdit_rechts">
+
+		<widget source="ServiceEvent" position="1255,0" size="95,57" render="Picon" transparent="1" alphatest="blend" zPosition="2">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+
+		<eLabel position="1267,81" size="626,353" backgroundColor="line_s" zPosition="2" />
+		<widget source="session.VideoPicture" position="1268,82" size="624,351" render="Pig" backgroundColor="transparent" zPosition="3" OverScan="0">
+			<convert type="ConfigEntryTest">config.usage.use_pig,True,CheckSourceBoolean</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+
+		<widget source="Event" position="1265,450" size="640,48" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=3500,always=0" font="Regular; 38" halign="left" valign="top" foregroundColor="foreground2" backgroundColor="background" transparent="0">
+			<convert type="EventName">Description</convert>
+		</widget>
+		<widget source="Event" position="1265,510" size="640,452" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=75,startdelay=8000,wrap,always=0" font="Regular; 32" valign="top" foregroundColor="foreground" backgroundColor="background" transparent="0">
+			<convert type="EventName">ExtendedDescription</convert>
+		</widget>
+
+		<widget source="Event" position="1211,985" size="110,30" render="Label" font="Regular; 25" halign="right" backgroundColor="background" transparent="1">
+			<convert type="EventTime">StartTime</convert>
+			<convert type="ClockToText" />
+		</widget>
+		<widget source="Event" position="1836,985" size="110,30" render="Label" font="Regular; 25" backgroundColor="background" transparent="1">
+			<convert type="EventTime">EndTime</convert>
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+		<eLabel name="progress_bg" position="1335,1000" size="486,1" backgroundColor="progress_bg" />
+		<widget source="Event" position="1335,998" size="486,5" render="Progress" foregroundColor="progress" transparent="1" zPosition="1">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+
+	</screen>
+	<!-- Timer Editor rechte Seite, MiniTV */-->
+
+</skin>
+
+	
