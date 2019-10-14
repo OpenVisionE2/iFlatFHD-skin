@@ -2920,7 +2920,7 @@ self.instance.resize(eSize(*wsize))
     <panel name="0_59_1920_1" />
     <panel name="0_1020_1920_1" />
     <widget name="waitingtext" position="0,61" size="1241,958" zPosition="10" font="Regular;38" backgroundColor="background" foregroundColor="foreground" halign="center" valign="center" />
-    <widget source="global.CurrentTime" render="Label" position="1470,19" size="250,37" font="Regular; 26" halign="right" valign="top" backgroundColor="background" transparent="1">
+    <widget source="global.CurrentTime" render="Label" position="1400,19" size="320,37" font="Regular; 26" halign="right" valign="top" backgroundColor="background" transparent="1">
       <convert type="ClockToText">FullDate</convert>
     </widget>
     <widget source="global.CurrentTime" render="Label" position="1700,4" size="160,50" font="Regular; 42" halign="right" backgroundColor="background" transparent="1" valign="top">
@@ -2945,26 +2945,21 @@ self.instance.resize(eSize(*wsize))
     <widget source="Service" position="1740,930" size="140,35" render="Label" font="Regular; 28" halign="right" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="1">
       <convert type="MovieInfo">FileSize</convert>
     </widget>
-    <widget name="list" position="30,125" size="1200,700" font="Regular; 32" itemHeight="40" foregroundColor="foreground" backgroundColor="background" transparent="1" UnwatchedColor="movie_unwatched" WatchingColor="movie_watching" FinishedColor="movie_finished" RecordingColor="movie_recording" SelectedColor="movie_selected" ScrambledColor="movie_scrambled" enableWrapAround="1" scrollbarMode="showNever" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" />
-    <widget source="Title" position="30,830" size="1200,40" render="Label" font="Regular; 28" halign="left" valign="center" foregroundColor="foreground" backgroundColor="background" transparent="1" />
-    <widget source="Service" position="30,880" size="1200,130" alphatest="blend" render="Label" foregroundColor="foreground" backgroundColor="transparent" valign="top">
+    <widget name="list" position="30,125" size="1200,700" font="Regular; 30" itemHeights="100,75,45" fontSizesOriginal="30,26,24" fontSizesCompact="32,26" fontSizesMinimal="30,28" pbarShift="12" pbarHeight="22" pbarLargeWidth="72" spaceRight="3" columnsOriginal="270,300" columnsCompactDescription="240,220,240" compactColumn="300" treeDescription="250" partIconeShiftMinimal="8" partIconeShiftCompact="5" partIconeShiftOriginal="5" iconsWidth="33" spaceIconeText="6" trashShift="4" dirShift="3" foregroundColor="foreground" backgroundColor="background" transparent="1" />
+    <widget source="Title" position="30,830" size="1200,40" render="Label" font="Regular; 35" halign="left" valign="center" foregroundColor="foreground" backgroundColor="background" transparent="1" />
+    <widget source="Service" position="30,880" size="1200,130" font="Regular; 28" alphatest="blend" render="Label" foregroundColor="foreground" backgroundColor="background" valign="top">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <widget source="Service" position="1293,775" size="590,70" render="Label" font="Regular; 28" halign="center" foregroundColor="foreground" backgroundColor="background" transparent="1">
       <convert type="MovieInfo">ShortDescription</convert>
     </widget>
-    <widget source="Service" position="1350,125" size="470,620" render="Cover" backgroundColor="background" transparent="1" alphatest="blend" zPosition="4" />
-    <widget name="freeDiskSpace" position="333,16" size="900,40" font="Regular; 25" halign="right" foregroundColor="foreground" backgroundColor="background" transparent="1" />
-    <widget name="key_red" position="15,1023" size="280,47" font="Regular; 22" halign="center" valign="center" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="1" />
-    <widget name="key_green" position="310,1023" size="280,47" font="Regular; 22" halign="center" valign="center" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="1" />
-    <widget name="key_yellow" position="605,1023" size="280,47" font="Regular; 22" halign="center" valign="center" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="1" />
-    <widget name="key_blue" position="900,1023" size="280,47" font="Regular; 22" halign="center" valign="center" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="1" />
-    <eLabel name="button menu" position="1689,1036" size="60,30" text="MENU" font="Regular; 17" halign="center" valign="center" backgroundColor="background" zPosition="1" transparent="1" />
-    <eLabel name="button OK" position="1766,1036" size="60,30" text="OK" font="Regular; 17" halign="center" valign="center" backgroundColor="background" zPosition="1" transparent="1" />
-    <eLabel name="button ext" position="1843,1036" size="60,30" text="EXIT " font="Regular; 17" halign="center" valign="center" backgroundColor="background" zPosition="1" transparent="1" />
-    <eLabel name="button help" position="1613,1036" size="60,30" text="HELP" font="Regular; 17" halign="center" valign="center" backgroundColor="background" zPosition="1" transparent="1" />
-    <eLabel name="button epg" position="1538,1036" size="60,30" text="EPG" font="Regular; 17" halign="center" valign="center" backgroundColor="background" transparent="1" zPosition="1" />
-    <eLabel name="button ch+-" position="1463,1036" size="60,30" backgroundColor="button_mbgc" text="CH +/- " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+    <widget name="freeDiskSpace" position="333,16" size="900,40" font="Regular; 28" halign="right" foregroundColor="foreground" backgroundColor="background" transparent="1" />
+    <eLabel name="button menu" position="1689,1036" size="60,30" text="MENU" font="Regular; 22" halign="center" valign="center" backgroundColor="background" zPosition="1" transparent="1" />
+    <eLabel name="button OK" position="1766,1036" size="60,30" text="OK" font="Regular; 22" halign="center" valign="center" backgroundColor="background" zPosition="1" transparent="1" />
+    <eLabel name="button ext" position="1843,1036" size="60,30" text="EXIT " font="Regular; 22" halign="center" valign="center" backgroundColor="background" zPosition="1" transparent="1" />
+    <eLabel name="button help" position="1613,1036" size="60,30" text="HELP" font="Regular; 22" halign="center" valign="center" backgroundColor="background" zPosition="1" transparent="1" />
+    <eLabel name="button epg" position="1538,1036" size="60,30" text="EPG" font="Regular; 22" halign="center" valign="center" backgroundColor="background" transparent="1" zPosition="1" />
+    <eLabel name="button ch+-" position="1463,1036" size="60,30" backgroundColor="button_mbgc" text="CH +/- " font="Regular; 22" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
     <eLabel name="button ch+- bg" position="1462,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
     <eLabel name="button epg bg" position="1537,1035" size="62,1" backgroundColor="button_mbg" zPosition="0" />
     <eLabel name="button epg bg" position="1537,1066" size="62,1" backgroundColor="button_mbg" zPosition="0" />
@@ -2986,11 +2981,15 @@ self.instance.resize(eSize(*wsize))
     <eLabel name="button ext bg" position="1842,1066" size="62,1" backgroundColor="button_mbg" zPosition="0" />
     <eLabel name="button ext bg" position="1842,1035" size="1,32" backgroundColor="button_mbg" zPosition="0" />
     <eLabel name="button ext bg" position="1903,1035" size="1,32" backgroundColor="button_mbg" zPosition="0" />
-    <widget name="ServicePath" position="30,63" size="1200,53" font="Regular; 24" backgroundColor="background" valign="center" halign="left" transparent="1" />
-    <!--<widget name="key_red_long" position="1545,729" size="300,66" foregroundColor="foreground3" zPosition="1" font="Regular;26" halign="center" valign="top" backgroundColor="background2" transparent="1" />
-  <widget name="key_green_long" position="1545,804" size="300,66" foregroundColor="foreground3" zPosition="1" font="Regular;26" halign="center" valign="top" backgroundColor="background2" transparent="1" />
-  <widget name="key_yellow_long" position="1545,879" size="300,66" foregroundColor="foreground3" zPosition="1" font="Regular;26" halign="center" valign="top" backgroundColor="background2" transparent="1" />
-  <widget name="key_blue_long" position="1545,954" size="300,66" foregroundColor="foreground3" zPosition="1" font="Regular;26" halign="center" valign="top" backgroundColor="background2" transparent="1" />-->
+    <widget name="ServicePath" position="30,63" size="1200,53" font="Regular; 28" backgroundColor="background" valign="center" halign="left" transparent="1" />
+  <widget objectTypes="key_red,Label,Button" backgroundColor="background2" foregroundColor="foreground" font="Regular; 26" halign="center" position="15,1023" size="280,36" name="key_red" transparent="1" valign="bottom" />
+  <widget objectTypes="key_red,StaticText" source="key_red" render="Label" position="15,1023" size="280,36" backgroundColor="background2" foregroundColor="foreground" zPosition="2" transparent="1" font="Regular;26" halign="center"/>
+  <widget objectTypes="key_green,Label,Button" backgroundColor="background2" foregroundColor="foreground" font="Regular; 26" halign="center" position="310,1023" size="280,36" name="key_green" transparent="1" valign="bottom" />
+  <widget objectTypes="key_red,StaticText" source="key_green" render="Label" position="310,1023" size="280,36" backgroundColor="background2" foregroundColor="foreground" zPosition="2" transparent="1" font="Regular;26" halign="center"/>
+  <widget objectTypes="key_yellow,Label,Button" backgroundColor="background2" foregroundColor="foreground" font="Regular; 26" halign="center" position="605,1023" size="280,36" name="key_yellow" transparent="1" valign="bottom" />
+  <widget objectTypes="key_red,StaticText" source="key_yellow" render="Label" position="605,1023" size="280,36" backgroundColor="background2" foregroundColor="foreground" zPosition="2" transparent="1" font="Regular;26" halign="center"/>
+  <widget objectTypes="key_blue,Label,Button" backgroundColor="background2" foregroundColor="foreground" font="Regular; 26" halign="center" position="900,1023" size="280,36" name="key_blue" transparent="1" valign="bottom" />
+  <widget objectTypes="key_red,StaticText" source="key_blue" render="Label" position="900,1023" size="280,36" backgroundColor="background2" foregroundColor="foreground" zPosition="2" transparent="1" font="Regular;26" halign="center"/>
   </screen>
   <screen name="MovieContextMenu" position="0,0" size="1920,1080" title="Movielist menu" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="dateclock" />
