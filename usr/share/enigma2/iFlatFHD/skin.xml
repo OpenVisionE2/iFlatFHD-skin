@@ -1667,9 +1667,7 @@
   </screen>
   <screen name="MessageBox" position="310,310" size="1300,10" title="Message" backgroundColor="background">
     <widget name="text" position="110,20" size="1180,0" font="Regular;32" foregroundColor="foreground" backgroundColor="background" transparent="1" />
-    <widget name="ErrorPixmap" position="30,15" size="53,53" pixmap="iFlatFHD/icons/message/input_error.png" alphatest="blend" />
-    <widget name="QuestionPixmap" position="30,15" size="53,53" pixmap="iFlatFHD/icons/message/input_question.png" alphatest="blend" />
-    <widget name="InfoPixmap" position="30,15" size="53,53" pixmap="iFlatFHD/icons/message/input_info.png" alphatest="blend" />
+    <widget name="icon" position="30,15" size="53,53" pixmap="icons/message/input_info.png,icons/message/input_question.png,icons/message/input_error.png" alphatest="blend" />
     <widget name="list" position="20,95" size="1260,400" itemHeight="40" font="Regular;28" foregroundColor="foreground" backgroundColor="background" transparent="1" />
     <applet type="onLayoutFinish">
 # this should be factored out into some helper code,but currently demonstrates applets.
