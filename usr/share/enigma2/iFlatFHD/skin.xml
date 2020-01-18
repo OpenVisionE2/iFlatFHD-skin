@@ -210,6 +210,8 @@
     <sub name="Subtitle_Italic" font="Regular;30" foregroundColor="subtitle" shadowColor="shadow" shadowOffset="3,3" />
   </subtitles>
   <parameters>
+    <!-- Allow OnlyIcon -->
+    <parameter name="AllowUseOnlyIcon" value="1"/>
     <!-- Allow User Dates And Times -->
     <parameter name="AllowUserDatesAndTimes" value="1,1" />
     <!-- AudioSelection - slider separation -->
