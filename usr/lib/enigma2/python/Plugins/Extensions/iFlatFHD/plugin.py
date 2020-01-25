@@ -20,7 +20,6 @@ from Screens.Screen import Screen
 from Screens.Standby import TryQuitMainloop
 from Tools.Directories import *
 from Tools.LoadPixmap import LoadPixmap
-from Tools.Directories import resolveFilename
 from inits import PluginLanguagePath, iFlatFHDInfo, SkinPath
 from debug import printDEBUG
 from Components.Console import Console as iConsole
@@ -585,7 +584,7 @@ class iFlatFHD_Config(Screen, ConfigListScreen):
         if sel is not None and sel == self.set_new_skin:
             self.openSkinSelector()
         elif sel is not None and sel == self.find_city:
-            countriesFile='/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/countries'
+            countriesFile = resolveFilename(SCOPE_PLUGINS, 'Extensions/RaedQuickSignal/countries')
             countries=open(countriesFile).readlines()
             clist=[]
             for country in countries:
