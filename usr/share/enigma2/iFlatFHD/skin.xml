@@ -3828,7 +3828,7 @@ self.instance.resize(eSize(*wsize))
     <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
   </screen>
   <screen name="Standby" position="0,0" size="1920,1080" title="Standby" flags="wfNoBorder" backgroundColor="black" />
-  <screen backgroundColor="transparent" flags="wfNoBorder" name="Ipkg" position="0,0" size="1920,1080" title="Installing Software...">
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="Opkg" position="0,0" size="1920,1080" title="Installing Software...">
     <panel name="dateclock" />
     <panel name="p_topbar" />
     <panel name="p_bottombar" />
@@ -3846,14 +3846,14 @@ self.instance.resize(eSize(*wsize))
     <eLabel name="button ext" position="1843,1036" size="60,30" text="EXIT " font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
     <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
   </screen>
-  <screen backgroundColor="transparent" flags="wfNoBorder" name="IpkgInstaller" position="0,0" size="1920,1080" title="...">
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="OpkgInstaller" position="0,0" size="1920,1080" title="...">
     <panel name="dateclock" />
     <panel name="p_topbar" />
     <panel name="p_bottombar" />
     <panel name="p_centerbar960" />
     <panel name="p_color_labels" />
     <panel name="0_945_960_1" />
-    <eLabel backgroundColor="background2" font="Regular; 42" foregroundColor="foreground3" halign="left" position="15,6" size="900,50" text="IpkgInstaller" transparent="1" />
+    <eLabel backgroundColor="background2" font="Regular; 42" foregroundColor="foreground3" halign="left" position="15,6" size="900,50" text="OpkgInstaller" transparent="1" />
     <widget enableWrapAround="1" itemHeight="40" backgroundColor="background" foregroundColor="foreground" font="Regular;28" name="list" position="30,75" scrollbarMode="showOnDemand" size="900,840" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" transparent="1" />
     <widget backgroundColor="background" font="Regular; 28" halign="center" position="30,952" render="Label" size="900,66" source="introduction" transparent="1" valign="center" />
     <widget name="key_red" position="15,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
@@ -3863,7 +3863,7 @@ self.instance.resize(eSize(*wsize))
     <eLabel name="button ext" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
     <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
   </screen>
-  <screen backgroundColor="transparent" flags="wfNoBorder" name="IPKGMenu" position="0,0" size="1920,1080" title="IPKGMenu">
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="OPKGMenu" position="0,0" size="1920,1080" title="OPKGMenu">
     <panel name="dateclock" />
     <panel name="p_topbar" />
     <panel name="p_bottombar" />
@@ -3878,7 +3878,7 @@ self.instance.resize(eSize(*wsize))
     <eLabel name="button ext" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
     <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
   </screen>
-  <screen backgroundColor="transparent" flags="wfNoBorder" name="IPKGSource" position="0,0" size="1920,1080" title="IPKGSource">
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="OPKGSource" position="0,0" size="1920,1080" title="OPKGSource">
     <panel name="dateclock" />
     <panel name="p_topbar" />
     <panel name="p_bottombar" />
