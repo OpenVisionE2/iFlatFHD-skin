@@ -679,7 +679,7 @@ class iFlatFHD_Config(Screen, ConfigListScreen):
 		if cur_skin == "skin.xml":
 			self.restartGUI()
 		else:
-			self.getInitConfig()
+			#self.getInitConfig()
 			self.createConfigList()
 
     def iFlatFHDScreesnCB(self):
