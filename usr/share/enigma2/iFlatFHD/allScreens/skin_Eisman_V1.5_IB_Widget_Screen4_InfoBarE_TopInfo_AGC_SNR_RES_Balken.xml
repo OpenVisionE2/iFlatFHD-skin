@@ -22,10 +22,10 @@
  <!-- SATInfo End -->
  <!-- BoxInfo Start -->
     <widget backgroundColor="background" foregroundColor="foreground"  font="Regular; 18" halign="right" position="663,51" render="Label" size="185,24" source="session.CurrentService" valign="center" zPosition="11">
-		 <convert type="">FreeFlash</convert>
+		 <convert type="ProgressDiskSpaceInfo">FreeFlash</convert>
     </widget>        
     <widget backgroundColor="background" foregroundColor="foreground"  font="Regular; 18" halign="right" position="866,51" render="Label" size="185,24" source="session.CurrentService" valign="center" zPosition="11">
-		 <convert type="">MemInfo</convert>
+		 <convert type="ProgressDiskSpaceInfo">MemInfo</convert>
     </widget>
  <!-- BoxInfo End -->	
  <!-- /* NumberNameklein -->
