@@ -10862,33 +10862,42 @@ MultiContentEntryText(pos = (0, 35), size = (1110, 97), font=2, flags = RT_HALIG
 </screen>
 	<!-- Memory Info -->
 	<screen name="MemoryInfo" position="fill" flags="wfNoBorder">
-				<widget source="session.VideoPicture" render="Pig" position="30,120" size="720,405" backgroundColor="transparent" zPosition="1"/>
-		<widget source="session.CurrentService" render="Label" position="30,90" size="720,32" zPosition="1" foregroundColor="foreground" font="Regular;25" borderColor="black" noWrap="1" valign="center" halign="center">
+	<widget source="session.VideoPicture" render="Pig" position="30,120" size="720,405" backgroundColor="transparent" zPosition="1"/>
+	<widget source="session.CurrentService" render="Label" position="30,90" size="720,32" zPosition="1" foregroundColor="foreground" font="Regular;25" borderColor="black" noWrap="1" valign="center" halign="center">
 			<convert type="ServiceName">Name</convert>
-		</widget>
+	</widget>
 
-		<widget name="lmemtext"  font="Regular;30" position="780,100" size="450,910" zPosition="1" halign="left" backgroundColor="background" transparent="1"/>
-		<widget name="lmemvalue" font="Regular;30" position="780,100" size="450,910" zPosition="2" halign="right" backgroundColor="background" transparent="1"/>
-		<widget name="rmemtext"  font="Regular;30" position="1440,100" size="450,910" zPosition="1" halign="left" backgroundColor="background" transparent="1"/>
-		<widget name="rmemvalue" font="Regular;30" position="1440,100" size="450,910" zPosition="2" halign="right" backgroundColor="background" transparent="1"/>
-		<widget name="pfree" position="1214,303" size="105,30" font="Regular;21" zPosition="1" halign="right" backgroundColor="background" transparent="1"/>
-		<widget name="pused" position="1214,787" size="105,30" font="Regular;21" zPosition="1" halign="right" backgroundColor="background" transparent="1"/>
-		<widget name="slide" position="1327,105" size="20,900" render="Progress" zPosition="1" borderWidth="1" orientation="orBottomToTop"/>
-		<widget name="info" position="30,600" size="720,225" font="Regular;30" zPosition="1" halign="left" backgroundColor="background" transparent="1"/>
-		<widget name="params" rowsincolumn="26"/>
-  <eLabel name="button_red" position="15,1070" size="280,4" backgroundColor="button_red" zPosition="1" />
-  <eLabel name="button_green" position="310,1070" size="280,4" backgroundColor="button_green" zPosition="1" />
-  <eLabel name="button_yellow" position="605,1070" size="280,4" backgroundColor="button_yellow" zPosition="1" />
-  <eLabel name="button_blue" position="900,1070" size="280,4" backgroundColor="button_blue" zPosition="1" />
-  <eLabel name="DB" position="0,1023" size="1920,57" zPosition="-10" backgroundColor="background2" />
-  <eLabel name="DB" position="0,56" size="960,967" zPosition="-10" backgroundColor="background" />
-  <eLabel name="DB" position="0,0" size="1920,57" zPosition="-10" backgroundColor="background2" />
-  <eLabel name="DB" position="960,1018" size="960,5" zPosition="-10" backgroundColor="background" />
-  <eLabel name="DB" position="960,57" size="960,5" zPosition="-10" backgroundColor="background" />
-  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="15,1037" size="280,36" name="key_red" transparent="1" valign="bottom" />
-  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="310,1037" size="280,36" name="key_green" transparent="1" valign="bottom" />
-  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="605,1037" size="280,36" name="key_yellow" transparent="1" valign="bottom" />
-  <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="900,1037" size="280,36" name="key_blue" transparent="1" valign="bottom" />
-  <!-- /*Lines-->
+	<widget name="lmemtext"  font="Regular;30" position="780,100" size="450,910" zPosition="1" halign="left" backgroundColor="background" transparent="1"/>
+	<widget name="lmemvalue" font="Regular;30" position="780,100" size="450,910" zPosition="2" halign="right" backgroundColor="background" transparent="1"/>
+	<widget name="rmemtext"  font="Regular;30" position="1440,100" size="450,910" zPosition="1" halign="left" backgroundColor="background" transparent="1"/>
+	<widget name="rmemvalue" font="Regular;30" position="1440,100" size="450,910" zPosition="2" halign="right" backgroundColor="background" transparent="1"/>
+	<widget name="pfree" position="1214,303" size="105,30" font="Regular;21" zPosition="1" halign="right" backgroundColor="background" transparent="1"/>
+	<widget name="pused" position="1214,787" size="105,30" font="Regular;21" zPosition="1" halign="right" backgroundColor="background" transparent="1"/>
+	<widget name="slide" position="1327,105" size="20,900" render="Progress" zPosition="1" borderWidth="1" orientation="orBottomToTop"/>
+	<widget name="info" position="30,600" size="720,225" font="Regular;30" zPosition="1" halign="left" backgroundColor="background" transparent="1"/>
+	<widget name="params" rowsincolumn="26"/>
+	<eLabel name="button_red" position="15,1070" size="280,4" backgroundColor="button_red" zPosition="1" />
+	<eLabel name="button_green" position="310,1070" size="280,4" backgroundColor="button_green" zPosition="1" />
+	<eLabel name="button_yellow" position="605,1070" size="280,4" backgroundColor="button_yellow" zPosition="1" />
+	<eLabel name="button_blue" position="900,1070" size="280,4" backgroundColor="button_blue" zPosition="1" />
+	<eLabel name="DB" position="0,1023" size="1920,57" zPosition="-10" backgroundColor="background2" />
+	<eLabel name="DB" position="0,56" size="960,967" zPosition="-10" backgroundColor="background" />
+	<eLabel name="DB" position="0,0" size="1920,57" zPosition="-10" backgroundColor="background2" />
+	<eLabel name="DB" position="960,1018" size="960,5" zPosition="-10" backgroundColor="background" />
+	<eLabel name="DB" position="960,57" size="960,5" zPosition="-10" backgroundColor="background" />
+	<widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="15,1037" size="280,36" name="key_red" transparent="1" valign="bottom" />
+	<widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="310,1037" size="280,36" name="key_green" transparent="1" valign="bottom" />
+	<widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="605,1037" size="280,36" name="key_yellow" transparent="1" valign="bottom" />
+	<widget backgroundColor="background2" foregroundColor="foreground3" font="Regular; 26" halign="center" position="900,1037" size="280,36" name="key_blue" transparent="1" valign="bottom" />
+	</screen>
+	<!-- DVB Information -->
+	<screen name="DVBInformation" title="DVB information" backgroundColor="#60000000" flags="wfNoBorder" position="center,center" size="1416,882">
+		<eLabel text="DVB information" font="Regular;40" backgroundColor="#60000000" foregroundColor="#00ffffff" position="27,8" size="1375,50" transparent="1"/>
+		<widget name="AboutScrollLabel" itemHeight="50" font="Regular;35" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="#60000000" foregroundColor="#00ffffff" position="10,66" size="1396,805" transparent="1"/>
+	</screen>
+	<!-- OpenVision Information -->
+	<screen name="OpenVisionInformation" title="Open Vision information" backgroundColor="#60000000" flags="wfNoBorder" position="center,center" size="1416,882">
+		<eLabel text="Open Vision information" font="Regular;40" backgroundColor="#60000000" foregroundColor="#00ffffff" position="27,8" size="1375,50" transparent="1"/>
+		<widget name="AboutScrollLabel" itemHeight="50" font="Regular;35" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="#60000000" foregroundColor="#00ffffff" position="10,66" size="1396,805" transparent="1"/>
 	</screen>
 </skin>
