@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+# -*- coding: utf-8 -*-
 
 from Tools.Directories import fileExists
 from Components.Converter.Converter import Converter

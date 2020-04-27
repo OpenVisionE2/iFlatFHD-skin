@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+from __future__ import print_function
 from enigma import iPlayableService
 from Components.Converter.Converter import Converter
 from Components.Element import cached
@@ -65,8 +67,8 @@ class iFlatAudioInfo(Poll, Converter, object):
 			languages = self.getLanguage()
 			description = self.audio_info.getDescription();
 			description_str = description.split(" ")
-			#print "iFlatAudioInfo description_str=", description_str
-			#print "iFlatAudioInfo languages=", languages
+			#print("iFlatAudioInfo description_str=", description_str)
+			#print("iFlatAudioInfo languages=", languages)
 			if len(description_str) and description_str[0].lower() in languages.lower():
 				return languages.title()
 			if description.lower() in languages.lower():
@@ -80,7 +82,7 @@ class iFlatAudioInfo(Poll, Converter, object):
 
 	def getAudioInfo(self,info):
 		description_str = self.getAudioCodec(info).translate(None,' .').lower()
-		#print "iFlatAudioInfo description_str2=", description_str
+		#print("iFlatAudioInfo description_str2=", description_str)
 		for return_codec, codecs in sorted(self.codecs.iteritems()):
 			for codec in codecs:
 				if codec in description_str:
@@ -93,11 +95,11 @@ class iFlatAudioInfo(Poll, Converter, object):
 								codec += ex_codec
 								#codec = codec + " " + ex_codec						# insert blank 
 								break
-					#print "iFlatAudioInfo codec0=", codec
+					#print("iFlatAudioInfo codec0=", codec)
 					codec = codec.replace("dolbydigitalplus","DD+")	
 					codec = codec.replace("dolbydigital","DD")
 					codec = codec.upper()
-					#print "iFlatAudioInfo codec1=", codec
+					#print("iFlatAudioInfo codec1=", codec)
 					return codec
 					
 		return " "
