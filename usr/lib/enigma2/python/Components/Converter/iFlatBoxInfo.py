@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from __future__ import division
 from Components.Converter.Converter import Converter
 from Components.Element import cached
 from Components.Sensors import sensors
@@ -67,7 +66,7 @@ class iFlatBoxInfo(Poll, Converter, object):
             mem_info = None
 
         if mem_info is not None:
-            return 'MemFree: %s MB' % (mem_info // 1024)
+            return 'MemFree: %s MB' % (mem_info / 1024)
 
     def getFreeFlash(self):
         try:
@@ -77,7 +76,7 @@ class iFlatBoxInfo(Poll, Converter, object):
             flash_info = None
 
         if flash_info is not None:
-            free_flash = int(flash_info.f_frsize * flash_info.f_bavail // 1024 // 1024)
+            free_flash = int(flash_info.f_frsize * flash_info.f_bavail / 1024 / 1024)
             return 'FlashFree: %s MB' % free_flash
 
     def getUptime(self):
@@ -93,9 +92,9 @@ class iFlatBoxInfo(Poll, Converter, object):
             MINUTE = 60
             HOUR = MINUTE * 60
             DAY = HOUR * 24
-            days = int(total_seconds // DAY)
-            hours = int(total_seconds % DAY // HOUR)
-            minutes = int(total_seconds % HOUR // MINUTE)
+            days = int(total_seconds / DAY)
+            hours = int(total_seconds % DAY / HOUR)
+            minutes = int(total_seconds % HOUR / MINUTE)
             seconds = int(total_seconds % MINUTE)
             uptime = ''
             if days > 0:

@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from __future__ import division
 from Components.Converter.Converter import Converter
 from Components.Element import cached
 from Poll import Poll
@@ -55,14 +54,14 @@ class iFlatFrontendInfo(Poll, Converter, object):
 			percent = self.source.snr
 		elif self.type == self.SNRdB:
 			if self.source.snr_db is not None:
-				return "%3.01f" % (self.source.snr_db // 100.0) + _("dB")
+				return "%3.01f" % (self.source.snr_db / 100.0) + _("dB")
 			elif self.source.snr is not None: #fallback to normal SNR...
 				percent = self.source.snr
 		elif self.type == self.TUNER_TYPE:
 			return self.source.frontend_type and self.frontend_type or "Unknown"
 		if percent is None:
 			return "N/A"
-		return "%d%%" % (percent * 100 // 65536)
+		return "%d%%" % (percent * 100 / 65536)
 
 	@cached
 	def getBool(self):
