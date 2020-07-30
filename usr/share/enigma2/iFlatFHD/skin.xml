@@ -1587,9 +1587,6 @@
     <widget backgroundColor="background2" foregroundColor="foreground3" font="Regular;24" halign="center" noWrap="1" position="894,1038" render="Label" size="150,30" source="session.CurrentService" text="Temp:" transparent="1" valign="top" zPosition="1">
       <convert type="VtiTempFan">TempInfo</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="1354,1038" size="530,30" zPosition="3" halign="center" noWrap="1" backgroundColor="background2" foregroundColor="foreground3" font="Regular;24" transparent="1" text="CCcam 2.3.0">
-      <convert type="VisionCamInfo">Camd</convert>
-    </widget>
     <eLabel backgroundColor="background" font="Regular;27" halign="center" position="110,975" size="10,30" text="-" transparent="1" zPosition="1" />
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="TimeshiftState" position="0,1017" size="1920,63" zPosition="2">
