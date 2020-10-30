@@ -107,7 +107,7 @@ class iFlatBoxInfo(Poll, Converter, object):
             return 'Uptime: %s' % uptime
 
     def getTempSensor(self):
-        if getBoxType() not in ("dm7020hd","dm7020hdv2"):
+        if getBoxType() not in ("dm7020hd", "dm7020hdv2"):
             try:
                 sensor_info = sensors.getSensorsList(sensors.TYPE_TEMPERATURE)
             except:
