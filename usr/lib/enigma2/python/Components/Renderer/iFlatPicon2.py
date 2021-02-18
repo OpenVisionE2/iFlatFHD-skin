@@ -6,6 +6,7 @@ from Tools.Directories import fileExists
 from Tools.Alternatives import GetWithAlternative
 from Components.config import config
 
+
 class iFlatPicon2(Renderer):
     searchPaths = ('/usr/share/enigma2/%s/', '/usr/share/enigma2/iFlatFHD/%s/', '/media/sde1/%s/', '/universe/%s/', '/media/cf/%s/', '/media/sdd1/%s/', '/media/usb/%s/', '/media/ba/%s/', '/mnt/ba/%s/', '/media/sda/%s/', '/media/ba/%s/', '/media/meoboot/%s/', '/media/mmboot/%s/', '/media/openmultiboot/%s/', '/etc/%s/')
 

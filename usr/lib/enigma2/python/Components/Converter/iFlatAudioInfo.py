@@ -6,6 +6,7 @@ from Components.Converter.Converter import Converter
 from Components.Element import cached
 from Poll import Poll
 
+
 class iFlatAudioInfo(Poll, Converter, object):
 	GET_AUDIO_ICON = 0
 	GET_AUDIO_CODEC = 1
@@ -104,7 +105,6 @@ class iFlatAudioInfo(Poll, Converter, object):
 					return codec
 					
 		return " "
-
 
 	def get_short(self, audioName):
 		for return_codec, codecs in sorted(self.codecs.iteritems()):

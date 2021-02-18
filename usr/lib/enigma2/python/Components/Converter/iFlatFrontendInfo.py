@@ -5,6 +5,7 @@ from Components.Element import cached
 from Poll import Poll
 import NavigationInstance
 
+
 class iFlatFrontendInfo(Poll, Converter, object):
 	BER = 0
 	SNR = 1
