@@ -82,7 +82,7 @@ class iFlatBackdrop(Renderer):
 			else:
 				self.instance.hide()
 
-	def showBackdropCallback(self, picInfo = None):
+	def showBackdropCallback(self, picInfo=None):
 		if self.picload:
 			ptr = self.picload.getData()
 			if ptr != None:
