@@ -66,7 +66,7 @@ class iFlatAudioInfo(Poll, Converter, object):
 		description_str = _("unknown")
 		if self.getAudio():
 			languages = self.getLanguage()
-			description = self.audio_info.getDescription();
+			description = self.audio_info.getDescription()
 			description_str = description.split(" ")
 			#print("iFlatAudioInfo description_str=", description_str)
 			#print("iFlatAudioInfo languages=", languages)

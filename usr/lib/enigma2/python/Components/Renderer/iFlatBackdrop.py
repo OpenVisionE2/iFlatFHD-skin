@@ -103,10 +103,12 @@ class iFlatBackdrop(Renderer):
 		elif os_path.isdir(path):
 			if path.lower().endswith("/bdmv"):
 				dir = path[:-5]
-				if dir.lower().endswith("/brd"): dir = dir[:-4]
+				if dir.lower().endswith("/brd"):
+					dir = dir[:-4]
 			elif path.lower().endswith("video_ts"):
 				dir = path[:-9]
-				if dir.lower().endswith("/dvd"): dir = dir[:-4]
+				if dir.lower().endswith("/dvd"):
+					dir = dir[:-4]
 			else:
 				dir = path
 				p2 = os_path.join(dir, "folder")
@@ -119,7 +121,8 @@ class iFlatBackdrop(Renderer):
 		for p in pathes:
 			for ext in self.exts:
 				path = p + ext
-				if os_path.exists(path): break
+				if os_path.exists(path):
+					break
 			if os_path.exists(path):
 				fpath = path
 				break
