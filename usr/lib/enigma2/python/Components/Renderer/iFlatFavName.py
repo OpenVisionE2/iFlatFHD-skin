@@ -20,4 +20,4 @@ class iFlatFavName(VariableText, Renderer):
 		if what[0] == self.CHANGED_CLEAR:
 			self.text = ""
 		else:
-			self.text = self.source.text.replace("Bouquets", "").replace("User - bouquets", "").replace("/", "").replace( _("Channel Selection"), "").strip()
+			self.text = self.source.text.replace("Bouquets", "").replace("User - bouquets", "").replace("/", "").replace(_("Channel Selection"), "").strip()

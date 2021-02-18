@@ -14,12 +14,12 @@ class iFlatBackdrop(Renderer):
 
 	def __init__(self):
 		Renderer.__init__(self)
-		self.nameCache = { }
+		self.nameCache = {}
 		self.picname = ""
 		self.scalecover = "1"
 	
 	def applySkin(self, desktop, parent):
-		attribs = [ ]
+		attribs = []
 		for (attrib, value) in self.skinAttributes:
 			if attrib == "scalecover":
 				self.scalecover = value

@@ -18,7 +18,7 @@ class iFlatAudioInfo(Poll, Converter, object):
 		self.poll_interval = 3000
 		self.poll_enabled = True
 		self.lang_strings = ("ger", "german", "deu")
-		self.codecs = {    "01_dolbydigitalplus": ("digital+", "digitalplus", "ac3+", "e-ac-3"),
+		self.codecs = {"01_dolbydigitalplus": ("digital+", "digitalplus", "ac3+", "e-ac-3"),
 				   "02_dolbydigital": ("ac3", "ac-3", "dolbydigital"),
 				   "03_mp3": ("mp3", ),
 				   "04_wma": ("wma", ),
@@ -32,7 +32,7 @@ class iFlatAudioInfo(Poll, Converter, object):
 				   "12_ogg": ("ogg", "vorbis"),
 				   "13_m4a": ("applelossless", ),
 				}
-		self.codec_info = { "dolbydigitalplus": ("51", "20", "71"),
+		self.codec_info = {"dolbydigitalplus": ("51", "20", "71"),
 				    "dolbydigital": ("51", "20", "10", "71"),
 				    "wma": ("8", "9"),
 				  }
