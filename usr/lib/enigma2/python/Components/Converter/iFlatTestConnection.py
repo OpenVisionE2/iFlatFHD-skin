@@ -26,7 +26,7 @@ class iFlatTestConnection(Converter, object):
 		self.testHost = "77.88.21.3"	# www.yandex.ru
 		self.testPort = 80		# www port
 		self.failCmd = None
-		
+
 		if len(type):
 			p = type[:].find("://")
 			if p != -1:
@@ -40,11 +40,11 @@ class iFlatTestConnection(Converter, object):
 				self.testPause = int(type[2])
 			if len(type) > 3:
 				self.failCmd = type[3]
-		
+
 		self.testThread = None
 		self.testDisabled = False
 		config.misc.standbyCounter.addNotifier(self.enterStandby, initial_call=False)
-		
+
 		self.testTimer = eTimer()
 		self.testTimer.callback.append(self.poll)
 		self.testTimer.start(100, True)
@@ -59,7 +59,7 @@ class iFlatTestConnection(Converter, object):
 				self.testTimer.start(self.testPause * 1000, True)
 		else:
 			self.testTimer.start(1000, True)
- 
+
 	def get_iface_list(self):
 		names = array.array('B', '\0' * BYTES)
 		sck = socket(AF_INET, SOCK_DGRAM)

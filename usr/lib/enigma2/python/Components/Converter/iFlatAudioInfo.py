@@ -95,15 +95,15 @@ class iFlatAudioInfo(Poll, Converter, object):
 								if len(ex_codec) > 1:
 									ex_codec = ex_codec[0] + "." + ex_codec[1]
 								codec += ex_codec
-								#codec = codec + " " + ex_codec						# insert blank 
+								#codec = codec + " " + ex_codec						# insert blank
 								break
 					#print("iFlatAudioInfo codec0=", codec)
-					codec = codec.replace("dolbydigitalplus", "DD+")	
+					codec = codec.replace("dolbydigitalplus", "DD+")
 					codec = codec.replace("dolbydigital", "DD")
 					codec = codec.upper()
 					#print("iFlatAudioInfo codec1=", codec)
 					return codec
-					
+
 		return " "
 
 	def get_short(self, audioName):
