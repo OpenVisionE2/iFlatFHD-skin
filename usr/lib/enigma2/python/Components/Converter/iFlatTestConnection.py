@@ -7,7 +7,9 @@ from enigma import eTimer
 from threading import Thread
 from socket import socket, AF_INET, SOCK_STREAM, SOCK_DGRAM
 from os import system as os_system, path as os_path
-import array, struct, fcntl
+import array
+import struct
+import fcntl
 
 OFFLINE = "Offline"	# offline connection  text
 ONLINE = "Online"	# online connection text
