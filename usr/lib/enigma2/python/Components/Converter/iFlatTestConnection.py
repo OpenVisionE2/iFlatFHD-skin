@@ -20,17 +20,17 @@ BYTES = 4096		# Simply define the byte size
 class iFlatTestConnection(Converter, object):
 	def __init__(self, type):
 		Converter.__init__(self, type)
-		self.testOK    = False
-		self.testTime  = 1.0		# 1 seconds
+		self.testOK = False
+		self.testTime = 1.0		# 1 seconds
 		self.testPause = 10		# 10 seconds
-		self.testHost  = "77.88.21.3"	# www.yandex.ru
-		self.testPort  = 80		# www port
-		self.failCmd   = None
+		self.testHost = "77.88.21.3"	# www.yandex.ru
+		self.testPort = 80		# www port
+		self.failCmd = None
 		
 		if len(type):
 			p = type[:].find("://")
 			if p != -1:
-				type = type[p+3:]
+				type = type[p + 3:]
 			type = type[:].split(":", 3)
 			if len(type[0]) > 0:
 				self.testHost = type[0]
@@ -66,7 +66,7 @@ class iFlatTestConnection(Converter, object):
 		bytelen = struct.unpack('iL', fcntl.ioctl(sck.fileno(), SIOCGIFCONF, struct.pack('iL', BYTES, names.buffer_info()[0])))[0]
 		sck.close()
 		namestr = names.tostring()
-		return [namestr[i:i+32].split('\0', 1)[0] for i in range(0, bytelen, 32)]
+		return [namestr[i:i + 32].split('\0', 1)[0] for i in range(0, bytelen, 32)]
 
 	def test(self):
 		prevOK = self.testOK
@@ -74,8 +74,8 @@ class iFlatTestConnection(Converter, object):
 		for iface in self.get_iface_list():
 			if "lo" in iface:
 				continue
-			if os_path.exists("/sys/class/net/%s/operstate"%(iface)):
-				fd = open("/sys/class/net/%s/operstate"%(iface), "r")
+			if os_path.exists("/sys/class/net/%s/operstate" % (iface)):
+				fd = open("/sys/class/net/%s/operstate" % (iface), "r")
 				link = fd.read().strip()
 				fd.close()
 			if link != "down":
@@ -93,7 +93,7 @@ class iFlatTestConnection(Converter, object):
 		if prevOK != self.testOK:
 			self.downstream_elements.changed((self.CHANGED_POLL,))
 			if prevOK and self.failCmd:
-				os_system('/bin/sh -c "%s" &'%(self.failCmd))
+				os_system('/bin/sh -c "%s" &' % (self.failCmd))
 
 	def enterStandby(self, ConfigElement=None):
 		self.testDisabled = True

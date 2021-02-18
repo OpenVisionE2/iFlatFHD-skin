@@ -74,7 +74,7 @@ class iFlatBackdrop(Renderer):
 					else:
 						if self.scalecover == "1":
 							fac = 1.5
-							self.picload.setPara((size.width(), size.width()*fac, sc[0], sc[1], False, 1, "#00000000"))
+							self.picload.setPara((size.width(), size.width() * fac, sc[0], sc[1], False, 1, "#00000000"))
 							if self.picload.startDecode(picname) != 0:
 								del self.picload
 						else:
