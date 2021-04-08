@@ -1,4 +1,4 @@
-﻿<skin>
+<skin>
 
   <!-- GraphMultiEPG -->
   <screen name="GraphMultiEPG" position="0,0" size="1920,1080" title="Electronic Program Guide" backgroundColor="transparent" flags="wfNoBorder">

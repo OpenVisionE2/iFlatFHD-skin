@@ -1,4 +1,4 @@
-﻿<skin>
+<skin>
 
 <!-- SecondInfoBar_v4 -->
 <screen backgroundColor="transparent" flags="wfNoBorder" name="SecondInfoBar" position="0,0" size="1920,1080" title="InfoBar">
