@@ -5,7 +5,7 @@
   <!-- /* InfoBar widgets v3.6 -->
     <constant-widget name="IBTimeWidget">
       <!-- /* DateTime -->
-      <widget source="global.CurrentTime" render="Label" position="1730,897" size="160,70" font="Regular; 52" halign="right" foregroundColor="foreground" backgroundColor="background" transparent="1">
+      <widget source="global.CurrentTime" render="Label" position="1730,897" size="160,70" font="Regular; 52" horizontalAlignment="right" foregroundColor="foreground" backgroundColor="background" transparent="1">
         <convert type="ClockToText"></convert>
       </widget>
       <!-- DateTime */-->
@@ -18,7 +18,7 @@
     </constant-widget>
     
     <!--constant-widget name="IBUpdateWidget">
-    <!--widget alphatest="blend" pixmap="iFlatFHD/icons/audio/update.png" position="1793,982" render="Pixmap" size="20,20" source="session.CurrentService" transparent="1" zPosition="5">
+    <!--widget alphaTest="blend" pixmap="iFlatFHD/icons/audio/update.png" position="1793,982" render="Pixmap" size="20,20" source="session.CurrentService" transparent="1" zPosition="5">
       <convert type="ConfigEntryTest">config.usage.update_available,True,CheckSourceBoolean</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -49,10 +49,10 @@
   
   <!-- /* ChannelSelection rechte Seite, Description -->
     <constant-widget name="chs_description" >
-      <widget source="ServiceEvent" position="1255,75" size="650,48" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=4000,always=0" font="Regular; 38" halign="left" valign="top" foregroundColor="foreground2" backgroundColor="background" transparent="1">
+      <widget source="ServiceEvent" position="1255,75" size="650,48" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=4000,always=0" font="Regular; 38" horizontalAlignment="left" verticalAlignment="top" foregroundColor="foreground2" backgroundColor="background" transparent="1">
         <convert type="EventName">Description</convert>
       </widget>
-      <widget source="ServiceEvent" position="1255,130" size="650,852" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=95,startdelay=8000,wrap,always=0" font="Regular; 32" valign="top" foregroundColor="foreground" backgroundColor="background" transparent="1">
+      <widget source="ServiceEvent" position="1255,130" size="650,852" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=95,startdelay=8000,wrap,always=0" font="Regular; 32" verticalAlignment="top" foregroundColor="foreground" backgroundColor="background" transparent="1">
         <convert type="EventName">ExtendedDescription</convert>
       </widget>
     </constant-widget>
@@ -60,13 +60,13 @@
       
   <!-- /* DatumUhrzeit rechts oben -->
     <constant-widget name="dateclock">
-      <widget source="global.CurrentTime" render="Label" position="1400,19" size="320,37" font="Regular; 26" halign="right" valign="top" foregroundColor="foreground3" backgroundColor="background2" transparent="1">
+      <widget source="global.CurrentTime" render="Label" position="1400,19" size="320,37" font="Regular; 26" horizontalAlignment="right" verticalAlignment="top" foregroundColor="foreground3" backgroundColor="background2" transparent="1">
         <convert type="ClockToText">FullDate</convert>
       </widget>
-    <widget source="global.CurrentTime" render="Label" position="1700,4" size="160,50" font="Regular; 42" halign="right" foregroundColor="foreground3" backgroundColor="background2" transparent="1" valign="top">
+    <widget source="global.CurrentTime" render="Label" position="1700,4" size="160,50" font="Regular; 42" horizontalAlignment="right" foregroundColor="foreground3" backgroundColor="background2" transparent="1" verticalAlignment="top">
         <convert type="ClockToText"></convert>
       </widget>
-    <!--widget source="global.CurrentTime" render="Label" position="1867,9" size="50,40" font="Regular; 25" halign="left" valign="top" foregroundColor="foreground3" backgroundColor="background2" transparent="1">
+    <!--widget source="global.CurrentTime" render="Label" position="1867,9" size="50,40" font="Regular; 25" horizontalAlignment="left" verticalAlignment="top" foregroundColor="foreground3" backgroundColor="background2" transparent="1">
         <convert type="ClockToText">Format:%S</convert>
       </widget-->			
      </constant-widget>

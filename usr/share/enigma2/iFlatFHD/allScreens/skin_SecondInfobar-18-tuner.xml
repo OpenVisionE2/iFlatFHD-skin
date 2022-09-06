@@ -9,19 +9,19 @@
 
 	<!-- Tuner 1 -->
 
-  <widget source="session.TunerInfo" position="150,1027" size="24,24" render="FixedLabel" text="A" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="150,1027" size="24,24" render="FixedLabel" text="A" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">1</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="150,1027" size="24,24" render="FixedLabel" text="A" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="150,1027" size="24,24" render="FixedLabel" text="A" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">0,0</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="150,1027" size="24,24" render="FixedLabel" text="A" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="150,1027" size="24,24" render="FixedLabel" text="A" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_0</convert>
 		<convert type="ConditionalShowHide" />
@@ -29,19 +29,19 @@
 
 	<!-- Tuner 2 -->
 
-  <widget source="session.TunerInfo" position="175,1027" size="24,24" render="FixedLabel" text="B" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="175,1027" size="24,24" render="FixedLabel" text="B" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">2</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="175,1027" size="24,24" render="FixedLabel" text="B" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="175,1027" size="24,24" render="FixedLabel" text="B" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">1,1</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="175,1027" size="24,24" render="FixedLabel" text="B" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="175,1027" size="24,24" render="FixedLabel" text="B" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_1</convert>
 		<convert type="ConditionalShowHide" />
@@ -49,19 +49,19 @@
 
 	<!-- Tuner 3 -->
 
-  <widget source="session.TunerInfo" position="200,1027" size="24,24" render="FixedLabel" text="C" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="200,1027" size="24,24" render="FixedLabel" text="C" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">4</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="200,1027" size="24,24" render="FixedLabel" text="C" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="200,1027" size="24,24" render="FixedLabel" text="C" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">2,2</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="200,1027" size="24,24" render="FixedLabel" text="C" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="200,1027" size="24,24" render="FixedLabel" text="C" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_2</convert>
 		<convert type="ConditionalShowHide" />
@@ -69,19 +69,19 @@
 
 	<!-- Tuner 4 -->
 
-  <widget source="session.TunerInfo" position="225,1027" size="24,24" render="FixedLabel" text="D" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="225,1027" size="24,24" render="FixedLabel" text="D" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">8</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="225,1027" size="24,24" render="FixedLabel" text="D" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="225,1027" size="24,24" render="FixedLabel" text="D" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">3,3</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="225,1027" size="24,24" render="FixedLabel" text="D" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="225,1027" size="24,24" render="FixedLabel" text="D" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_3</convert>
 		<convert type="ConditionalShowHide" />
@@ -89,19 +89,19 @@
 
 	<!-- Tuner 5 -->
 
-  <widget source="session.TunerInfo" position="250,1027" size="24,24" render="FixedLabel" text="E" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="250,1027" size="24,24" render="FixedLabel" text="E" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">16</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="250,1027" size="24,24" render="FixedLabel" text="E" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="250,1027" size="24,24" render="FixedLabel" text="E" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">4,4</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="250,1027" size="24,24" render="FixedLabel" text="E" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="250,1027" size="24,24" render="FixedLabel" text="E" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_4</convert>
 		<convert type="ConditionalShowHide" />
@@ -109,19 +109,19 @@
 
 	<!-- Tuner 6 -->
 
-  <widget source="session.TunerInfo" position="275,1027" size="24,24" render="FixedLabel" text="F" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="275,1027" size="24,24" render="FixedLabel" text="F" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">32</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="275,1027" size="24,24" render="FixedLabel" text="F" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="275,1027" size="24,24" render="FixedLabel" text="F" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">5,5</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="275,1027" size="24,24" render="FixedLabel" text="F" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="275,1027" size="24,24" render="FixedLabel" text="F" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_5</convert>
 		<convert type="ConditionalShowHide" />
@@ -129,19 +129,19 @@
 
 	<!-- Tuner 7 -->
 
-  <widget source="session.TunerInfo" position="300,1027" size="24,24" render="FixedLabel" text="G" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="300,1027" size="24,24" render="FixedLabel" text="G" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">64</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="300,1027" size="24,24" render="FixedLabel" text="G" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="300,1027" size="24,24" render="FixedLabel" text="G" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">6,6</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="300,1027" size="24,24" render="FixedLabel" text="G" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="300,1027" size="24,24" render="FixedLabel" text="G" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_6</convert>
 		<convert type="ConditionalShowHide" />
@@ -149,19 +149,19 @@
 
 	<!-- Tuner 8 -->
 
-  <widget source="session.TunerInfo" position="325,1027" size="24,24" render="FixedLabel" text="H" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="325,1027" size="24,24" render="FixedLabel" text="H" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">128</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="325,1027" size="24,24" render="FixedLabel" text="H" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="325,1027" size="24,24" render="FixedLabel" text="H" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">7,7</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="325,1027" size="24,24" render="FixedLabel" text="H" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="325,1027" size="24,24" render="FixedLabel" text="H" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_7</convert>
 		<convert type="ConditionalShowHide" />
@@ -169,19 +169,19 @@
 
 	<!-- Tuner 9 -->
 
-  <widget source="session.TunerInfo" position="350,1027" size="24,24" render="FixedLabel" text="I" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="350,1027" size="24,24" render="FixedLabel" text="I" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">256</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="350,1027" size="24,24" render="FixedLabel" text="I" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="350,1027" size="24,24" render="FixedLabel" text="I" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">8,8</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="350,1027" size="24,24" render="FixedLabel" text="I" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="350,1027" size="24,24" render="FixedLabel" text="I" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_8</convert>
 		<convert type="ConditionalShowHide" />
@@ -189,19 +189,19 @@
 
 	<!-- Tuner 10 -->
 
-  <widget source="session.TunerInfo" position="150,1052" size="24,24" render="FixedLabel" text="J" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="150,1052" size="24,24" render="FixedLabel" text="J" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">512</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="150,1052" size="24,24" render="FixedLabel" text="J" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="150,1052" size="24,24" render="FixedLabel" text="J" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">9,9</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="150,1052" size="24,24" render="FixedLabel" text="J" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="150,1052" size="24,24" render="FixedLabel" text="J" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_9</convert>
 		<convert type="ConditionalShowHide" />
@@ -209,19 +209,19 @@
 
 	<!-- Tuner 11 -->
 
-  <widget source="session.TunerInfo" position="175,1052" size="24,24" render="FixedLabel" text="K" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="175,1052" size="24,24" render="FixedLabel" text="K" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">1024</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="175,1052" size="24,24" render="FixedLabel" text="K" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="175,1052" size="24,24" render="FixedLabel" text="K" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">10,10</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="175,1052" size="24,24" render="FixedLabel" text="K" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="175,1052" size="24,24" render="FixedLabel" text="K" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_10</convert>
 		<convert type="ConditionalShowHide" />
@@ -229,19 +229,19 @@
 
 	<!-- Tuner 12 -->
 
-  <widget source="session.TunerInfo" position="200,1052" size="24,24" render="FixedLabel" text="L" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="200,1052" size="24,24" render="FixedLabel" text="L" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">2048</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="200,1052" size="24,24" render="FixedLabel" text="L" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="200,1052" size="24,24" render="FixedLabel" text="L" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">11,11</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="200,1052" size="24,24" render="FixedLabel" text="L" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="200,1052" size="24,24" render="FixedLabel" text="L" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_1</convert>
 		<convert type="ConditionalShowHide" />
@@ -249,19 +249,19 @@
 
 	<!-- Tuner 13 -->
 
-  <widget source="session.TunerInfo" position="225,1052" size="24,24" render="FixedLabel" text="M" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="225,1052" size="24,24" render="FixedLabel" text="M" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">4096</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="225,1052" size="24,24" render="FixedLabel" text="M" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="225,1052" size="24,24" render="FixedLabel" text="M" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">12,12</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="225,1052" size="24,24" render="FixedLabel" text="M" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="225,1052" size="24,24" render="FixedLabel" text="M" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_12</convert>
 		<convert type="ConditionalShowHide" />
@@ -269,19 +269,19 @@
 
 	<!-- Tuner 14 -->
 
-  <widget source="session.TunerInfo" position="250,1052" size="24,24" render="FixedLabel" text="O" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="250,1052" size="24,24" render="FixedLabel" text="O" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">8192</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="250,1052" size="24,24" render="FixedLabel" text="O" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="250,1052" size="24,24" render="FixedLabel" text="O" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">13,13</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="250,1052" size="24,24" render="FixedLabel" text="O" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="250,1052" size="24,24" render="FixedLabel" text="O" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_13</convert>
 		<convert type="ConditionalShowHide" />
@@ -289,19 +289,19 @@
 
 	<!-- Tuner 15 -->
 
-  <widget source="session.TunerInfo" position="275,1052" size="24,24" render="FixedLabel" text="P" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="275,1052" size="24,24" render="FixedLabel" text="P" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">16384</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="275,1052" size="24,24" render="FixedLabel" text="P" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="275,1052" size="24,24" render="FixedLabel" text="P" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">14,14</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="275,1052" size="24,24" render="FixedLabel" text="P" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="275,1052" size="24,24" render="FixedLabel" text="P" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_14</convert>
 		<convert type="ConditionalShowHide" />
@@ -309,19 +309,19 @@
 
 	<!-- Tuner 16 -->
 
-  <widget source="session.TunerInfo" position="300,1052" size="24,24" render="FixedLabel" text="Q" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="300,1052" size="24,24" render="FixedLabel" text="Q" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">32768</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="300,1052" size="24,24" render="FixedLabel" text="Q" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="300,1052" size="24,24" render="FixedLabel" text="Q" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">15,15</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="300,1052" size="24,24" render="FixedLabel" text="Q" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="300,1052" size="24,24" render="FixedLabel" text="Q" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_15</convert>
 		<convert type="ConditionalShowHide" />
@@ -329,19 +329,19 @@
 
 	<!-- Tuner 17 -->
 
-  <widget source="session.TunerInfo" position="325,1052" size="24,24" render="FixedLabel" text="R" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="325,1052" size="24,24" render="FixedLabel" text="R" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">65536</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="325,1052" size="24,24" render="FixedLabel" text="R" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="325,1052" size="24,24" render="FixedLabel" text="R" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">16,16</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="325,1052" size="24,24" render="FixedLabel" text="R" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="325,1052" size="24,24" render="FixedLabel" text="R" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_16</convert>
 		<convert type="ConditionalShowHide" />
@@ -349,19 +349,19 @@
 
 	<!-- Tuner 18 -->
 
-  <widget source="session.TunerInfo" position="350,1052" size="24,24" render="FixedLabel" text="S" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="350,1052" size="24,24" render="FixedLabel" text="S" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="bsy_tuner" transparent="0" zPosition="2">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">131072</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.FrontendInfo" position="350,1052" size="24,24" render="FixedLabel" text="S" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.FrontendInfo" position="350,1052" size="24,24" render="FixedLabel" text="S" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="cur_tuner" transparent="0" zPosition="3">
     <convert type="FrontendInfo">NUMBER</convert>
     <convert type="ValueRange">17,17</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" position="350,1052" size="24,24" render="FixedLabel" text="S" font="Regular;22" halign="center" valign="center" 
+  <widget source="session.TunerInfo" position="350,1052" size="24,24" render="FixedLabel" text="S" font="Regular;22" horizontalAlignment="center" verticalAlignment="center" 
 		foregroundColor="black" backgroundColor="act_tuner" transparent="0" zPosition="4">
 		<convert type="iFlatFrontendInfo">REC_17</convert>
 		<convert type="ConditionalShowHide" />

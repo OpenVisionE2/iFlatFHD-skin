@@ -7,7 +7,7 @@
 	<eLabel name="icons" position="0,838" size="1920,37" zPosition="-10" backgroundColor="background" />
   
 	<!-- /* Resolution -->
-	<widget foregroundColor="foreground" backgroundColor="background" font="Regular; 23" halign="center" position="40,843" render="Label" size="200,27" source="session.CurrentService" transparent="1" valign="top">
+	<widget foregroundColor="foreground" backgroundColor="background" font="Regular; 23" horizontalAlignment="center" position="40,843" render="Label" size="200,27" source="session.CurrentService" transparent="1" verticalAlignment="top">
     <convert type="ServiceInfoEX">%xres X %yres</convert>
   </widget>
 	<!-- Resolution */-->

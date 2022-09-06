@@ -5,10 +5,10 @@
 		<screen name="IBNumberNameWidget">
 
 			<!-- /* Number+Name -->
-			<widget source="session.CurrentService" render="Label" position="162,748" size="320,130" font="Regular; 100" halign="center" valign="top" noWrap="1" foregroundColor="PreTrans" transparent="1" zPosition="-11">
+			<widget source="session.CurrentService" render="Label" position="162,748" size="320,130" font="Regular; 100" horizontalAlignment="center" verticalAlignment="top" noWrap="1" foregroundColor="PreTrans" transparent="1" zPosition="-11">
 				<convert type="ExtendedServiceInfo">ServiceNumber</convert>
 			</widget>
-			<widget source="session.CurrentService" render="Label" position="467,748" size="1430,130" font="Regular; 100" halign="left" valign="top" noWrap="1" foregroundColor="PreTrans" transparent="1" zPosition="-11">
+			<widget source="session.CurrentService" render="Label" position="467,748" size="1430,130" font="Regular; 100" horizontalAlignment="left" verticalAlignment="top" noWrap="1" foregroundColor="PreTrans" transparent="1" zPosition="-11">
 				<convert type="ServiceName">Name</convert>
 			</widget>
 			<!-- Number+Name */-->

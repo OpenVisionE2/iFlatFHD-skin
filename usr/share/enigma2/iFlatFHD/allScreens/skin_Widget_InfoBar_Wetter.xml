@@ -5,10 +5,10 @@
   
 <!-- /* Wetter -->
 
-<widget alphatest="blend" render="MSNWeatherPixmap" position="1755,1024" size="58,58" source="session.MSNWeather" transparent="1" zPosition="8">
+<widget alphaTest="blend" render="MSNWeatherPixmap" position="1755,1024" size="58,58" source="session.MSNWeather" transparent="1" zPosition="8">
       <convert type="MSNWeather">weathericon,current,/usr/share/enigma2/iFlatFHD/pic/weather/,png</convert>
     </widget>
-<widget noWrap="1" backgroundColor="background" render="Label" position="1829,1036" size="100,30" font="Regular; 27" source="session.MSNWeather" transparent="1" zPosition="8" halign="center" >
+<widget noWrap="1" backgroundColor="background" render="Label" position="1829,1036" size="100,30" font="Regular; 27" source="session.MSNWeather" transparent="1" zPosition="8" horizontalAlignment="center" >
       <convert type="MSNWeather">temperature_current</convert>
     </widget>
 <!-- Wetter */-->

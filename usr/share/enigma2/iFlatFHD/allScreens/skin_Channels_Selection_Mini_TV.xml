@@ -9,16 +9,16 @@
     <panel name="0_914_1241_1" />
     <panel name="1242_61_1_958" />
   <widget source="session.VideoPicture" render="Pig" position="1255,75" size="650,370" backgroundColor="transparent" zPosition="10"/>
-<widget source="ServiceEvent" position="1255,0" size="95,57" render="Picon" transparent="1" alphatest="blend" zPosition="2">
+<widget source="ServiceEvent" position="1255,0" size="95,57" render="Picon" transparent="1" alphaTest="blend" zPosition="2">
 <convert type="ServiceName">Reference</convert>
 </widget>
-<widget source="ServiceEvent" position="1255,450" size="650,48" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=4000,always=0" font="Regular; 38" halign="left" valign="top" foregroundColor="foreground2" backgroundColor="background" transparent="1">
+<widget source="ServiceEvent" position="1255,450" size="650,48" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=4000,always=0" font="Regular; 38" horizontalAlignment="left" verticalAlignment="top" foregroundColor="foreground2" backgroundColor="background" transparent="1">
 <convert type="EventName">Description</convert>
 </widget>
-<widget source="ServiceEvent" position="1255,505" size="650,470" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=95,startdelay=8000,wrap,always=0" font="Regular; 32" valign="top" foregroundColor="foreground" backgroundColor="background" transparent="1">
+<widget source="ServiceEvent" position="1255,505" size="650,470" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=95,startdelay=8000,wrap,always=0" font="Regular; 32" verticalAlignment="top" foregroundColor="foreground" backgroundColor="background" transparent="1">
 <convert type="EventName">ExtendedDescription</convert>
 </widget>
-			<widget source="ServiceEvent" position="1211,985" size="110,30" render="Label" font="Regular; 25" halign="right" backgroundColor="background" transparent="1">
+			<widget source="ServiceEvent" position="1211,985" size="110,30" render="Label" font="Regular; 25" horizontalAlignment="right" backgroundColor="background" transparent="1">
 				<convert type="EventTime">StartTime</convert>
 				<convert type="ClockToText" />
 			</widget>
@@ -40,24 +40,24 @@
 		colorEventProgressbar="chs_progress" colorEventProgressbarSelected="chs_progress_sel" 
 		colorEventProgressbarBorder="chs_progressbd" colorEventProgressbarBorderSelected="chs_progressbd_sel" 
 		serviceItemHeight="48" serviceNumberFont="Regular;33" serviceNameFont="Regular;33" serviceInfoFont="Regular;33"
-		scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" 
-		scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" valign="top" />
-  <eLabel position="30,922" size="160,35" text="NEXT" font="Regular; 25" halign="right" valign="top" foregroundColor="foreground" backgroundColor="background" transparent="1" />
-  <eLabel position="192,917" size="10,35" text=":" font="Regular; 25" halign="center" valign="top" foregroundColor="foreground" backgroundColor="background" transparent="1" />
-  <widget source="ServiceEvent" position="215,922" size="1000,87" render="NextEvents" font="Regular;25" valign="top" noWrap="1" foregroundColor="foreground" backgroundColor="background" transparent="1">
+		scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarForegroundColor="scrollbarsfgc" 
+		scrollbarBorderColor="scrollbarsbgc" scrollbarBorderWidth="0" verticalAlignment="top" />
+  <eLabel position="30,922" size="160,35" text="NEXT" font="Regular; 25" horizontalAlignment="right" verticalAlignment="top" foregroundColor="foreground" backgroundColor="background" transparent="1" />
+  <eLabel position="192,917" size="10,35" text=":" font="Regular; 25" horizontalAlignment="center" verticalAlignment="top" foregroundColor="foreground" backgroundColor="background" transparent="1" />
+  <widget source="ServiceEvent" position="215,922" size="1000,87" render="NextEvents" font="Regular;25" verticalAlignment="top" noWrap="1" foregroundColor="foreground" backgroundColor="background" transparent="1">
     <convert type="ServiceName">Reference</convert>
   </widget>
-  <widget name="key_red" position="15,1037" size="280,36" font="Regular; 26" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
-  <widget name="key_green" position="310,1037" size="280,36" font="Regular; 26" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
-  <widget name="key_yellow" position="605,1037" size="280,36" font="Regular; 26" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
-  <widget name="key_blue" position="900,1037" size="280,36" font="Regular; 26" halign="center" valign="bottom" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
-  <eLabel name="button menu" position="1613,1036" size="60,30" text="MENU" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+  <widget name="key_red" position="15,1037" size="280,36" font="Regular; 26" horizontalAlignment="center" verticalAlignment="bottom" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+  <widget name="key_green" position="310,1037" size="280,36" font="Regular; 26" horizontalAlignment="center" verticalAlignment="bottom" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+  <widget name="key_yellow" position="605,1037" size="280,36" font="Regular; 26" horizontalAlignment="center" verticalAlignment="bottom" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+  <widget name="key_blue" position="900,1037" size="280,36" font="Regular; 26" horizontalAlignment="center" verticalAlignment="bottom" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+  <eLabel name="button menu" position="1613,1036" size="60,30" text="MENU" font="Regular; 17" horizontalAlignment="center" verticalAlignment="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
   <eLabel name="button menu bg" position="1612,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
-  <eLabel name="button epg" position="1689,1036" size="60,30" text="EPG" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+  <eLabel name="button epg" position="1689,1036" size="60,30" text="EPG" font="Regular; 17" horizontalAlignment="center" verticalAlignment="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
   <eLabel name="button epg bg" position="1688,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
-  <eLabel name="button lr" position="1766,1036" size="60,30" text="L / R" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+  <eLabel name="button lr" position="1766,1036" size="60,30" text="L / R" font="Regular; 17" horizontalAlignment="center" verticalAlignment="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
   <eLabel name="button lire bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
-  <eLabel name="button ext" position="1843,1036" size="60,30" text="EXIT " font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+  <eLabel name="button ext" position="1843,1036" size="60,30" text="EXIT " font="Regular; 17" horizontalAlignment="center" verticalAlignment="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
   <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
 </screen>
  

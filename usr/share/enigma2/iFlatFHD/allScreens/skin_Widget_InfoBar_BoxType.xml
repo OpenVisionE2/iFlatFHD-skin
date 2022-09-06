@@ -4,7 +4,7 @@
 
   
 <!-- /* BoxType -->
-    <widget backgroundColor="background2" foregroundColor="foreground3"  font="Regular; 24" halign="center" position="15,1032" render="Label" size="260,40" source="session.CurrentService" valign="center" zPosition="4">
+    <widget backgroundColor="background2" foregroundColor="foreground3"  font="Regular; 24" horizontalAlignment="center" position="15,1032" render="Label" size="260,40" source="session.CurrentService" verticalAlignment="center" zPosition="4">
 		 <convert type="">BoxType</convert>
     </widget> 
 <!-- BoxType */-->

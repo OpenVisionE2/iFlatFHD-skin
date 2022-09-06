@@ -21,40 +21,40 @@
  <!-- SATInfo Start -->
  <!-- SATInfo End -->
  <!-- BoxInfo Start -->
-    <widget backgroundColor="background" foregroundColor="foreground"  font="Regular; 18" halign="right" position="663,51" render="Label" size="185,24" source="session.CurrentService" valign="center" zPosition="11">
+    <widget backgroundColor="background" foregroundColor="foreground"  font="Regular; 18" horizontalAlignment="right" position="663,51" render="Label" size="185,24" source="session.CurrentService" verticalAlignment="center" zPosition="11">
 		 <convert type="ProgressDiskSpaceInfo">FreeFlash</convert>
     </widget>        
-    <widget backgroundColor="background" foregroundColor="foreground"  font="Regular; 18" halign="right" position="866,51" render="Label" size="185,24" source="session.CurrentService" valign="center" zPosition="11">
+    <widget backgroundColor="background" foregroundColor="foreground"  font="Regular; 18" horizontalAlignment="right" position="866,51" render="Label" size="185,24" source="session.CurrentService" verticalAlignment="center" zPosition="11">
 		 <convert type="ProgressDiskSpaceInfo">MemInfo</convert>
     </widget>
  <!-- BoxInfo End -->	
  <!-- /* NumberNameklein -->
-  <widget font="Regular; 28" text="2222" foregroundColor="foreground" halign="right" noWrap="1" position="650,2" render="Label" size="70,34" source="session.CurrentService" transparent="1" valign="top" zPosition="10" backgroundColor="background">
+  <widget font="Regular; 28" text="2222" foregroundColor="foreground" horizontalAlignment="right" noWrap="1" position="650,2" render="Label" size="70,34" source="session.CurrentService" transparent="1" verticalAlignment="top" zPosition="10" backgroundColor="background">
     <convert type="ExtendedServiceInfo">ServiceNumber</convert>
   </widget>
-  <widget source="session.CurrentService" position="530,2" size="850,34" render="Label" font="Regular; 28" noWrap="1" foregroundColor="foreground" backgroundColor="background" valign="top" transparent="1" zPosition="10" halign="center">
+  <widget source="session.CurrentService" position="530,2" size="850,34" render="Label" font="Regular; 28" noWrap="1" foregroundColor="foreground" backgroundColor="background" verticalAlignment="top" transparent="1" zPosition="10" horizontalAlignment="center">
      <convert type="ServiceName">Name</convert>
     </widget>
 <!-- NumberNameklein */-->
 
 <!-- /* Resolution -->
  <!-- /* Resolution -->
-	<widget foregroundColor="foreground" backgroundColor="background" font="Regular; 20" halign="center" position="455,51" render="Label" size="200,24" source="session.CurrentService" transparent="1" valign="top">
+	<widget foregroundColor="foreground" backgroundColor="background" font="Regular; 20" horizontalAlignment="center" position="455,51" render="Label" size="200,24" source="session.CurrentService" transparent="1" verticalAlignment="top">
     <convert type="ServiceInfoEX">vsize</convert>
   </widget>
 	<!-- Resolution */-->
 <!-- Resolution */-->
 
  <!--  /* SNR AGC  -->
-    <eLabel text="SNR:" zPosition="3" position="20,51" size="50,24" halign="left" font="Regular; 20" transparent="1" backgroundColor="background" />
-    <widget source="session.FrontendStatus" render="Label" position="170,51" zPosition="3" size="50,24" halign="left" font="Regular; 20" transparent="1" backgroundColor="background">
+    <eLabel text="SNR:" zPosition="3" position="20,51" size="50,24" horizontalAlignment="left" font="Regular; 20" transparent="1" backgroundColor="background" />
+    <widget source="session.FrontendStatus" render="Label" position="170,51" zPosition="3" size="50,24" horizontalAlignment="left" font="Regular; 20" transparent="1" backgroundColor="background">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
     <widget source="session.FrontendStatus" render="Progress" position="70,59" size="90,11" zPosition="4" pixmap="iFlatFHD/icons/ks1v4/snr.png" transparent="1">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
-    <eLabel text="AGC:" zPosition="3" position="240,51" size="50,24" font="Regular; 20" backgroundColor="background" transparent="1" halign="left" />
-    <widget source="session.FrontendStatus" render="Label" position="390,51" zPosition="3" size="50,24" font="Regular; 20" backgroundColor="background" transparent="1" halign="left" valign="center">
+    <eLabel text="AGC:" zPosition="3" position="240,51" size="50,24" font="Regular; 20" backgroundColor="background" transparent="1" horizontalAlignment="left" />
+    <widget source="session.FrontendStatus" render="Label" position="390,51" zPosition="3" size="50,24" font="Regular; 20" backgroundColor="background" transparent="1" horizontalAlignment="left" verticalAlignment="center">
       <convert type="FrontendInfo">AGC</convert>
     </widget>
    <widget source="session.FrontendStatus" render="Progress" position="290,59" size="90,11" zPosition="4" pixmap="iFlatFHD/icons/ks1v4/agc.png" transparent="1">
@@ -63,68 +63,68 @@
   <!--  SNR AGC */  -->
 
 <!-- /* Icons -->
- <widget source="session.CurrentService" position="1366,51" size="60,24" render="FixedLabel" text="SD" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
+ <widget source="session.CurrentService" position="1366,51" size="60,24" render="FixedLabel" text="SD" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
 			<convert type="ServiceInfo">VideoHeight</convert>
 			<convert type="ValueRange">0,719</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" position="1366,51" size="60,24" render="FixedLabel" text="HD" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
+		<widget source="session.CurrentService" position="1366,51" size="60,24" render="FixedLabel" text="HD" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
 			<convert type="ServiceInfo">VideoHeight</convert>
 			<convert type="ValueRange">720,1079</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" position="1366,51" size="60,24" render="FixedLabel" text="FHD" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
+		<widget source="session.CurrentService" position="1366,51" size="60,24" render="FixedLabel" text="FHD" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
 			<convert type="ServiceInfo">VideoHeight</convert>
 			<convert type="ValueRange">1080,2159</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" position="1366,51" size="60,24" render="FixedLabel" text="UHD" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
+		<widget source="session.CurrentService" position="1366,51" size="60,24" render="FixedLabel" text="UHD" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
 			<convert type="ServiceInfo">VideoHeight</convert>
 			<convert type="ValueRange">2160,5000</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-    <eLabel name="crypt" position="1088,51" size="60,24" text="Crypt" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1088,51" size="60,24" render="FixedLabel" text="Crypt" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+    <eLabel name="crypt" position="1088,51" size="60,24" text="Crypt" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1088,51" size="60,24" render="FixedLabel" text="Crypt" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
 			<convert type="ServiceInfo">IsCrypted</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-    <eLabel name="subservices" position="1157,51" size="60,24" text="SubS" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1157,51" size="60,24" render="FixedLabel" text="SubS" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+    <eLabel name="subservices" position="1157,51" size="60,24" text="SubS" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1157,51" size="60,24" render="FixedLabel" text="SubS" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
 			<convert type="ServiceInfo">SubservicesAvailable</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-    <eLabel name="text" position="1227,51" size="60,24" text="Text" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1227,51" size="60,24" render="FixedLabel" text="Text" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+    <eLabel name="text" position="1227,51" size="60,24" text="Text" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1227,51" size="60,24" render="FixedLabel" text="Text" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
 			<convert type="ServiceInfo">HasTelext</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-    <eLabel name="sub" position="1297,51" size="60,24" text="SUB" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1297,51" size="60,24" render="FixedLabel" text="SUB" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+    <eLabel name="sub" position="1297,51" size="60,24" text="SUB" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1297,51" size="60,24" render="FixedLabel" text="SUB" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
 			<convert type="ServiceInfo">SubtitlesAvailable</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-    <widget source="session.CurrentService" position="1435,51" size="60,24" render="Label" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
+    <widget source="session.CurrentService" position="1435,51" size="60,24" render="Label" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
 			<convert type="ServiceInfoEX">yres</convert>
 		</widget>
-    <eLabel name="wide" position="1504,51" size="60,24" text="16:9" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1504,51" size="60,24" render="FixedLabel" text="16:9" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+    <eLabel name="wide" position="1504,51" size="60,24" text="16:9" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1504,51" size="60,24" render="FixedLabel" text="16:9" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
 			<convert type="ServiceInfo">IsWidescreen</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-    <eLabel name="mAudio" position="1573,51" size="73,24" text="Audio " font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1573,51" size="73,24" render="FixedLabel" text="Audio " font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="1" zPosition="2">
+    <eLabel name="mAudio" position="1573,51" size="73,24" text="Audio " font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1573,51" size="73,24" render="FixedLabel" text="Audio " font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="1" zPosition="2">
 			<convert type="ServiceInfoEX">AudioTracksAvailable</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>  
-    <widget source="session.CurrentService" position="1653,51" size="73,24" render="Label" font="Regular; 20" halign="center" valign="top" noWrap="1" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="3">
+    <widget source="session.CurrentService" position="1653,51" size="73,24" render="Label" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" noWrap="1" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="3">
 			<convert type="iFlatAudioInfo">AudioInfo</convert>
 		</widget>
-    <eLabel name="hbbtv" position="1735,51" size="73,24" text="HbbTV" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-<widget source="session.CurrentService" render="FixedLabel" text="HbbTV" position="1735,51" size="73,24" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" zPosition="2" transparent="0" alphatest="blend">
+    <eLabel name="hbbtv" position="1735,51" size="73,24" text="HbbTV" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+<widget source="session.CurrentService" render="FixedLabel" text="HbbTV" position="1735,51" size="73,24" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" zPosition="2" transparent="0" alphaTest="blend">
       <convert type="ServiceInfoEX">HasHBBTV</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.CurrentService" render="Label" position="1820,51" size="80,24" font="Regular; 20" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" halign="center" valign="top" zPosition="2">
+    <widget source="session.CurrentService" render="Label" position="1820,51" size="80,24" font="Regular; 20" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" horizontalAlignment="center" verticalAlignment="top" zPosition="2">
 			<convert type="ServiceInfoEX">ttype</convert>
 		</widget>
                                                           

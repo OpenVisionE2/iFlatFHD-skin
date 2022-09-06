@@ -6,70 +6,70 @@
 		<eLabel name="icons" position="0,838" size="1920,37" zPosition="-10" backgroundColor="background" />
 
 		<!-- /* Icons -->
-		<widget source="session.CurrentService" position="1317,843" size="70,27" render="FixedLabel" text="SD" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
+		<widget source="session.CurrentService" position="1317,843" size="70,27" render="FixedLabel" text="SD" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
 			<convert type="ServiceInfoEX">VideoHeight</convert>
 			<convert type="ValueRange">0,719</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" position="1317,843" size="70,27" render="FixedLabel" text="HD" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
+		<widget source="session.CurrentService" position="1317,843" size="70,27" render="FixedLabel" text="HD" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
 			<convert type="ServiceInfoEX">VideoHeight</convert>
 			<convert type="ValueRange">720,1079</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" position="1317,843" size="70,27" render="FixedLabel" text="FHD" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
+		<widget source="session.CurrentService" position="1317,843" size="70,27" render="FixedLabel" text="FHD" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
 			<convert type="ServiceInfoEX">VideoHeight</convert>
 			<convert type="ValueRange">1080,2159</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" position="1317,843" size="70,27" render="FixedLabel" text="UHD" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
+		<widget source="session.CurrentService" position="1317,843" size="70,27" render="FixedLabel" text="UHD" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
 			<convert type="ServiceInfoEX">VideoHeight</convert>
 			<convert type="ValueRange">2160,5000</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		
-		<eLabel name="crypt" position="1009,843" size="70,27" text="Crypt" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1009,843" size="70,27" render="FixedLabel" text="Crypt" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+		<eLabel name="crypt" position="1009,843" size="70,27" text="Crypt" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1009,843" size="70,27" render="FixedLabel" text="Crypt" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
 			<convert type="ServiceInfoEX">IsCrypted</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<eLabel name="subservices" position="1086,843" size="70,27" text="SubS" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1086,843" size="70,27" render="FixedLabel" text="SubS" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+		<eLabel name="subservices" position="1086,843" size="70,27" text="SubS" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1086,843" size="70,27" render="FixedLabel" text="SubS" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
 			<convert type="ServiceInfoEX">SubservicesAvailable</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<eLabel name="text" position="1163,843" size="70,27" text="Text" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1163,843" size="70,27" render="FixedLabel" text="Text" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+		<eLabel name="text" position="1163,843" size="70,27" text="Text" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1163,843" size="70,27" render="FixedLabel" text="Text" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
 			<convert type="ServiceInfoEX">HasTelext</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<eLabel name="sub" position="1240,843" size="70,27" text="SUB" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1240,843" size="70,27" render="FixedLabel" text="SUB" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+		<eLabel name="sub" position="1240,843" size="70,27" text="SUB" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1240,843" size="70,27" render="FixedLabel" text="SUB" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
 			<convert type="ServiceInfoEX">SubtitlesAvailable</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" position="1394,843" size="70,27" render="Label" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
+		<widget source="session.CurrentService" position="1394,843" size="70,27" render="Label" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="1">
 			<convert type="ServiceInfoEX">yres</convert>
 		</widget>
-		<eLabel name="wide" position="1471,843" size="70,27" text="16:9" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1471,843" size="70,27" render="FixedLabel" text="16:9" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
+		<eLabel name="wide" position="1471,843" size="70,27" text="16:9" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1471,843" size="70,27" render="FixedLabel" text="16:9" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="2">
 			<convert type="ServiceInfoEX">IsWidescreen</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<eLabel name="mAudio" position="1548,843" size="85,27" text="Audio " font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" position="1548,843" size="85,27" render="FixedLabel" text="Audio " font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="1" zPosition="2">
+		<eLabel name="mAudio" position="1548,843" size="85,27" text="Audio " font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" position="1548,843" size="85,27" render="FixedLabel" text="Audio " font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="1" zPosition="2">
 			<convert type="ServiceInfoEX">AudioTracksAvailable</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>  
-		<widget source="session.CurrentService" position="1640,843" size="85,27" render="Label" font="Regular; 23" halign="center" valign="top" noWrap="1" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="3">
+		<widget source="session.CurrentService" position="1640,843" size="85,27" render="Label" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" noWrap="1" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" zPosition="3">
 			<convert type="iFlatAudioInfo">AudioInfo</convert>
 		</widget>
-		<eLabel name="hbbtv" position="1732,843" size="85,27" text="HbbTV" font="Regular; 23" halign="center" valign="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
-<widget source="session.CurrentService" render="FixedLabel" text="HbbTV" position="1732,843" size="85,27" font="Regular; 20" halign="center" valign="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" zPosition="2" transparent="0" alphatest="blend">
+		<eLabel name="hbbtv" position="1732,843" size="85,27" text="HbbTV" font="Regular; 23" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgcoff" backgroundColor="icon_bgc" transparent="0" zPosition="1" />
+<widget source="session.CurrentService" render="FixedLabel" text="HbbTV" position="1732,843" size="85,27" font="Regular; 20" horizontalAlignment="center" verticalAlignment="top" foregroundColor="icon_fgc" backgroundColor="icon_bgc" zPosition="2" transparent="0" alphaTest="blend">
       <convert type="ServiceInfoEX">HasHBBTV</convert>
       <convert type="ConditionalShowHide" />
     </widget>
 
-		<widget source="session.CurrentService" render="Label" position="1824,843" size="90,27" font="Regular; 23" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" halign="center" valign="top" zPosition="2">
+		<widget source="session.CurrentService" render="Label" position="1824,843" size="90,27" font="Regular; 23" foregroundColor="icon_fgc" backgroundColor="icon_bgc" transparent="0" horizontalAlignment="center" verticalAlignment="top" zPosition="2">
 			<convert type="ServiceInfoEX">ttype</convert>
 		</widget>
 

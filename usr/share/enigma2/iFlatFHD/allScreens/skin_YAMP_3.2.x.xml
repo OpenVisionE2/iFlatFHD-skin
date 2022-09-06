@@ -12,78 +12,78 @@
   <panel name="960_61_1_628" />
   <panel name="610_959_1310_1" />
   <widget name="title" position="15,6" size="1240,50" font="Regular; 42" backgroundColor="background2" transparent="1" foregroundColor="foreground3" zPosition="1" />
-  <widget name="leftContentTitle" position="30,75" size="900,40" backgroundColor="background" foregroundColor="foreground" zPosition="3" font="Regular; 28" halign="center" valign="bottom" />
-  <widget name="dblist" selectionDisabled="1" itemHeight="40" backgroundColor="background" foregroundColor="foreground" itemFont0="Regular;28" itemFont1="Regular;22" zPosition="3" position="30,117" size="900,560" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" />
-  <widget name="rightContentTitle" position="986,75" zPosition="3" size="900,40" backgroundColor="background" foregroundColor="foreground" font="Regular;28" halign="center" valign="bottom" />
-  <widget name="playlist" itemFont="Regular; 28" itemHeight="40" itemPos="40,5" zPosition="3" itemSize="710,30" iconPos="5,7" iconSize="25,25" backgroundColor="background" foregroundColor="foreground" position="985,120" size="900,560" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" transparent="1" />
-  <widget name="songtitle" position="610,715" size="1280,45" foregroundColor="foreground2" backgroundColor="background" transparent="1" font="Regular; 35" valign="top" zPosition="7" />
+  <widget name="leftContentTitle" position="30,75" size="900,40" backgroundColor="background" foregroundColor="foreground" zPosition="3" font="Regular; 28" horizontalAlignment="center" verticalAlignment="bottom" />
+  <widget name="dblist" selection="1" itemHeight="40" backgroundColor="background" foregroundColor="foreground" itemFont0="Regular;28" itemFont1="Regular;22" zPosition="3" position="30,117" size="900,560" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarForegroundColor="scrollbarsfgc" scrollbarBorderColor="scrollbarsbgc" scrollbarBorderWidth="0" enableWrapAround="1" />
+  <widget name="rightContentTitle" position="986,75" zPosition="3" size="900,40" backgroundColor="background" foregroundColor="foreground" font="Regular;28" horizontalAlignment="center" verticalAlignment="bottom" />
+  <widget name="playlist" itemFont="Regular; 28" itemHeight="40" itemPos="40,5" zPosition="3" itemSize="710,30" iconPos="5,7" iconSize="25,25" backgroundColor="background" foregroundColor="foreground" position="985,120" size="900,560" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarForegroundColor="scrollbarsfgc" scrollbarBorderColor="scrollbarsbgc" scrollbarBorderWidth="0" enableWrapAround="1" transparent="1" />
+  <widget name="songtitle" position="610,715" size="1280,45" foregroundColor="foreground2" backgroundColor="background" transparent="1" font="Regular; 35" verticalAlignment="top" zPosition="7" />
   <eLabel name="progress_bg" position="610,772" size="1070,1" backgroundColor="progress_bg" zPosition="7" />
   <eLabel position="1814,761" size="2,20" zPosition="7" backgroundColor="foreground" font="Regular; 17" />
-  <eLabel backgroundColor="background" font="Regular; 28" halign="left" position="610,805" size="300,35" text="Artist" transparent="1" zPosition="7" valign="top" foregroundColor="grey" />
-  <widget font="Regular; 28" name="artist" position="760,805" size="1120,35" transparent="1" valign="top" backgroundColor="background" foregroundColor="foreground" noWrap="1" halign="left" zPosition="7" />
-  <eLabel backgroundColor="background" font="Regular; 28" halign="left" position="610,850" size="300,35" text="Album" transparent="1" zPosition="7" valign="top" foregroundColor="grey" />
-  <widget font="Regular; 28" name="album" position="760,850" size="600,35" transparent="1" valign="top" backgroundColor="background" noWrap="1" halign="left" foregroundColor="foreground" zPosition="7" />
-  <eLabel backgroundColor="background" font="Regular; 28" halign="left" position="1375,895" size="100,35" text="Year" transparent="1" zPosition="7" valign="top" foregroundColor="grey" />
-  <widget font="Regular; 28" name="year" position="1473,895" size="300,35" transparent="1" valign="top" backgroundColor="background" noWrap="1" halign="left" foregroundColor="foreground" zPosition="7" />
-  <eLabel backgroundColor="background" font="Regular; 28" halign="left" position="610,895" size="300,35" text="Genre" transparent="1" zPosition="7" valign="top" foregroundColor="grey" />
-  <widget font="Regular; 28" name="genre" position="760,895" size="600,35" transparent="1" valign="top" backgroundColor="background" noWrap="1" foregroundColor="foreground" halign="left" zPosition="7" />
-  <widget name="coverArt" position="230,705" size="300,300" transparent="1" alphatest="blend" zPosition="7" />
-  <widget name="filelist" position="30,117" size="900,560" backgroundColor="background" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" zPosition="0" />
+  <eLabel backgroundColor="background" font="Regular; 28" horizontalAlignment="left" position="610,805" size="300,35" text="Artist" transparent="1" zPosition="7" verticalAlignment="top" foregroundColor="grey" />
+  <widget font="Regular; 28" name="artist" position="760,805" size="1120,35" transparent="1" verticalAlignment="top" backgroundColor="background" foregroundColor="foreground" noWrap="1" horizontalAlignment="left" zPosition="7" />
+  <eLabel backgroundColor="background" font="Regular; 28" horizontalAlignment="left" position="610,850" size="300,35" text="Album" transparent="1" zPosition="7" verticalAlignment="top" foregroundColor="grey" />
+  <widget font="Regular; 28" name="album" position="760,850" size="600,35" transparent="1" verticalAlignment="top" backgroundColor="background" noWrap="1" horizontalAlignment="left" foregroundColor="foreground" zPosition="7" />
+  <eLabel backgroundColor="background" font="Regular; 28" horizontalAlignment="left" position="1375,895" size="100,35" text="Year" transparent="1" zPosition="7" verticalAlignment="top" foregroundColor="grey" />
+  <widget font="Regular; 28" name="year" position="1473,895" size="300,35" transparent="1" verticalAlignment="top" backgroundColor="background" noWrap="1" horizontalAlignment="left" foregroundColor="foreground" zPosition="7" />
+  <eLabel backgroundColor="background" font="Regular; 28" horizontalAlignment="left" position="610,895" size="300,35" text="Genre" transparent="1" zPosition="7" verticalAlignment="top" foregroundColor="grey" />
+  <widget font="Regular; 28" name="genre" position="760,895" size="600,35" transparent="1" verticalAlignment="top" backgroundColor="background" noWrap="1" foregroundColor="foreground" horizontalAlignment="left" zPosition="7" />
+  <widget name="coverArt" position="230,705" size="300,300" transparent="1" alphaTest="blend" zPosition="7" />
+  <widget name="filelist" position="30,117" size="900,560" backgroundColor="background" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarForegroundColor="scrollbarsfgc" scrollbarBorderColor="scrollbarsbgc" scrollbarBorderWidth="0" enableWrapAround="1" zPosition="0" />
   <widget source="session.CurrentService" render="Progress" foregroundColor="progress" position="610,770" size="1070,5" transparent="1" zPosition="8">
     <convert type="ServicePosition">Position</convert>
   </widget>
-  <widget source="session.CurrentService" render="Label" position="1686,757" size="120,30" backgroundColor="background" foregroundColor="foreground" transparent="1" font="Regular; 27" valign="center" halign="right" zPosition="7">
+  <widget source="session.CurrentService" render="Label" position="1686,757" size="120,30" backgroundColor="background" foregroundColor="foreground" transparent="1" font="Regular; 27" verticalAlignment="center" horizontalAlignment="right" zPosition="7">
     <convert type="ServicePosition">Position</convert>
   </widget>
-  <widget source="session.CurrentService" render="Label" position="1825,757" size="120,30" backgroundColor="background" foregroundColor="foreground" transparent="1" font="Regular; 27" valign="center" halign="left" zPosition="7">
+  <widget source="session.CurrentService" render="Label" position="1825,757" size="120,30" backgroundColor="background" foregroundColor="foreground" transparent="1" font="Regular; 27" verticalAlignment="center" horizontalAlignment="left" zPosition="7">
     <convert type="ServicePosition">Remaining</convert>
   </widget>
-  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/images/yamp.png" position="30,905" size="200,100" transparent="1" alphatest="blend" zPosition="0" />
-  <widget name="repeat" pixmaps="iFlatFHD/icons/buttons/key_repeat_off.png,iFlatFHD/icons/buttons/key_repeat_on.png" position="1310,1037" size="80,30" zPosition="3" transparent="1" alphatest="blend" />
-  <widget name="shuffle" pixmaps="iFlatFHD/icons/buttons/key_shuffle_off.png,iFlatFHD/icons/buttons/key_shuffle_on.png" position="1410,1037" size="80,30" zPosition="3" transparent="1" alphatest="blend" />
-  <widget name="saver" pixmaps="iFlatFHD/icons/buttons/key_saver_off.png,iFlatFHD/icons/buttons/key_saver_on.png" position="1510,1037" size="80,30" zPosition="3" transparent="1" alphatest="blend" />
-  <widget name="key_red" position="15,1025" size="280,45" zPosition="1" font="Regular; 20" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="center" />
-  <widget name="key_green" position="310,1025" size="280,45" zPosition="1" font="Regular; 20" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="center" />
-  <widget name="key_yellow" position="605,1025" size="280,45" zPosition="1" font="Regular; 20" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="center" />
-  <widget name="key_blue" position="900,1025" size="280,45" zPosition="1" font="Regular; 20" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="center" />
-  <widget name="screenSaver" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/default/black.png" position="0,0" size="1920,1080" zPosition="9" transparent="0" alphatest="on" />
-  <widget name="screenSaverBackground" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/black.png" position="0,0" size="1920,1080" zPosition="5" transparent="0" alphatest="on" />
-  <widget name="nextsong" position="610,970" zPosition="7" size="300,35" backgroundColor="background" transparent="2" font="Regular; 28" valign="center" foregroundColor="grey" />
-  <widget name="nextsongtitle" position="760,970" zPosition="7" size="1125,35" backgroundColor="background" foregroundColor="foreground" transparent="1" font="Regular; 28" valign="center" />
-  <widget name="video" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtBlank.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtVideo.png" position="130,975" size="0,0" zPosition="3" transparent="0" alphatest="on" />
-  <widget name="tv" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtBlank.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtTV.png" position="1700,975" size="0,0" zPosition="3" transparent="0" alphatest="on" />
-  <widget name="radio" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtBlank.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtRadio.png" position="1770,975" size="0,0" zPosition="3" transparent="0" alphatest="on" />
-  <widget name="fanartdownload" position="30,705" size="200,55" backgroundColor="background" transparent="1" zPosition="8" font="Regular;20" valign="top" halign="left" />
-  <widget source="fanartlogo" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhdCustom/fanarttv.png" position="30,783" size="122,31" zPosition="8" transparent="1" alphatest="blend">
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/images/yamp.png" position="30,905" size="200,100" transparent="1" alphaTest="blend" zPosition="0" />
+  <widget name="repeat" pixmaps="iFlatFHD/icons/buttons/key_repeat_off.png,iFlatFHD/icons/buttons/key_repeat_on.png" position="1310,1037" size="80,30" zPosition="3" transparent="1" alphaTest="blend" />
+  <widget name="shuffle" pixmaps="iFlatFHD/icons/buttons/key_shuffle_off.png,iFlatFHD/icons/buttons/key_shuffle_on.png" position="1410,1037" size="80,30" zPosition="3" transparent="1" alphaTest="blend" />
+  <widget name="saver" pixmaps="iFlatFHD/icons/buttons/key_saver_off.png,iFlatFHD/icons/buttons/key_saver_on.png" position="1510,1037" size="80,30" zPosition="3" transparent="1" alphaTest="blend" />
+  <widget name="key_red" position="15,1025" size="280,45" zPosition="1" font="Regular; 20" horizontalAlignment="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" verticalAlignment="center" />
+  <widget name="key_green" position="310,1025" size="280,45" zPosition="1" font="Regular; 20" horizontalAlignment="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" verticalAlignment="center" />
+  <widget name="key_yellow" position="605,1025" size="280,45" zPosition="1" font="Regular; 20" horizontalAlignment="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" verticalAlignment="center" />
+  <widget name="key_blue" position="900,1025" size="280,45" zPosition="1" font="Regular; 20" horizontalAlignment="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" verticalAlignment="center" />
+  <widget name="screenSaver" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/default/black.png" position="0,0" size="1920,1080" zPosition="9" transparent="0" alphaTest="on" />
+  <widget name="screenSaverBackground" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/black.png" position="0,0" size="1920,1080" zPosition="5" transparent="0" alphaTest="on" />
+  <widget name="nextsong" position="610,970" zPosition="7" size="300,35" backgroundColor="background" transparent="2" font="Regular; 28" verticalAlignment="center" foregroundColor="grey" />
+  <widget name="nextsongtitle" position="760,970" zPosition="7" size="1125,35" backgroundColor="background" foregroundColor="foreground" transparent="1" font="Regular; 28" verticalAlignment="center" />
+  <widget name="video" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtBlank.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtVideo.png" position="130,975" size="0,0" zPosition="3" transparent="0" alphaTest="on" />
+  <widget name="tv" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtBlank.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtTV.png" position="1700,975" size="0,0" zPosition="3" transparent="0" alphaTest="on" />
+  <widget name="radio" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtBlank.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/txtRadio.png" position="1770,975" size="0,0" zPosition="3" transparent="0" alphaTest="on" />
+  <widget name="fanartdownload" position="30,705" size="200,55" backgroundColor="background" transparent="1" zPosition="8" font="Regular;20" verticalAlignment="top" horizontalAlignment="left" />
+  <widget source="fanartlogo" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhdCustom/fanarttv.png" position="30,783" size="122,31" zPosition="8" transparent="1" alphaTest="blend">
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="musicbrainzlogo" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhdCustom/musicbrainz.png" position="30,766" size="91,14" zPosition="8" transparent="1" alphatest="blend">
+  <widget source="musicbrainzlogo" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhdCustom/musicbrainz.png" position="30,766" size="91,14" zPosition="8" transparent="1" alphaTest="blend">
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="downloadBackground" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhdCustom/Bg_Black_trans.png" position="27,828" size="370,60" zPosition="6" transparent="1" alphatest="blend">
+  <widget source="downloadBackground" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhdCustom/Bg_Black_trans.png" position="27,828" size="370,60" zPosition="6" transparent="1" alphaTest="blend">
     <convert type="ConditionalShowHide" />
   </widget>
 
-    <!--<widget foregroundColor="foreground" backgroundColor="background" font="Regular; 18" halign="right" position="2175,509" render="Label" size="70,24" source="session.CurrentService" zPosition="2" transparent="1" valign="top">
+    <!--<widget foregroundColor="foreground" backgroundColor="background" font="Regular; 18" horizontalAlignment="right" position="2175,509" render="Label" size="70,24" source="session.CurrentService" zPosition="2" transparent="1" verticalAlignment="top">
         <convert type="ServiceInfo">VideoWidth</convert>
     </widget>-->
-   <!--<widget foregroundColor="foreground" backgroundColor="background" font="Regular; 18" halign="left" position="2318,514" render="Label" size="70,24" source="session.CurrentService" zPosition="2" transparent="1" valign="top">
+   <!--<widget foregroundColor="foreground" backgroundColor="background" font="Regular; 18" horizontalAlignment="left" position="2318,514" render="Label" size="70,24" source="session.CurrentService" zPosition="2" transparent="1" verticalAlignment="top">
         <convert type="ServiceInfo">VideoHeight</convert>
     </widget>
-<eLabel foregroundColor="foreground" backgroundColor="background" font="Regular; 18" halign="center" position="2268,510" size="20,24" text="x" zPosition="2" transparent="1" valign="top" />
+<eLabel foregroundColor="foreground" backgroundColor="background" font="Regular; 18" horizontalAlignment="center" position="2268,510" size="20,24" text="x" zPosition="2" transparent="1" verticalAlignment="top" />
 <widget name="noVideoLabelHide" position="2223,459" size="164,24" zPosition="3" backgroundColor="background" foregroundColor="foreground" />
 <widget source="session.CurrentService" render="Pig" position="2088,153" size="462,260" zPosition="2" backgroundColor="transparent" transparent="0">
         <convert type="ConfigEntryTest">config.plugins.yampmusicplayer.displayVideoPreview,True</convert>
         <convert type="ConditionalShowHide" />
     </widget>-->
   <eLabel name="DB" position="530,705" size="1390,300" zPosition="6" backgroundColor="background" />
-  <eLabel name="button epg" position="1613,1036" size="60,30" backgroundColor="button_mbgc" text="EPG" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" font="Regular; 17" />
+  <eLabel name="button epg" position="1613,1036" size="60,30" backgroundColor="button_mbgc" text="EPG" foregroundColor="button_mfgc" horizontalAlignment="center" verticalAlignment="center" zPosition="1" font="Regular; 17" />
   <eLabel name="button epg bg" position="1612,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
-  <eLabel name="button menu" position="1689,1036" size="60,30" backgroundColor="button_mbgc" text="MENU" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button menu" position="1689,1036" size="60,30" backgroundColor="button_mbgc" text="MENU" font="Regular; 17" foregroundColor="button_mfgc" horizontalAlignment="center" verticalAlignment="center" zPosition="1" />
   <eLabel name="button menu bg" position="1688,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
-  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" horizontalAlignment="center" verticalAlignment="center" zPosition="1" />
   <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
-  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" horizontalAlignment="center" verticalAlignment="center" zPosition="1" />
   <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
 </screen>
 
@@ -94,56 +94,56 @@
   <panel name="p_centerbar1920" />
   <panel name="p_color_labels" />
   <panel name="1242_61_1_958" />
-    <widget name="title" position="15,6" size="900,50" backgroundColor="background2" foregroundColor="foreground3" transparent="1" zPosition="1" font="Regular;42" valign="center" halign="left" />
-    <widget name="lyrics" position="30,75" zPosition="3" size="1180,920" itemFont="Regular;29" backgroundColor="background" foregroundColor="foreground" selectionDisabled="1" scrollbarMode="showOnDemand" scrollbarWidth="4" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" transparent="1" />
-    <widget name="songtitle" position="1277,75" size="620,80" font="Regular; 35" zPosition="5" backgroundColor="background" transparent="1" valign="top" halign="center" foregroundColor="foreground2" />
-    <widget name="artist" position="1422,166" size="475,60" font="Regular; 28" zPosition="5" backgroundColor="background" foregroundColor="foreground" transparent="1" valign="top" halign="left" />
-    <widget name="album" position="1422,236" size="475,60" font="Regular; 28" zPosition="5" backgroundColor="background" foregroundColor="foreground" transparent="1" valign="top" halign="left" />
-    <widget name="Tracknr" position="1569,306" size="190,35" font="Regular; 28" zPosition="5" backgroundColor="background" transparent="1" valign="top" halign="right" foregroundColor="grey" />
-    <widget name="tracknr" position="1767,306" size="100,35" font="Regular; 28" zPosition="5" backgroundColor="background" foregroundColor="foreground" transparent="1" valign="top" halign="left" />
-    <widget name="Length" position="1592,300" size="0,0" font="Regular;24" zPosition="5" backgroundColor="background" foregroundColor="foreground" transparent="1" valign="top" halign="left" />
-    <widget name="Length" position="1285,306" size="200,35" font="Regular; 28" zPosition="5" backgroundColor="background" transparent="1" valign="top" halign="left" foregroundColor="grey" />
-    <widget name="length" position="1422,306" size="150,35" font="Regular; 28" zPosition="5" backgroundColor="background" foregroundColor="foreground" transparent="1" valign="top" halign="left" />
-    <widget name="coverArt" position="1442,435" size="280,280" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/no_coverArt.png" zPosition="7" transparent="1" alphatest="blend" />
+    <widget name="title" position="15,6" size="900,50" backgroundColor="background2" foregroundColor="foreground3" transparent="1" zPosition="1" font="Regular;42" verticalAlignment="center" horizontalAlignment="left" />
+    <widget name="lyrics" position="30,75" zPosition="3" size="1180,920" itemFont="Regular;29" backgroundColor="background" foregroundColor="foreground" selection="1" scrollbarMode="showOnDemand" scrollbarWidth="4" scrollbarForegroundColor="scrollbarsfgc" scrollbarBorderColor="scrollbarsbgc" scrollbarBorderWidth="0" transparent="1" />
+    <widget name="songtitle" position="1277,75" size="620,80" font="Regular; 35" zPosition="5" backgroundColor="background" transparent="1" verticalAlignment="top" horizontalAlignment="center" foregroundColor="foreground2" />
+    <widget name="artist" position="1422,166" size="475,60" font="Regular; 28" zPosition="5" backgroundColor="background" foregroundColor="foreground" transparent="1" verticalAlignment="top" horizontalAlignment="left" />
+    <widget name="album" position="1422,236" size="475,60" font="Regular; 28" zPosition="5" backgroundColor="background" foregroundColor="foreground" transparent="1" verticalAlignment="top" horizontalAlignment="left" />
+    <widget name="Tracknr" position="1569,306" size="190,35" font="Regular; 28" zPosition="5" backgroundColor="background" transparent="1" verticalAlignment="top" horizontalAlignment="right" foregroundColor="grey" />
+    <widget name="tracknr" position="1767,306" size="100,35" font="Regular; 28" zPosition="5" backgroundColor="background" foregroundColor="foreground" transparent="1" verticalAlignment="top" horizontalAlignment="left" />
+    <widget name="Length" position="1592,300" size="0,0" font="Regular;24" zPosition="5" backgroundColor="background" foregroundColor="foreground" transparent="1" verticalAlignment="top" horizontalAlignment="left" />
+    <widget name="Length" position="1285,306" size="200,35" font="Regular; 28" zPosition="5" backgroundColor="background" transparent="1" verticalAlignment="top" horizontalAlignment="left" foregroundColor="grey" />
+    <widget name="length" position="1422,306" size="150,35" font="Regular; 28" zPosition="5" backgroundColor="background" foregroundColor="foreground" transparent="1" verticalAlignment="top" horizontalAlignment="left" />
+    <widget name="coverArt" position="1442,435" size="280,280" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/no_coverArt.png" zPosition="7" transparent="1" alphaTest="blend" />
     <!-- 0: black (no) 1: mp3 2: flac 3: saved file : 4: chartlyrics -->
-    <widget name="providedby" position="1285,822" size="320,35" font="Regular; 28" zPosition="5" backgroundColor="background" transparent="1" valign="center" halign="left" foregroundColor="grey" />
-    <widget name="provider" position="1610,822" size="160,60" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/black.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_mp3.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_flac.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_file.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_chartlyrics.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_genius.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_mp4.png" zPosition="5" transparent="0" alphatest="blend" />
+    <widget name="providedby" position="1285,822" size="320,35" font="Regular; 28" zPosition="5" backgroundColor="background" transparent="1" verticalAlignment="center" horizontalAlignment="left" foregroundColor="grey" />
+    <widget name="provider" position="1610,822" size="160,60" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/black.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_mp3.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_flac.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_file.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_chartlyrics.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_genius.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_mp4.png" zPosition="5" transparent="0" alphaTest="blend" />
     <!-- 0: black (no) 1: mp3 2: flac 3: mucic dir : 4: music dir albumcover.* 5: google -->
-    <widget name="cprovidedby" position="1285,930" size="320,35" font="Regular; 28" zPosition="5" backgroundColor="background" transparent="1" valign="center" halign="left" foregroundColor="grey" />
-    <widget name="cprovider" position="1610,928" size="160,60" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/black.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_mp3.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_flac.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_file.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_filealbum.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_google.png" zPosition="5" transparent="0" alphatest="blend" />
-    <widget name="key_red" position="15,1037" size="280,36" zPosition="1" font="Regular; 26" valign="bottom" halign="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
-    <widget name="key_green" position="310,1037" size="280,36" zPosition="1" font="Regular; 26" valign="bottom" halign="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
-    <widget name="key_yellow" position="605,1037" size="280,36" zPosition="1" font="Regular; 26" valign="bottom" halign="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
-    <widget name="key_blue" position="900,1037" size="280,36" zPosition="1" font="Regular; 26" valign="bottom" halign="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
-    <eLabel backgroundColor="background" font="Regular; 28" halign="left" position="1280,166" size="300,35" text="Artist" transparent="1" zPosition="5" foregroundColor="grey" valign="top" />
-    <eLabel backgroundColor="background" font="Regular; 28" halign="left" position="1285,236" size="300,35" text="Album" transparent="1" zPosition="5" foregroundColor="grey" valign="top" />
-       <widget source="session.CurrentService" render="Label" position="1285,370" size="110,35" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 28" valign="top" halign="right">
+    <widget name="cprovidedby" position="1285,930" size="320,35" font="Regular; 28" zPosition="5" backgroundColor="background" transparent="1" verticalAlignment="center" horizontalAlignment="left" foregroundColor="grey" />
+    <widget name="cprovider" position="1610,928" size="160,60" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/black.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_mp3.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_flac.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_file.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_filealbum.png,/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/prov_google.png" zPosition="5" transparent="0" alphaTest="blend" />
+    <widget name="key_red" position="15,1037" size="280,36" zPosition="1" font="Regular; 26" verticalAlignment="bottom" horizontalAlignment="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+    <widget name="key_green" position="310,1037" size="280,36" zPosition="1" font="Regular; 26" verticalAlignment="bottom" horizontalAlignment="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+    <widget name="key_yellow" position="605,1037" size="280,36" zPosition="1" font="Regular; 26" verticalAlignment="bottom" horizontalAlignment="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+    <widget name="key_blue" position="900,1037" size="280,36" zPosition="1" font="Regular; 26" verticalAlignment="bottom" horizontalAlignment="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+    <eLabel backgroundColor="background" font="Regular; 28" horizontalAlignment="left" position="1280,166" size="300,35" text="Artist" transparent="1" zPosition="5" foregroundColor="grey" verticalAlignment="top" />
+    <eLabel backgroundColor="background" font="Regular; 28" horizontalAlignment="left" position="1285,236" size="300,35" text="Album" transparent="1" zPosition="5" foregroundColor="grey" verticalAlignment="top" />
+       <widget source="session.CurrentService" render="Label" position="1285,370" size="110,35" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 28" verticalAlignment="top" horizontalAlignment="right">
        <convert type="ServicePosition">Position</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="1767,370" size="110,35" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 28" valign="top" halign="left">
+    <widget source="session.CurrentService" render="Label" position="1767,370" size="110,35" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 28" verticalAlignment="top" horizontalAlignment="left">
        <convert type="ServicePosition">Remaining</convert>
     </widget>
     <widget source="session.CurrentService" render="Progress" position="1411,384" size="340,5" zPosition="7" foregroundColor="progress" transparent="1">
        <convert type="ServicePosition">Position</convert>
     </widget>
-   <!--<widget source="session.CurrentService" render="Label" position="1285,370" size="110,35" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 28" valign="top" halign="right">
+   <!--<widget source="session.CurrentService" render="Label" position="1285,370" size="110,35" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 28" verticalAlignment="top" horizontalAlignment="right">
     <convert type="ServicePosition">Position</convert>
     </widget>-->
-      <!--<widget source="session.CurrentService" render="Label" position="1767,370" size="110,35" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 28" valign="top" halign="left">
+      <!--<widget source="session.CurrentService" render="Label" position="1767,370" size="110,35" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 28" verticalAlignment="top" horizontalAlignment="left">
        <convert type="ServicePosition">Remaining</convert>
     </widget>-->
       <!--<widget source="session.CurrentService" render="Progress" position="1411,384" size="340,5" zPosition="7" foregroundColor="progress" transparent="1">
        <convert type="ServicePosition">Position</convert>
     </widget>-->
-   <!--<eLabel position="2105,628" size="580,330" backgroundColor="background" foregroundColor="foreground" text="Video Preview" font="Regular;24" halign="center" valign="center" zPosition="1" />-->
+   <!--<eLabel position="2105,628" size="580,330" backgroundColor="background" foregroundColor="foreground" text="Video Preview" font="Regular;24" horizontalAlignment="center" verticalAlignment="center" zPosition="1" />-->
      <!--<widget source="session.CurrentService" render="Pig" position="2110,637" size="560,306" zPosition="2" backgroundColor="transparent" transparent="0">
         <convert type="ConfigEntryTest">config.plugins.yampmusicplayer.displayVideoPreview,True</convert>
         <convert type="ConditionalShowHide" />
     </widget>-->
     <eLabel name="progress_bg" position="1411,386" size="340,1" backgroundColor="progress_bg" zPosition="6" />
-    <eLabel name="button OK" position="1766,1036" size="60,30" text="OK" font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button OK" position="1766,1036" size="60,30" text="OK" font="Regular; 17" horizontalAlignment="center" verticalAlignment="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
     <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
-    <eLabel name="button exit" position="1843,1036" size="60,30" text="EXIT " font="Regular; 17" halign="center" valign="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
+    <eLabel name="button exit" position="1843,1036" size="60,30" text="EXIT " font="Regular; 17" horizontalAlignment="center" verticalAlignment="center" foregroundColor="button_mfgc" backgroundColor="button_mbgc" zPosition="1" />
     <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
   </screen>
 
@@ -152,31 +152,31 @@
   <panel name="p_bottombar" />    
 <eLabel name="line_s" position="0,877" size="1920,1" zPosition="5" backgroundColor="line_s" />
 <eLabel name="IB" position="0,875" size="1920,143" zPosition="-10" backgroundColor="background" />
-    <widget name="coverArt" position="30,579" size="280,280" zPosition="7" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/no_videocoverArt.png" transparent="1" alphatest="blend" />
+    <widget name="coverArt" position="30,579" size="280,280" zPosition="7" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YampMusicPlayer/skins/fhd/no_videocoverArt.png" transparent="1" alphaTest="blend" />
     <eLabel name="player_progress_bg" backgroundColor="progress_bg" position="151,959" size="1170,1" zPosition="-1" />	
-    <eLabel foregroundColor="foreground" backgroundColor="background" font="Regular; 29" halign="left" position="1827,943" size="80,33" text="min" transparent="1" valign="top" />
-    <widget name="songtitle" position="30,883" size="1405,55" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 45" halign="left" valign="center" noWrap="1" />
-    <widget source="session.CurrentService" render="Label" position="1677,943" size="150,33" zPosition="7" backgroundColor="background" font="Regular; 29" valign="top" halign="right" transparent="1">
+    <eLabel foregroundColor="foreground" backgroundColor="background" font="Regular; 29" horizontalAlignment="left" position="1827,943" size="80,33" text="min" transparent="1" verticalAlignment="top" />
+    <widget name="songtitle" position="30,883" size="1405,55" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 45" horizontalAlignment="left" verticalAlignment="center" noWrap="1" />
+    <widget source="session.CurrentService" render="Label" position="1677,943" size="150,33" zPosition="7" backgroundColor="background" font="Regular; 29" verticalAlignment="top" horizontalAlignment="right" transparent="1">
         <convert type="ServicePosition">Length</convert>
     </widget>
-    <widget name="artist" position="30,981" size="1405,33" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 29" halign="left" valign="top" noWrap="1" />
-    <widget name="bitrate" position="1681,886" size="200,33" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 28" halign="right" valign="top" />
-<widget name="nextsong" position="30,1032" size="168,38" zPosition="7" backgroundColor="background2" transparent="2" foregroundColor="foreground3" font="Regular;26" halign="top" valign="center" noWrap="1" />
- <widget name="nextsongtitle" position="218,1032" size="1215,38" zPosition="7" backgroundColor="background2" transparent="1" foregroundColor="foreground3" font="Regular;26" halign="top" valign="center" noWrap="1" />
+    <widget name="artist" position="30,981" size="1405,33" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 29" horizontalAlignment="left" verticalAlignment="top" noWrap="1" />
+    <widget name="bitrate" position="1681,886" size="200,33" zPosition="7" backgroundColor="background" transparent="1" font="Regular; 28" horizontalAlignment="right" verticalAlignment="top" />
+<widget name="nextsong" position="30,1032" size="168,38" zPosition="7" backgroundColor="background2" transparent="2" foregroundColor="foreground3" font="Regular;26" horizontalAlignment="top" verticalAlignment="center" noWrap="1" />
+ <widget name="nextsongtitle" position="218,1032" size="1215,38" zPosition="7" backgroundColor="background2" transparent="1" foregroundColor="foreground3" font="Regular;26" horizontalAlignment="top" verticalAlignment="center" noWrap="1" />
     <widget source="session.CurrentService" render="Progress" position="151,957" size="1170,5" zPosition="1" backgroundColor="background" foregroundColor="progress" transparent="1">
         <convert type="ServicePosition">Position</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="30,943" zPosition="7" size="100,33" backgroundColor="background" transparent="1" foregroundColor="grey" font="Regular; 29" valign="top" halign="left">
+    <widget source="session.CurrentService" render="Label" position="30,943" zPosition="7" size="100,33" backgroundColor="background" transparent="1" foregroundColor="grey" font="Regular; 29" verticalAlignment="top" horizontalAlignment="left">
         <convert type="ServicePosition">Position</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="1336,943" zPosition="7" size="100,33" backgroundColor="background" transparent="1" foregroundColor="grey" font="Regular; 29" valign="top" halign="right">
+    <widget source="session.CurrentService" render="Label" position="1336,943" zPosition="7" size="100,33" backgroundColor="background" transparent="1" foregroundColor="grey" font="Regular; 29" verticalAlignment="top" horizontalAlignment="right">
         <convert type="ServicePosition">Remaining</convert>
     </widget>
-    <widget backgroundColor="background" font="Regular; 29" halign="right" position="1459,886" render="Label" size="80,33" source="session.CurrentService" zPosition="7" transparent="1" valign="top">
+    <widget backgroundColor="background" font="Regular; 29" horizontalAlignment="right" position="1459,886" render="Label" size="80,33" source="session.CurrentService" zPosition="7" transparent="1" verticalAlignment="top">
         <convert type="ServiceInfo">VideoWidth</convert>
     </widget>
-    <eLabel backgroundColor="background" font="Regular; 29" halign="center" position="1544,886" size="20,33" text="x" zPosition="7" transparent="1" valign="top" />
-    <widget backgroundColor="background" font="Regular; 29" halign="left" position="1569,886" render="Label" size="80,33" source="session.CurrentService" zPosition="7" transparent="1" valign="top">
+    <eLabel backgroundColor="background" font="Regular; 29" horizontalAlignment="center" position="1544,886" size="20,33" text="x" zPosition="7" transparent="1" verticalAlignment="top" />
+    <widget backgroundColor="background" font="Regular; 29" horizontalAlignment="left" position="1569,886" render="Label" size="80,33" source="session.CurrentService" zPosition="7" transparent="1" verticalAlignment="top">
         <convert type="ServiceInfo">VideoHeight</convert>
     </widget>	
 </screen>
@@ -188,12 +188,12 @@
   <panel name="p_centerbar1300" />
   <panel name="p_color_labels" />
     <widget name="title" position="15,6" size="1240,50" font="Regular; 42" foregroundColor="foreground3" backgroundColor="background2" transparent="1" zPosition="1" />
-    <widget name="config" itemHeight="40" font="Regular;28" secondfont="Regular;28" position="30,75" size="1240,920" backgroundColor="background" foregroundColor="foreground" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="0" enableWrapAround="1" transparent="1" />
-    <eLabel text="Cancel" position="15,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="bottom" />
-    <eLabel text="Save" position="310,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="bottom" />
-    <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+    <widget name="config" itemHeight="40" font="Regular;28" valueFont="Regular;28" position="30,75" size="1240,920" backgroundColor="background" foregroundColor="foreground" scrollbarMode="showOnDemand" scrollbarWidth="3" scrollbarForegroundColor="scrollbarsfgc" scrollbarBorderColor="scrollbarsbgc" scrollbarBorderWidth="0" enableWrapAround="1" transparent="1" />
+    <eLabel text="Cancel" position="15,1037" size="280,36" zPosition="1" font="Regular; 26" horizontalAlignment="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" verticalAlignment="bottom" />
+    <eLabel text="Save" position="310,1037" size="280,36" zPosition="1" font="Regular; 26" horizontalAlignment="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" verticalAlignment="bottom" />
+    <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" horizontalAlignment="center" verticalAlignment="center" zPosition="1" />
     <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
-    <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+    <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" horizontalAlignment="center" verticalAlignment="center" zPosition="1" />
     <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
   </screen>
 
@@ -203,13 +203,13 @@
   <panel name="p_bottombar" />
   <panel name="p_centerbar960" />
   <panel name="p_color_labels" />
-    <widget name="title" position="15,6" size="900,50" backgroundColor="background2" foregroundColor="foreground3" transparent="1" zPosition="1" font="Regular;42" valign="center" halign="center" />
-    <widget name="message" position="30,77" size="900,930" backgroundColor="background" foregroundColor="foreground" transparent="1" zPosition="1" font="Regular;28" valign="center" halign="left" />
-    <widget name="key_red" position="15,1037" size="280,36" zPosition="1" font="Regular;26" valign="bottom" halign="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
-    <widget name="key_green" position="310,1037" size="280,36" zPosition="1" font="Regular;26" valign="bottom" halign="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
-  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+    <widget name="title" position="15,6" size="900,50" backgroundColor="background2" foregroundColor="foreground3" transparent="1" zPosition="1" font="Regular;42" verticalAlignment="center" horizontalAlignment="center" />
+    <widget name="message" position="30,77" size="900,930" backgroundColor="background" foregroundColor="foreground" transparent="1" zPosition="1" font="Regular;28" verticalAlignment="center" horizontalAlignment="left" />
+    <widget name="key_red" position="15,1037" size="280,36" zPosition="1" font="Regular;26" verticalAlignment="bottom" horizontalAlignment="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+    <widget name="key_green" position="310,1037" size="280,36" zPosition="1" font="Regular;26" verticalAlignment="bottom" horizontalAlignment="center" foregroundColor="foreground3" backgroundColor="background2" transparent="1" />
+  <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" horizontalAlignment="center" verticalAlignment="center" zPosition="1" />
   <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
-  <eLabel name="button ext" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+  <eLabel name="button ext" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" horizontalAlignment="center" verticalAlignment="center" zPosition="1" />
   <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />	
 </screen>
   
@@ -221,13 +221,13 @@
   <panel name="p_color_labels" />
   <panel name="0_945_960_1" />   
     <widget name="title" position="15,6" size="900,50" font="Regular; 42" foregroundColor="foreground3" backgroundColor="background2" transparent="1" zPosition="1" />
-    <widget name="target" position="30,952" size="900,66" font="Regular; 28" transparent="1" halign="center" />
-    <widget name="filelist" itemHeight="40" font="Regular;28" position="30,75" size="900,840" backgroundColor="background" foregroundColor="foreground" scrollbarMode="showOnDemand" scrollbarWidth="4" scrollbarSliderForegroundColor="scrollbarsfgc" scrollbarSliderBorderColor="scrollbarsbgc" scrollbarSliderBorderWidth="1" transparent="1" />
-    <eLabel text="Cancel" position="15,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="bottom" />
-    <eLabel text="OK" position="310,1037" size="280,36" zPosition="1" font="Regular; 26" halign="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" valign="bottom" />
-    <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+    <widget name="target" position="30,952" size="900,66" font="Regular; 28" transparent="1" horizontalAlignment="center" />
+    <widget name="filelist" itemHeight="40" font="Regular;28" position="30,75" size="900,840" backgroundColor="background" foregroundColor="foreground" scrollbarMode="showOnDemand" scrollbarWidth="4" scrollbarForegroundColor="scrollbarsfgc" scrollbarBorderColor="scrollbarsbgc" scrollbarBorderWidth="1" transparent="1" />
+    <eLabel text="Cancel" position="15,1037" size="280,36" zPosition="1" font="Regular; 26" horizontalAlignment="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" verticalAlignment="bottom" />
+    <eLabel text="OK" position="310,1037" size="280,36" zPosition="1" font="Regular; 26" horizontalAlignment="center" backgroundColor="background2" transparent="1" foregroundColor="foreground3" verticalAlignment="bottom" />
+    <eLabel name="button OK" position="1766,1036" size="60,30" backgroundColor="button_mbgc" text="OK" font="Regular; 17" foregroundColor="button_mfgc" horizontalAlignment="center" verticalAlignment="center" zPosition="1" />
     <eLabel name="button OK bg" position="1765,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
-    <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" halign="center" valign="center" zPosition="1" />
+    <eLabel name="button exit" position="1843,1036" size="60,30" backgroundColor="button_mbgc" text="EXIT " font="Regular; 17" foregroundColor="button_mfgc" horizontalAlignment="center" verticalAlignment="center" zPosition="1" />
     <eLabel name="button exit bg" position="1842,1035" size="62,32" backgroundColor="button_mbg" zPosition="0" />
   </screen>
   

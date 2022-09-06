@@ -4,7 +4,7 @@
 	<screen name="IBSeasonsWidget">
      
 <!-- /* Halloween -->
-  <ePixmap alphatest="blend" pixmap="iFlatFHD/icons/pictures/halloween.png" position="1740,692" size="150,150" transparent="0" />
+  <ePixmap alphaTest="blend" pixmap="iFlatFHD/icons/pictures/halloween.png" position="1740,692" size="150,150" transparent="0" />
 <!-- Halloween */-->            
             
 	</screen>

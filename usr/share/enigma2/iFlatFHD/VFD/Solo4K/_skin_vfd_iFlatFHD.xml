@@ -21,27 +21,27 @@
 
 <!-- InfoBar -->
 <screen name="InfoBarSummary" position="0,0" size="480,320" id="1">
-  <widget source="session.CurrentService" render="Picon" position="20,41" size="220,132" zPosition="4" transparent="1" alphatest="blend">
+  <widget source="session.CurrentService" render="Picon" position="20,41" size="220,132" zPosition="4" transparent="1" alphaTest="blend">
     <convert type="ServiceName">Reference</convert>
   </widget>
-  <widget source="session.Event_Now" foregroundColor="white" backgroundColor="background" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=15,repeat=5,startdelay=2000,always=0,oneshot=1" noWrap="1" position="20,192" size="440,70" font="VFD;65" halign="left" valign="top">
+  <widget source="session.Event_Now" foregroundColor="white" backgroundColor="background" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=15,repeat=5,startdelay=2000,always=0,oneshot=1" noWrap="1" position="20,192" size="440,70" font="VFD;65" horizontalAlignment="left" verticalAlignment="top">
     <convert type="EventName">Name</convert>
   </widget>
   <eLabel name="progress" position="20,275" size="440,2" backgroundColor="white" />
   <widget source="session.Event_Now" render="Progress" position="20,270" size="440,12" borderWidth="0" foregroundColor="red" backgroundColor="background" zPosition="1" transparent="1">
     <convert type="EventTime">Progress</convert>
   </widget>
-  <widget source="global.CurrentTime" render="Label" position="256,35" size="204,70" font="VFD;70" halign="right" valign="center" foregroundColor="white" backgroundColor="background">
+  <widget source="global.CurrentTime" render="Label" position="256,35" size="204,70" font="VFD;70" horizontalAlignment="right" verticalAlignment="center" foregroundColor="white" backgroundColor="background">
     <convert type="ClockToText">Format:%H:%M</convert>
   </widget>
   <widget source="session.RecordState" render="FixedLabel" position="360,20" zPosition="3" size="100,5" text=" " backgroundColor="red">
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.Event_Now" render="Label" position="320,110" size="140,70" font="VFD;70" halign="right" valign="top" foregroundColor="white" backgroundColor="background">
+  <widget source="session.Event_Now" render="Label" position="320,110" size="140,70" font="VFD;70" horizontalAlignment="right" verticalAlignment="top" foregroundColor="white" backgroundColor="background">
     <convert type="EventTime">Remaining</convert>
   <convert type="RemainingToText">InMinutes</convert>
   </widget>
-  <widget source="session.CurrentService" render="FixedLabel" position="0,0" zPosition="3" size="480,10" text=" " backgroundColor="red" font="Regular; 27" valign="top" halign="center">
+  <widget source="session.CurrentService" render="FixedLabel" position="0,0" zPosition="3" size="480,10" text=" " backgroundColor="red" font="Regular; 27" verticalAlignment="top" horizontalAlignment="center">
   <convert type="ConfigEntryTest">config.usage.update_available,True,CheckSourceBoolean</convert>
   <convert type="ConditionalShowHide" />
   </widget>
@@ -49,27 +49,27 @@
 
 <!-- ChannelSelection -->
 <screen name="ChannelSelection_summary" position="0,0" size="480,320" id="1">
-  <widget source="parent.ServiceEvent" render="Picon" position="20,35" size="220,132" zPosition="4" transparent="1" alphatest="blend">
+  <widget source="parent.ServiceEvent" render="Picon" position="20,35" size="220,132" zPosition="4" transparent="1" alphaTest="blend">
     <convert type="ServiceName">Reference</convert>
   </widget>
-  <widget source="parent.ServiceEvent" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=15,repeat=5,startdelay=2000,always=0,oneshot=1" noWrap="1" position="20,192" size="440,60" font="VFD;55" halign="left" valign="top">
+  <widget source="parent.ServiceEvent" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=15,repeat=5,startdelay=2000,always=0,oneshot=1" noWrap="1" position="20,192" size="440,60" font="VFD;55" horizontalAlignment="left" verticalAlignment="top">
     <convert type="EventName">Name</convert>
   </widget>
   <eLabel name="progress" position="20,270" size="440,2" backgroundColor="#00FFFFFF" />
   <widget source="parent.ServiceEvent" render="Progress" position="20,265" size="440,12" borderWidth="0" foregroundColor="#00FF0000" zPosition="1" transparent="1">
     <convert type="EventTime">Progress</convert>
   </widget>
-  <widget source="global.CurrentTime" render="Label" position="260,35" size="200,66" font="VFD;66" halign="right" valign="center">
+  <widget source="global.CurrentTime" render="Label" position="260,35" size="200,66" font="VFD;66" horizontalAlignment="right" verticalAlignment="center">
     <convert type="ClockToText">Format:%H:%M</convert>
   </widget>
   <widget source="session.RecordState" render="FixedLabel" position="420,17" zPosition="3" size="40,10" text=" " backgroundColor="#00FF0000">
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.Event_Now" render="Label" position="330,108" size="130,60" font="VFD;55" halign="right" valign="top">
+  <widget source="session.Event_Now" render="Label" position="330,108" size="130,60" font="VFD;55" horizontalAlignment="right" verticalAlignment="top">
     <convert type="EventTime">Remaining</convert>
   <convert type="RemainingToText">InMinutes</convert>
   </widget>
-  <widget source="session.CurrentService" render="FixedLabel" position="0,0" zPosition="3" size="480,10" text=" " backgroundColor="#00FF0000" font="Regular; 27" valign="top" halign="center">
+  <widget source="session.CurrentService" render="FixedLabel" position="0,0" zPosition="3" size="480,10" text=" " backgroundColor="#00FF0000" font="Regular; 27" verticalAlignment="top" horizontalAlignment="center">
   <convert type="ConfigEntryTest">config.usage.update_available,True,CheckSourceBoolean</convert>
   <convert type="ConditionalShowHide" />
   </widget>
@@ -84,26 +84,26 @@
   <widget source="session.RecordState" render="FixedLabel" position="420,17" zPosition="3" size="40,10" text=" " backgroundColor="#00FF0000">
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="global.CurrentTime" render="Label" position="260,35" size="200,66" font="VFD;66" halign="right" valign="center">
+  <widget source="global.CurrentTime" render="Label" position="260,35" size="200,66" font="VFD;66" horizontalAlignment="right" verticalAlignment="center">
     <convert type="ClockToText">Format:%H:%M</convert>
   </widget>
-  <widget source="session.CurrentService" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=15,repeat=5,startdelay=2000,always=0,oneshot=1" position="20,192" size="440,60" font="VFD;55" noWrap="1" halign="left" valign="top" zPosition="5">
+  <widget source="session.CurrentService" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=15,repeat=5,startdelay=2000,always=0,oneshot=1" position="20,192" size="440,60" font="VFD;55" noWrap="1" horizontalAlignment="left" verticalAlignment="top" zPosition="5">
     <convert type="ServiceName">Name</convert>
   </widget>
-  <widget source="session.CurrentService" render="Label" position="260,108" size="200,60" font="VFD;55" halign="right" valign="top">
+  <widget source="session.CurrentService" render="Label" position="260,108" size="200,60" font="VFD;55" horizontalAlignment="right" verticalAlignment="top">
     <convert type="ServicePosition">Remaining,Negate,Length</convert>
   </widget>
-  <widget source="session.CurrentService" render="Picon" position="20,35" size="220,132" zPosition="0" alphatest="blend">
+  <widget source="session.CurrentService" render="Picon" position="20,35" size="220,132" zPosition="0" alphaTest="blend">
     <convert type="MovieBarInfo">Reference</convert>
   </widget>
 </screen>
 
 <!-- EMCSelection_summary -->
 <screen name="EMCSelection_summary" position="0,0" size="480,320" id="1">
-  <widget source="parent.Service" render="Label" position="20,122" size="440,165" font="VFD;50" halign="center" valign="center">
+  <widget source="parent.Service" render="Label" position="20,122" size="440,165" font="VFD;50" horizontalAlignment="center" verticalAlignment="center">
     <convert type="ServiceName">Name</convert>
   </widget>
-  <widget source="parent.Service" render="Label" position="260,35" size="200,66" font="VFD;66" halign="right" valign="center">
+  <widget source="parent.Service" render="Label" position="260,35" size="200,66" font="VFD;66" horizontalAlignment="right" verticalAlignment="center">
     <convert type="ServiceTime">Duration</convert>
     <convert type="ClockToText">AsLength</convert>
   </widget>
@@ -111,9 +111,9 @@
 
 <!-- MediaPlayer -->
 <screen name="MediaPlayerLCDScreen" position="0,0" size="480,320" id="1">
-  <widget name="text1" position="20,112" size="440,86" font="VFD;40" halign="left" valign="center" />
-  <widget name="text3" position="20,24" size="440,86" font="VFD;40" halign="left" valign="center" />
-  <widget name="text4" position="20,200" size="440,86" font="VFD;40" halign="left" />
+  <widget name="text1" position="20,112" size="440,86" font="VFD;40" horizontalAlignment="left" verticalAlignment="center" />
+  <widget name="text3" position="20,24" size="440,86" font="VFD;40" horizontalAlignment="left" verticalAlignment="center" />
+  <widget name="text4" position="20,200" size="440,86" font="VFD;40" horizontalAlignment="left" />
 </screen>
 
 <!-- MoviePlayer_SimplePlayerMP -->
@@ -125,26 +125,26 @@
   <widget source="session.RecordState" render="FixedLabel" position="420,17" zPosition="3" size="40,10" text=" " backgroundColor="#00FF0000">
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="global.CurrentTime" render="Label" position="260,35" size="200,66" font="VFD;66" halign="right" valign="center">
+  <widget source="global.CurrentTime" render="Label" position="260,35" size="200,66" font="VFD;66" horizontalAlignment="right" verticalAlignment="center">
     <convert type="ClockToText">Format:%H:%M</convert>
   </widget>
-  <widget source="session.CurrentService" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=15,repeat=5,startdelay=2000,always=0,oneshot=1" position="20,192" size="440,60" font="VFD;55" noWrap="1" halign="left" valign="top">
+  <widget source="session.CurrentService" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=15,repeat=5,startdelay=2000,always=0,oneshot=1" position="20,192" size="440,60" font="VFD;55" noWrap="1" horizontalAlignment="left" verticalAlignment="top">
     <convert type="ServiceName">Name</convert>
   </widget>
-  <widget source="session.CurrentService" render="Label" position="260,108" size="200,60" font="VFD;55" halign="right" valign="top">
+  <widget source="session.CurrentService" render="Label" position="260,108" size="200,60" font="VFD;55" horizontalAlignment="right" verticalAlignment="top">
     <convert type="ServicePosition">Remaining,Negate,Length</convert>
   </widget>
-  <widget source="session.CurrentService" render="Picon" position="20,35" size="220,132" zPosition="0" alphatest="blend">
+  <widget source="session.CurrentService" render="Picon" position="20,35" size="220,132" zPosition="0" alphaTest="blend">
     <convert type="MovieBarInfo">Reference</convert>
   </widget>
 </screen>
 
 <!-- MovieSelection_summary -->
 <screen name="MovieSelection_summary" position="0,0" size="480,320" id="1">
-  <widget source="parent.Service" render="Label" position="20,122" size="440,165" font="VFD;50" halign="center" valign="center">
+  <widget source="parent.Service" render="Label" position="20,122" size="440,165" font="VFD;50" horizontalAlignment="center" verticalAlignment="center">
     <convert type="ServiceName">Name</convert>
   </widget>
-  <widget source="parent.Service" render="Label" position="260,35" size="200,66" font="VFD;66" halign="right" valign="center">
+  <widget source="parent.Service" render="Label" position="260,35" size="200,66" font="VFD;66" horizontalAlignment="right" verticalAlignment="center">
     <convert type="ServiceTime">Duration</convert>
     <convert type="ClockToText">AsLength</convert>
   </widget>
@@ -159,64 +159,64 @@
   <widget source="session.RecordState" render="FixedLabel" position="420,17" zPosition="3" size="40,10" text=" " backgroundColor="#00FF0000">
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="global.CurrentTime" render="Label" position="260,35" size="200,66" font="VFD;66" halign="right" valign="center">
+  <widget source="global.CurrentTime" render="Label" position="260,35" size="200,66" font="VFD;66" horizontalAlignment="right" verticalAlignment="center">
     <convert type="ClockToText">Format:%H:%M</convert>
   </widget>
-  <widget source="session.CurrentService" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=15,repeat=5,startdelay=2000,always=0,oneshot=1" position="20,192" size="440,60" font="VFD;55" noWrap="1" halign="left" valign="top">
+  <widget source="session.CurrentService" render="VRunningText" options="movetype=running,startpoint=0,direction=left,steptime=15,repeat=5,startdelay=2000,always=0,oneshot=1" position="20,192" size="440,60" font="VFD;55" noWrap="1" horizontalAlignment="left" verticalAlignment="top">
     <convert type="ServiceName">Name</convert>
   </widget>
-  <widget source="session.CurrentService" render="Label" position="260,108" size="200,60" font="VFD;55" halign="right" valign="top">
+  <widget source="session.CurrentService" render="Label" position="260,108" size="200,60" font="VFD;55" horizontalAlignment="right" verticalAlignment="top">
     <convert type="ServicePosition">Remaining,Negate,Length</convert>
   </widget>
-  <widget source="session.CurrentService" render="Picon" position="20,35" size="220,132" zPosition="0" alphatest="blend">
+  <widget source="session.CurrentService" render="Picon" position="20,35" size="220,132" zPosition="0" alphaTest="blend">
     <convert type="MovieBarInfo">Reference</convert>
   </widget>
 </screen>
 
 <!-- Netatmo -->
 <screen id="1" name="NetatmoSummary" position="0,0" size="480,320">
-    <widget font="VFD;40" halign="center" valign="center" position="0,223" render="Label" size="480,80" source="session.CurrentService" transparent="1">
+    <widget font="VFD;40" horizontalAlignment="center" verticalAlignment="center" position="0,223" render="Label" size="480,80" source="session.CurrentService" transparent="1">
         <convert type="Netatmo">station.when</convert>
     </widget>
     <eLabel position="0,199" size="480,2" backgroundColor="#00FFFFFF" />
-    <widget font="VFD;55" halign="center" position="0,35" render="Label" size="480,60" source="session.Netatmo" transparent="1">
+    <widget font="VFD;55" horizontalAlignment="center" position="0,35" render="Label" size="480,60" source="session.Netatmo" transparent="1">
         <convert type="Netatmo">station.module_name</convert>
     </widget>
-    <widget font="VFD;55" position="0,112" render="Label" size="480,60" source="session.Netatmo" transparent="1" halign="center">
+    <widget font="VFD;55" position="0,112" render="Label" size="480,60" source="session.Netatmo" transparent="1" horizontalAlignment="center">
         <convert type="Netatmo">station.temperature</convert>
     </widget>        
 </screen>
 
 <!-- YAMP_Standard -->
 <screen name="YampLCDScreen" position="0,0" size="480,320" id="1">
-  <widget name="text1" position="20,112" size="440,86" font="VFD;40" halign="left" valign="center" />
-  <widget name="text2" position="20,24" size="440,86" font="VFD;40" halign="left" valign="center" />
-  <widget name="text3" position="20,200" size="440,86" font="VFD;40" halign="left" valign="center" />
+  <widget name="text1" position="20,112" size="440,86" font="VFD;40" horizontalAlignment="left" verticalAlignment="center" />
+  <widget name="text2" position="20,24" size="440,86" font="VFD;40" horizontalAlignment="left" verticalAlignment="center" />
+  <widget name="text3" position="20,200" size="440,86" font="VFD;40" horizontalAlignment="left" verticalAlignment="center" />
 </screen>
 
 <!-- YAMP_v31 -->
 <screen name="YampLCDScreenV31" position="0,0" size="480,320" id="1">
-  <widget name="text1" position="20,112" size="440,86" font="VFD;40" halign="left" valign="center" />
-  <widget name="text2" position="20,24" size="440,86" font="VFD;40" halign="left" valign="center" />
-  <widget name="text3" position="20,200" size="440,86" font="VFD;40" halign="left" valign="center" />
+  <widget name="text1" position="20,112" size="440,86" font="VFD;40" horizontalAlignment="left" verticalAlignment="center" />
+  <widget name="text2" position="20,24" size="440,86" font="VFD;40" horizontalAlignment="left" verticalAlignment="center" />
+  <widget name="text3" position="20,200" size="440,86" font="VFD;40" horizontalAlignment="left" verticalAlignment="center" />
 </screen>
 
 <!-- ChoiceBox -->
 <screen name="ChoiceBox_summary" position="0,0" size="480,320" id="1">
-  <widget source="parent.summary_list" render="Label" position="20,24" size="440,262" font="VFD;50" halign="center" valign="center" />
+  <widget source="parent.summary_list" render="Label" position="20,24" size="440,262" font="VFD;50" horizontalAlignment="center" verticalAlignment="center" />
 </screen>
 
 <!-- DeviceManager2 -->
 <screen name="DeviceManager2Summary" position="0,0" size="480,320" id="1">
-  <widget source="entry" render="Label" position="20,24" size="440,125" font="VFD;42" halign="center" />
+  <widget source="entry" render="Label" position="20,24" size="440,125" font="VFD;42" horizontalAlignment="center" />
   <eLabel position="0,154" size="480,2" backgroundColor="#00FFFFFF" />
-  <widget source="desc" render="Label" position="20,160" size="440,125" font="VFD;38" halign="center" />
+  <widget source="desc" render="Label" position="20,160" size="440,125" font="VFD;38" horizontalAlignment="center" />
 </screen>
 
 <!-- Menu -->
 <screen name="MenuSummary" position="0,0" size="480,320" id="1">
-  <widget source="parent.title" render="Label" position="20,24" size="440,125" font="VFD;60" halign="center" valign="center" />
-  <widget source="parent.menu" render="Label" position="20,161" size="440,125" font="VFD;48" halign="center" valign="center">
+  <widget source="parent.title" render="Label" position="20,24" size="440,125" font="VFD;60" horizontalAlignment="center" verticalAlignment="center" />
+  <widget source="parent.menu" render="Label" position="20,161" size="440,125" font="VFD;48" horizontalAlignment="center" verticalAlignment="center">
     <convert type="StringListSelection" />
   </widget>
   <eLabel position="0,154" size="480,2" backgroundColor="#00FFFFFF" />
@@ -224,22 +224,22 @@
 
 <!-- MessageBox -->
 <screen name="MessageBox_summary" position="0,0" size="480,320" id="1">
-  <widget source="parent.Text" render="Label" position="20,24" size="440,205" font="VFD;45" halign="center" valign="center" />
+  <widget source="parent.Text" render="Label" position="20,24" size="440,205" font="VFD;45" horizontalAlignment="center" verticalAlignment="center" />
   <eLabel position="0,233" size="480,2" backgroundColor="#00FFFFFF" />
-  <widget source="parent.selectedChoice" render="Label" position="20,240" size="440,45" font="VFD;38" halign="center" valign="center" />
+  <widget source="parent.selectedChoice" render="Label" position="20,240" size="440,45" font="VFD;38" horizontalAlignment="center" verticalAlignment="center" />
 </screen>
 
 <!-- PluginBrowser -->
 <screen name="PluginBrowserSummary" position="0,0" size="480,320" id="1">
-  <widget source="entry" render="Label" position="20,24" size="440,125" font="VFD;55" halign="center" valign="center" />
+  <widget source="entry" render="Label" position="20,24" size="440,125" font="VFD;55" horizontalAlignment="center" verticalAlignment="center" />
   <eLabel position="0,154" size="480,2" backgroundColor="#00FFFFFF" />
-  <widget source="desc" render="Label" position="20,161" size="440,125" font="VFD;43" halign="center" valign="center" />
+  <widget source="desc" render="Label" position="20,161" size="440,125" font="VFD;43" horizontalAlignment="center" verticalAlignment="center" />
 </screen>
 
 <!-- ServiceScan -->
 <screen name="ServiceScanSummary" position="0,0" size="480,320" id="1">
-  <widget name="Title" position="20,24" size="440,125" font="VFD;60" transparent="1" valign="center" halign="center" />
-  <widget name="Service" position="20,160" size="440,105" font="VFD;46" transparent="1" valign="center" halign="center" />
+  <widget name="Title" position="20,24" size="440,125" font="VFD;60" transparent="1" verticalAlignment="center" horizontalAlignment="center" />
+  <widget name="Service" position="20,160" size="440,105" font="VFD;46" transparent="1" verticalAlignment="center" horizontalAlignment="center" />
   <widget name="scan_progress" position="20,270" zPosition="1" borderWidth="0" size="440,15" foregroundColor="#00FF0000" transparent="1" />
   <eLabel name="progress" position="20,276" size="440,3" backgroundColor="#00FFFFFF" />	
   <eLabel position="0,154" size="480,2" backgroundColor="#00FFFFFF" />
@@ -247,24 +247,24 @@
 
 <!-- Setup -->
 <screen name="SetupSummary" position="0,0" size="480,320" id="1">
-  <widget source="SetupTitle" render="Label" position="20,19" size="440,55" font="VFD;48" halign="center" valign="center" />
-  <widget source="SetupEntry" render="Label" position="20,92" size="440,135" font="VFD;43" halign="center" valign="center" />
-  <widget source="SetupValue" render="Label" position="20,248" size="440,55" font="VFD;46" halign="center" valign="center" />
+  <widget source="SetupTitle" render="Label" position="20,19" size="440,55" font="VFD;48" horizontalAlignment="center" verticalAlignment="center" />
+  <widget source="SetupEntry" render="Label" position="20,92" size="440,135" font="VFD;43" horizontalAlignment="center" verticalAlignment="center" />
+  <widget source="SetupValue" render="Label" position="20,248" size="440,55" font="VFD;46" horizontalAlignment="center" verticalAlignment="center" />
   <eLabel position="0,83" size="480,2" backgroundColor="#00FFFFFF" />
   <eLabel position="0,232" size="480,2" backgroundColor="#00FFFFFF" />
 </screen>
 
 <!-- Simple -->
 <screen name="SimpleSummary" position="0,0" size="480,320" id="1">
-  <widget source="parent.Title" render="Label" position="20,24" size="440,262" font="VFD;55" halign="center" valign="center" />
+  <widget source="parent.Title" render="Label" position="20,24" size="440,262" font="VFD;55" horizontalAlignment="center" verticalAlignment="center" />
 </screen>
 
 <!-- Standby -->
 <screen name="StandbySummary" position="0,0" size="480,320" id="1">
-  <widget source="global.CurrentTime" render="Label" position="20,35" size="440,150" font="VFD;130" halign="center" valign="center">
+  <widget source="global.CurrentTime" render="Label" position="20,35" size="440,150" font="VFD;130" horizontalAlignment="center" verticalAlignment="center">
     <convert type="ClockToText">Format:%H:%M</convert>
   </widget>
-  <widget source="global.CurrentTime" render="Label" position="20,200" size="440,100" font="Regular;60" halign="center" valign="center">
+  <widget source="global.CurrentTime" render="Label" position="20,200" size="440,100" font="Regular;60" horizontalAlignment="center" verticalAlignment="center">
     <convert type="ClockToText">Format:%d.%m.%Y</convert>
   </widget>
     <widget source="session.RecordState" render="FixedLabel" position="420,17" zPosition="3" size="40,10" text=" " backgroundColor="#00FF0000">
@@ -274,15 +274,15 @@
 
 <!-- VTIPanel -->
 <screen name="VTIPanelSummary" position="0,0" size="480,320" id="1">
-  <widget source="entry" render="Label" position="20,24" size="440,125" font="VFD;42" halign="center" valign="center" />
+  <widget source="entry" render="Label" position="20,24" size="440,125" font="VFD;42" horizontalAlignment="center" verticalAlignment="center" />
   <eLabel position="0,154" size="480,2" backgroundColor="#00FFFFFF" />
-  <widget source="desc" render="Label" position="20,163" size="440,125" font="VFD;38" halign="center" valign="center" />
+  <widget source="desc" render="Label" position="20,163" size="440,125" font="VFD;38" horizontalAlignment="center" verticalAlignment="center" />
 </screen>
 
 <!-- Wizard -->
 <screen name="WizardSummary" position="0,0" size="480,320" id="1">
-  <widget source="text" render="Label" position="20,24" size="440,80" font="VFD;40" transparent="1" halign="center" />
-  <widget source="parent.list" render="Label" position="20,114" size="440,172" font="VFD;32" halign="center">
+  <widget source="text" render="Label" position="20,24" size="440,80" font="VFD;40" transparent="1" horizontalAlignment="center" />
+  <widget source="parent.list" render="Label" position="20,114" size="440,172" font="VFD;32" horizontalAlignment="center">
     <convert type="StringListSelection" />
   </widget>
   <eLabel position="0,108" size="480,2" backgroundColor="#00FFFFFF" />

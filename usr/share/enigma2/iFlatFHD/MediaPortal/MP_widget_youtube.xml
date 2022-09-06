@@ -1,21 +1,21 @@
   <!-- YouTube widgets -->
-  <widget name="Query" position="1280,614" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" halign="right" />
+  <widget name="Query" position="1280,614" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" horizontalAlignment="right" />
   <widget name="query" position="1550,614" size="300,32" backgroundColor="background" transparent="1" font="Regular; 25" noWrap="1" />
-  <widget name="Time" position="1280,651" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" halign="right" />
+  <widget name="Time" position="1280,651" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" horizontalAlignment="right" />
   <widget name="time" position="1550,651" size="300,32" backgroundColor="background" transparent="1" font="Regular; 25" />
-  <widget name="Metalang" position="1280,688" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" halign="right" />
+  <widget name="Metalang" position="1280,688" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" horizontalAlignment="right" />
   <widget name="metalang" position="1550,688" size="300,32" backgroundColor="background" transparent="1" font="Regular; 25" />
-  <widget name="3D" position="1280,725" size="250,32" backgroundColor="background" transparent="1" font="Regular;25" halign="right" />
+  <widget name="3D" position="1280,725" size="250,32" backgroundColor="background" transparent="1" font="Regular;25" horizontalAlignment="right" />
   <widget name="3d" position="1550,725" size="300,32" backgroundColor="background" transparent="1" font="Regular; 25" />
-  <widget name="Author" position="1280,762" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" halign="right" />
+  <widget name="Author" position="1280,762" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" horizontalAlignment="right" />
   <widget name="author" position="1550,762" size="300,32" backgroundColor="background" transparent="1" font="Regular; 25" noWrap="1" />
-  <widget name="Duration" position="1280,799" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" halign="right" />
+  <widget name="Duration" position="1280,799" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" horizontalAlignment="right" />
   <widget name="duration" position="1550,799" size="300,32" backgroundColor="background" transparent="1" font="Regular; 25" />
-  <widget name="Regionid" position="1280,836" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" halign="right" />
+  <widget name="Regionid" position="1280,836" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" horizontalAlignment="right" />
   <widget name="regionid" position="1550,836" size="300,32" backgroundColor="background" transparent="1" font="Regular; 25" noWrap="1" />
-  <widget name="Keywords" position="1280,873" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" halign="right" />
+  <widget name="Keywords" position="1280,873" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" horizontalAlignment="right" />
   <widget name="keywords" position="1550,873" size="300,32" backgroundColor="background" transparent="1" font="Regular; 25" noWrap="1" />
-  <widget name="Reserve1" position="1280,910" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" halign="right" />
+  <widget name="Reserve1" position="1280,910" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" horizontalAlignment="right" />
   <widget name="reserve1" position="1550,910" size="300,32" backgroundColor="background" transparent="1" font="Regular; 25" noWrap="1" />
-  <widget name="Reserve2" position="1280,947" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" halign="right" />
+  <widget name="Reserve2" position="1280,947" size="250,32" backgroundColor="background" transparent="1" font="Regular; 25" horizontalAlignment="right" />
   <widget name="reserve2" position="1550,947" size="300,32" backgroundColor="background" transparent="1" font="Regular; 25" noWrap="1" />
